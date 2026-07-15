@@ -1,0 +1,2528 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  <title>داروخانه | وتبان</title>
+  <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="icons/comp15.png" />
+
+</head>
+<body>
+
+<header class="site-header">
+    <div class="container nav-wrap">
+
+        <a href="#" class="logo">
+            <img src="icons/comp15.png" alt="لوگو">
+        </a>
+
+        <nav class="main-nav">
+            <a href="index.html" class="active">خانه</a>
+            <a href="ecosystem.html">ویزیت انلاین</a>
+            <a href="company.html">داروخانه</a>
+            <a href="about.html">فروشگاه</a>
+            <a href="#">درباره ما</a>
+            <a href="#">تماس با ما</a>
+        </nav>
+
+        <div class="header-actions">
+            <a href="#" class="btn outline">
+                ورود / ثبت نام
+            </a>
+        </div>
+
+        <button class="menu-toggle">
+            ☰
+        </button>
+
+    </div>
+</header>
+
+
+
+
+<main>
+
+<section class="pharmacy-hero">
+
+<style>
+
+.pharmacy-hero{
+    position:relative;
+    padding:95px 0 120px;
+    overflow:hidden;
+    background:
+    linear-gradient(
+    135deg,
+    #f2f4f7 0%,
+    #ffffff 52%,
+    #e5e7eb 100%);
+}
+
+.pharmacy-hero::before{
+    content:"";
+    position:absolute;
+    width:560px;
+    height:560px;
+    border-radius:50%;
+    right:-190px;
+    top:-230px;
+    background:rgba(58,125,68,.10);
+    filter:blur(45px);
+}
+
+.pharmacy-hero::after{
+    content:"";
+    position:absolute;
+    width:520px;
+    height:520px;
+    border-radius:50%;
+    left:-180px;
+    bottom:-230px;
+    background:rgba(36,89,166,.09);
+    filter:blur(45px);
+}
+
+.pharmacy-hero-content{
+    position:relative;
+    z-index:2;
+    max-width:920px;
+    margin:auto;
+    text-align:center;
+}
+
+.pharmacy-hero-badge{
+    display:inline-block;
+    padding:8px 18px;
+    border-radius:999px;
+    background:#fff;
+    color:var(--green);
+    border:1px solid var(--soft);
+    font-size:14px;
+    font-weight:700;
+    margin-bottom:22px;
+}
+
+.pharmacy-hero h1{
+    font-size:46px;
+    line-height:1.65;
+    font-weight:900;
+    color:var(--text);
+    margin-bottom:18px;
+}
+
+.pharmacy-hero h1 strong{
+    color:var(--orange);
+}
+
+.pharmacy-hero p{
+    max-width:760px;
+    margin:auto;
+    color:var(--muted);
+    font-size:18px;
+    line-height:2.1;
+}
+
+.pharmacy-hero-actions{
+    margin-top:42px;
+    display:flex;
+    justify-content:center;
+    gap:18px;
+    flex-wrap:wrap;
+}
+
+.pharmacy-hero-actions .btn{
+    min-width:235px;
+    min-height:60px;
+}
+
+.pharmacy-hero-info{
+    margin:34px auto 0;
+    max-width:780px;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:14px;
+}
+
+.pharmacy-info-item{
+    background:#fff;
+    border:1px solid var(--soft);
+    border-radius:18px;
+    padding:18px 16px;
+    text-align:center;
+}
+
+.pharmacy-info-item strong{
+    display:block;
+    color:var(--text);
+    font-size:17px;
+    margin-bottom:6px;
+}
+
+.pharmacy-info-item small{
+    color:var(--muted);
+    font-size:13px;
+}
+
+@media(max-width:768px){
+
+.pharmacy-hero{
+    padding:75px 0;
+}
+
+.pharmacy-hero h1{
+    font-size:34px;
+}
+
+.pharmacy-hero p{
+    font-size:16px;
+}
+
+.pharmacy-hero-actions .btn{
+    width:100%;
+}
+
+.pharmacy-hero-info{
+    grid-template-columns:1fr;
+}
+
+}
+
+</style>
+
+<div class="container">
+
+<div class="pharmacy-hero-content">
+
+<span class="pharmacy-hero-badge">
+💊 داروخانه آنلاین دامپزشکی
+</span>
+
+<h1>
+خرید دارو و محصولات درمانی حیوانات،
+<br>
+با <strong>نسخه معتبر دامپزشک</strong>
+</h1>
+
+<p>
+در داروخانه آنلاین، برخی داروها فقط با نسخه قابل تهیه هستند. اگر نسخه دارید می‌توانید آن را ثبت کنید، و اگر نسخه ندارید از طریق ویزیت آنلاین، دامپزشک داروی مناسب حیوان شما را تجویز می‌کند.
+</p>
+
+<div class="pharmacy-hero-actions">
+
+<a href="#pharmacy-products" class="btn primary">
+مشاهده داروها
+</a>
+
+<a href="#upload-prescription" class="btn outline">
+ثبت نسخه دامپزشک
+</a>
+
+<a href="#online-visit" class="btn orange">
+دریافت ویزیت آنلاین
+</a>
+
+</div>
+
+<div class="pharmacy-hero-info">
+
+<div class="pharmacy-info-item">
+<strong>
+داروهای نسخه‌ای
+</strong>
+<small>
+فقط با نسخه معتبر
+</small>
+</div>
+
+<div class="pharmacy-info-item">
+<strong>
+داروهای آزاد
+</strong>
+<small>
+افزودن مستقیم به سبد
+</small>
+</div>
+
+<div class="pharmacy-info-item">
+<strong>
+نسخه ندارید؟
+</strong>
+<small>
+ویزیت آنلاین بگیرید
+</small>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="pharmacy-products" id="pharmacy-products">
+
+<style>
+
+.pharmacy-products{
+    padding:95px 0;
+    background:#fff;
+}
+
+.pharmacy-head{
+    text-align:center;
+    margin-bottom:55px;
+}
+
+.pharmacy-head span{
+    color:var(--green);
+    font-size:15px;
+    font-weight:700;
+}
+
+.pharmacy-head h2{
+    margin-top:12px;
+    font-size:40px;
+    font-weight:900;
+    color:var(--text);
+}
+
+.pharmacy-head p{
+    max-width:720px;
+    margin:18px auto 0;
+    color:var(--muted);
+    line-height:2;
+}
+
+.pharmacy-cats{
+    display:grid;
+    grid-template-columns:repeat(6,1fr);
+    gap:18px;
+    margin-bottom:50px;
+}
+
+.pharmacy-cat{
+    background:var(--cream);
+    border:1px solid var(--soft);
+    border-radius:22px;
+    padding:24px 14px;
+    text-align:center;
+    cursor:pointer;
+    transition:.25s;
+}
+
+.pharmacy-cat:hover,
+.pharmacy-cat.active{
+    background:#fff;
+    border-color:var(--orange);
+    box-shadow:var(--shadow);
+    transform:translateY(-6px);
+}
+
+.pharmacy-cat-icon{
+    width:68px;
+    height:68px;
+    border-radius:20px;
+    margin:0 auto 16px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:34px;
+    background:rgba(36,89,166,.08);
+}
+
+.pharmacy-cat:nth-child(even) .pharmacy-cat-icon{
+    background:rgba(58,125,68,.10);
+}
+
+.pharmacy-cat h3{
+    font-size:18px;
+    color:var(--text);
+}
+
+.pharmacy-list-head{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:28px;
+    gap:18px;
+    flex-wrap:wrap;
+}
+
+.pharmacy-list-head h3{
+    font-size:28px;
+    color:var(--text);
+}
+
+.pharmacy-list-head p{
+    color:var(--muted);
+}
+
+.medicine-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:22px;
+    transition:.25s;
+}
+
+.medicine-grid.fade{
+    opacity:0;
+    transform:translateY(10px);
+}
+
+.medicine-card{
+    background:var(--cream);
+    border:1px solid var(--soft);
+    border-radius:22px;
+    overflow:hidden;
+    cursor:pointer;
+    transition:.25s;
+}
+
+.medicine-card:hover{
+    transform:translateY(-7px);
+    box-shadow:var(--shadow);
+}
+
+.medicine-img{
+    height:160px;
+    background:#fff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:20px;
+}
+
+.medicine-img img{
+    width:100%;
+    height:100%;
+    object-fit:contain;
+}
+
+.medicine-body{
+    padding:20px;
+}
+
+.medicine-type{
+    color:var(--orange);
+    font-size:13px;
+    font-weight:700;
+    margin-bottom:8px;
+}
+
+.medicine-body h4{
+    color:var(--text);
+    font-size:19px;
+    margin-bottom:10px;
+}
+
+.medicine-price{
+    color:var(--green);
+    font-size:20px;
+    font-weight:900;
+    margin-bottom:16px;
+}
+
+.medicine-status{
+    min-height:46px;
+    border-radius:12px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-weight:800;
+    font-size:14px;
+}
+
+.medicine-status.cart{
+    background:var(--orange);
+    color:#fff;
+}
+
+.medicine-status.prescription{
+    background:#fff;
+    color:var(--green);
+    border:1px solid rgba(58,125,68,.25);
+}
+
+.medicine-modal{
+    position:fixed;
+    inset:0;
+    background:rgba(17,24,39,.62);
+    backdrop-filter:blur(6px);
+    z-index:5000;
+    display:none;
+    align-items:center;
+    justify-content:center;
+    padding:24px;
+}
+
+.medicine-modal.active{
+    display:flex;
+}
+
+.medicine-modal-box{
+    width:min(920px,100%);
+    background:#fff;
+    border-radius:28px;
+    overflow:hidden;
+    display:grid;
+    grid-template-columns:.9fr 1.1fr;
+    position:relative;
+    animation:modalIn .25s ease;
+}
+
+@keyframes modalIn{
+    from{opacity:0; transform:translateY(20px);}
+    to{opacity:1; transform:translateY(0);}
+}
+
+.modal-close{
+    position:absolute;
+    top:18px;
+    left:18px;
+    width:42px;
+    height:42px;
+    border-radius:50%;
+    border:0;
+    background:var(--cream);
+    cursor:pointer;
+    font-size:22px;
+    z-index:2;
+}
+
+.modal-image{
+    background:var(--cream);
+    padding:40px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.modal-image img{
+    width:100%;
+    height:320px;
+    object-fit:contain;
+}
+
+.modal-content{
+    padding:45px;
+}
+
+.modal-content span{
+    color:var(--orange);
+    font-weight:700;
+    font-size:14px;
+}
+
+.modal-content h3{
+    margin-top:10px;
+    color:var(--text);
+    font-size:32px;
+    font-weight:900;
+}
+
+.modal-content p{
+    margin-top:18px;
+    color:var(--muted);
+    line-height:2;
+}
+
+.modal-price{
+    margin-top:24px;
+    font-size:28px;
+    font-weight:900;
+    color:var(--green);
+}
+
+.modal-actions{
+    margin-top:30px;
+    display:flex;
+    gap:14px;
+    flex-wrap:wrap;
+}
+
+.modal-actions .btn{
+    min-width:190px;
+}
+
+@media(max-width:1100px){
+    .medicine-grid{grid-template-columns:repeat(2,1fr);}
+    .pharmacy-cats{grid-template-columns:repeat(3,1fr);}
+}
+
+@media(max-width:700px){
+    .medicine-grid{grid-template-columns:1fr;}
+    .pharmacy-cats{grid-template-columns:repeat(2,1fr);}
+    .medicine-modal-box{grid-template-columns:1fr;}
+    .modal-image img{height:220px;}
+}
+
+</style>
+
+<div class="container">
+
+<div class="pharmacy-head">
+<span>دسته‌بندی داروها</span>
+<h2>داروی مناسب حیوان خود را پیدا کنید</h2>
+<p>داروها بر اساس نوع حیوان فیلتر می‌شوند. بعضی داروها فقط با نسخه قابل تهیه هستند.</p>
+</div>
+
+<div class="pharmacy-cats">
+<div class="pharmacy-cat active" data-cat="dog"><div class="pharmacy-cat-icon">🐶</div><h3>سگ</h3></div>
+<div class="pharmacy-cat" data-cat="cat"><div class="pharmacy-cat-icon">🐱</div><h3>گربه</h3></div>
+<div class="pharmacy-cat" data-cat="bird"><div class="pharmacy-cat-icon">🐦</div><h3>پرندگان</h3></div>
+<div class="pharmacy-cat" data-cat="rodent"><div class="pharmacy-cat-icon">🐰</div><h3>جوندگان</h3></div>
+<div class="pharmacy-cat" data-cat="fish"><div class="pharmacy-cat-icon">🐠</div><h3>آبزیان</h3></div>
+<div class="pharmacy-cat" data-cat="other"><div class="pharmacy-cat-icon">🦜</div><h3>سایر</h3></div>
+</div>
+
+<div class="pharmacy-list-head">
+<div>
+<h3 id="medicineTitle">داروهای سگ</h3>
+<p>برای مشاهده جزئیات، روی کارت دارو کلیک کنید.</p>
+</div>
+<a href="#online-visit" class="btn outline">نسخه ندارید؟ ویزیت بگیرید</a>
+</div>
+
+<div class="medicine-grid" id="medicineGrid"></div>
+
+</div>
+
+<div class="medicine-modal" id="medicineModal">
+<div class="medicine-modal-box">
+
+<button class="modal-close" id="modalClose">×</button>
+
+<div class="modal-image">
+<img id="modalImg" src="" alt="">
+</div>
+
+<div class="modal-content">
+<span id="modalType"></span>
+<h3 id="modalTitle"></h3>
+<p id="modalDesc"></p>
+<div class="modal-price" id="modalPrice"></div>
+
+<div class="modal-actions" id="modalActions"></div>
+</div>
+
+</div>
+</div>
+
+<script>
+
+const medicineData = {
+    dog:[
+        {name:"قرص ضد انگل سگ", type:"داروی سگ", price:"۲۲۰٬۰۰۰ تومان", img:"icons/d1.jpeg", prescription:false, desc:"مناسب برای پیشگیری و کنترل انگل‌های داخلی سگ. مصرف طبق وزن حیوان توصیه می‌شود."},
+        {name:"آنتی‌بیوتیک دامپزشکی", type:"داروی نسخه‌ای", price:"۳۸۰٬۰۰۰ تومان", img:"icons/d3.jpeg", prescription:true, desc:"این دارو فقط با نسخه معتبر دامپزشک قابل تهیه است."},
+        {name:"مکمل مفاصل سگ", type:"مکمل درمانی", price:"۴۹۰٬۰۰۰ تومان", img:"icons/d4.jpeg", prescription:false, desc:"کمک به سلامت مفاصل، مخصوص سگ‌های بالغ و نژادهای درشت."},
+        {name:"قطره گوش سگ", type:"داروی نسخه‌ای", price:"۲۹۰٬۰۰۰ تومان", img:"icons/d2.jpeg", prescription:true, desc:"برای مشکلات گوش و عفونت‌های احتمالی، نیازمند بررسی دامپزشک است."}
+    ],
+    cat:[
+        {name:"خمیر مالت گربه", type:"مکمل گربه", price:"۱۸۰٬۰۰۰ تومان", img:"icons/d2.jpeg", prescription:false, desc:"کمک به دفع گلوله‌های مویی و بهبود گوارش گربه."},
+        {name:"قطره ضد انگل گربه", type:"داروی نسخه‌ای", price:"۳۲۰٬۰۰۰ تومان", img:"icons/d1.jpeg", prescription:true, desc:"مصرف این دارو باید با تشخیص دامپزشک انجام شود."},
+        {name:"مولتی‌ویتامین گربه", type:"مکمل", price:"۲۴۰٬۰۰۰ تومان", img:"icons/d3.jpeg", prescription:false, desc:"مناسب تقویت عمومی و افزایش اشتهای گربه."}
+    ],
+    bird:[
+        {name:"ویتامین پرندگان", type:"مکمل پرندگان", price:"۱۶۰٬۰۰۰ تومان", img:"icons/d4.jpeg", prescription:false, desc:"کمک به تقویت سیستم ایمنی و بهبود کیفیت پرها."},
+        {name:"داروی تنفسی پرندگان", type:"داروی نسخه‌ای", price:"۲۷۰٬۰۰۰ تومان", img:"icons/d1.jpeg", prescription:true, desc:"برای مشکلات تنفسی، نیازمند نسخه دامپزشک است."}
+    ],
+    rodent:[
+        {name:"مکمل جوندگان", type:"مکمل", price:"۱۴۰٬۰۰۰ تومان", img:"icons/d4.jpeg", prescription:false, desc:"مناسب خرگوش، همستر و سایر جوندگان خانگی."},
+        {name:"قطره گوارشی خرگوش", type:"داروی نسخه‌ای", price:"۲۱۰٬۰۰۰ تومان", img:"icons/d2.jpeg", prescription:true, desc:"استفاده با تشخیص دامپزشک توصیه می‌شود."}
+    ],
+    fish:[
+        {name:"محلول ضد قارچ آبزیان", type:"داروی آبزیان", price:"۱۲۰٬۰۰۰ تومان", img:"icons/d3.jpeg", prescription:false, desc:"برای کنترل قارچ و بهبود کیفیت سلامت آبزیان."},
+        {name:"داروی ضد باکتری آکواریوم", type:"داروی نسخه‌ای", price:"۱۸۰٬۰۰۰ تومان", img:"icons/d1.jpeg", prescription:true, desc:"برای مصرف صحیح، مشاوره دامپزشک توصیه می‌شود."}
+    ],
+    other:[
+        {name:"مکمل عمومی حیوانات", type:"مکمل عمومی", price:"۲۲۰٬۰۰۰ تومان", img:"icons/d1.jpeg", prescription:false, desc:"مناسب تقویت عمومی برخی حیوانات خانگی."},
+        {name:"داروی تخصصی حیوانات خاص", type:"داروی نسخه‌ای", price:"۴۵۰٬۰۰۰ تومان", img:"icons/d2.jpeg", prescription:true, desc:"این دارو فقط با نسخه دامپزشک ارائه می‌شود."}
+    ]
+};
+
+const catLabels = {
+    dog:"داروهای سگ",
+    cat:"داروهای گربه",
+    bird:"داروهای پرندگان",
+    rodent:"داروهای جوندگان",
+    fish:"داروهای آبزیان",
+    other:"داروهای سایر حیوانات"
+};
+
+const pharmacyCats = document.querySelectorAll(".pharmacy-cat");
+const medicineGrid = document.getElementById("medicineGrid");
+const medicineTitle = document.getElementById("medicineTitle");
+
+const modal = document.getElementById("medicineModal");
+const modalClose = document.getElementById("modalClose");
+const modalImg = document.getElementById("modalImg");
+const modalType = document.getElementById("modalType");
+const modalTitle = document.getElementById("modalTitle");
+const modalDesc = document.getElementById("modalDesc");
+const modalPrice = document.getElementById("modalPrice");
+const modalActions = document.getElementById("modalActions");
+
+function renderMedicines(cat){
+    medicineGrid.classList.add("fade");
+
+    setTimeout(() => {
+        medicineTitle.textContent = catLabels[cat];
+
+        medicineGrid.innerHTML = medicineData[cat].map((item,index) => `
+            <div class="medicine-card" data-cat="${cat}" data-index="${index}">
+                <div class="medicine-img">
+                    <img src="${item.img}" alt="${item.name}">
+                </div>
+
+                <div class="medicine-body">
+                    <div class="medicine-type">${item.type}</div>
+                    <h4>${item.name}</h4>
+                    <div class="medicine-price">${item.price}</div>
+
+                    <div class="medicine-status ${item.prescription ? 'prescription' : 'cart'}">
+                        ${item.prescription ? 'فقط با نسخه امکان‌پذیر است' : 'افزودن به سبد خرید'}
+                    </div>
+                </div>
+            </div>
+        `).join("");
+
+        medicineGrid.classList.remove("fade");
+
+        document.querySelectorAll(".medicine-card").forEach(card => {
+            card.addEventListener("click", () => {
+                const cat = card.dataset.cat;
+                const index = card.dataset.index;
+                openMedicineModal(medicineData[cat][index]);
+            });
+        });
+
+    },180);
+}
+
+function openMedicineModal(item){
+    modalImg.src = item.img;
+    modalImg.alt = item.name;
+    modalType.textContent = item.type;
+    modalTitle.textContent = item.name;
+    modalDesc.textContent = item.desc;
+    modalPrice.textContent = item.price;
+
+    modalActions.innerHTML = item.prescription
+        ? `
+        <a href="#upload-prescription" class="btn primary">ثبت نسخه دامپزشک</a>
+        <a href="#online-visit" class="btn outline">دریافت ویزیت آنلاین</a>
+        `
+        : `
+        <a href="#" class="btn orange">افزودن به سبد خرید</a>
+        `;
+
+    modal.classList.add("active");
+}
+
+modalClose.addEventListener("click", () => {
+    modal.classList.remove("active");
+});
+
+modal.addEventListener("click", (e) => {
+    if(e.target === modal){
+        modal.classList.remove("active");
+    }
+});
+
+pharmacyCats.forEach(cat => {
+    cat.addEventListener("click", () => {
+        pharmacyCats.forEach(item => item.classList.remove("active"));
+        cat.classList.add("active");
+
+        renderMedicines(cat.dataset.cat);
+    });
+});
+
+renderMedicines("dog");
+
+</script>
+
+</section>
+
+<section class="prescription-help" id="upload-prescription">
+
+<style>
+
+.prescription-help{
+    padding:95px 0;
+    background:var(--cream);
+}
+
+.prescription-wrap{
+    display:grid;
+    grid-template-columns:1.05fr .95fr;
+    gap:55px;
+    align-items:center;
+}
+
+.prescription-content span{
+    color:var(--orange);
+    font-size:15px;
+    font-weight:700;
+}
+
+.prescription-content h2{
+    margin-top:12px;
+    font-size:40px;
+    font-weight:900;
+    color:var(--text);
+    line-height:1.7;
+}
+
+.prescription-content p{
+    margin-top:18px;
+    color:var(--muted);
+    line-height:2.1;
+    max-width:680px;
+}
+
+.prescription-actions{
+    margin-top:34px;
+    display:flex;
+    gap:16px;
+    flex-wrap:wrap;
+}
+
+.prescription-actions .btn{
+    min-width:220px;
+}
+
+.prescription-box{
+    background:#fff;
+    border:1px solid var(--soft);
+    border-radius:30px;
+    padding:34px;
+    box-shadow:var(--shadow);
+}
+
+.prescription-steps{
+    display:grid;
+    gap:18px;
+}
+
+.prescription-step{
+    display:flex;
+    gap:16px;
+    align-items:flex-start;
+    background:var(--cream);
+    border:1px solid var(--soft);
+    border-radius:20px;
+    padding:20px;
+}
+
+.prescription-step-icon{
+    width:58px;
+    height:58px;
+    border-radius:18px;
+    background:rgba(36,89,166,.08);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:28px;
+    flex-shrink:0;
+}
+
+.prescription-step:nth-child(even) .prescription-step-icon{
+    background:rgba(58,125,68,.10);
+}
+
+.prescription-step h3{
+    color:var(--text);
+    font-size:20px;
+    margin-bottom:6px;
+}
+
+.prescription-step p{
+    color:var(--muted);
+    line-height:1.9;
+    font-size:14px;
+}
+
+@media(max-width:950px){
+
+.prescription-wrap{
+    grid-template-columns:1fr;
+    text-align:center;
+}
+
+.prescription-actions{
+    justify-content:center;
+}
+
+.prescription-step{
+    text-align:right;
+}
+
+}
+
+</style>
+
+<div class="container">
+
+<div class="prescription-wrap">
+
+<div class="prescription-content">
+
+<span>
+نسخه ندارید یا نسخه دارید؟
+</span>
+
+<h2>
+دو مسیر ساده برای تهیه داروهای نسخه‌ای
+</h2>
+
+<p>
+اگر نسخه دامپزشک دارید، می‌توانید آن را در پنل کاربری ثبت کنید. اگر نسخه ندارید، ابتدا ویزیت آنلاین بگیرید تا دامپزشک داروی مناسب حیوان شما را تجویز کند.
+</p>
+
+<div class="prescription-actions">
+
+<a href="#" class="btn primary">
+ثبت نسخه دامپزشک
+</a>
+
+<a href="#online-visit" class="btn outline">
+دریافت ویزیت آنلاین
+</a>
+
+</div>
+
+</div>
+
+<div class="prescription-box">
+
+<div class="prescription-steps">
+
+<div class="prescription-step">
+
+<div class="prescription-step-icon">
+📄
+</div>
+
+<div>
+<h3>
+اگر نسخه دارید
+</h3>
+<p>
+نسخه دامپزشک را ثبت کنید تا امکان خرید داروهای نسخه‌ای برای شما فعال شود.
+</p>
+</div>
+
+</div>
+
+<div class="prescription-step">
+
+<div class="prescription-step-icon">
+🩺
+</div>
+
+<div>
+<h3>
+اگر نسخه ندارید
+</h3>
+<p>
+ویزیت آنلاین بگیرید تا دامپزشک پس از بررسی علائم، نسخه الکترونیکی صادر کند.
+</p>
+</div>
+
+</div>
+
+<div class="prescription-step">
+
+<div class="prescription-step-icon">
+🛒
+</div>
+
+<div>
+<h3>
+بعد از تایید نسخه
+</h3>
+<p>
+داروهای موردنیاز را به سبد خرید اضافه کنید و سفارش خود را نهایی نمایید.
+</p>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="pharmacy-banner">
+
+<style>
+
+.pharmacy-banner{
+    padding:70px 0;
+    background:#fff;
+}
+
+.pharmacy-banner-box{
+    background:linear-gradient(135deg,#3a7d44 0%,#2f6f3b 100%);
+    border-radius:34px;
+    overflow:hidden;
+    min-height:440px;
+    display:grid;
+    grid-template-columns:.95fr 1.05fr;
+    align-items:center;
+    gap:40px;
+    padding:38px;
+    box-shadow:0 24px 60px rgba(58,125,68,.18);
+    position:relative;
+}
+
+.pharmacy-banner-box::before{
+    content:"";
+    position:absolute;
+    width:430px;
+    height:430px;
+    border-radius:50%;
+    right:-150px;
+    top:-170px;
+    background:rgba(255,255,255,.08);
+}
+
+.pharmacy-banner-box::after{
+    content:"";
+    position:absolute;
+    width:520px;
+    height:520px;
+    border-radius:50%;
+    left:-210px;
+    bottom:-260px;
+    background:rgba(255,255,255,.06);
+}
+
+.pharmacy-banner-image{
+    position:relative;
+    z-index:2;
+    background:#fff;
+    min-height:350px;
+    border-radius:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    overflow:hidden;
+}
+
+.pharmacy-banner-image img{
+    width:100%;
+    height:100%;
+    max-height:360px;
+    object-fit:contain;
+    display:block;
+}
+
+.pharmacy-banner-content{
+    position:relative;
+    z-index:2;
+    color:#fff;
+    padding:20px 35px;
+}
+
+.pharmacy-banner-content span{
+    display:inline-block;
+    padding:8px 18px;
+    border-radius:999px;
+    background:rgba(255,255,255,.14);
+    border:1px solid rgba(255,255,255,.22);
+    color:#fff;
+    font-size:14px;
+    font-weight:700;
+    margin-bottom:24px;
+}
+
+.pharmacy-banner-content h2{
+    color:#fff;
+    font-size:42px;
+    font-weight:900;
+    line-height:1.7;
+    margin-bottom:18px;
+}
+
+.pharmacy-banner-content p{
+    color:rgba(255,255,255,.9);
+    font-size:18px;
+    line-height:2.1;
+    max-width:680px;
+}
+
+.pharmacy-banner-actions{
+    margin-top:38px;
+    display:flex;
+    gap:16px;
+    flex-wrap:wrap;
+}
+
+.pharmacy-banner-actions .btn{
+    min-width:220px;
+    min-height:60px;
+}
+
+.pharmacy-banner-actions .btn.primary{
+    background:#fff;
+    color:var(--green);
+    border-color:#fff;
+}
+
+.pharmacy-banner-actions .btn.primary:hover{
+    background:transparent;
+    color:#fff;
+    border-color:#fff;
+}
+
+.pharmacy-banner-actions .btn.outline{
+    background:transparent;
+    color:#fff;
+    border:1px solid rgba(255,255,255,.35);
+}
+
+.pharmacy-banner-actions .btn.outline:hover{
+    background:#fff;
+    color:var(--green);
+    border-color:#fff;
+}
+
+@media(max-width:950px){
+
+.pharmacy-banner-box{
+    grid-template-columns:1fr;
+    padding:28px;
+    text-align:center;
+}
+
+.pharmacy-banner-content{
+    padding:15px 5px 30px;
+}
+
+.pharmacy-banner-content h2{
+    font-size:32px;
+}
+
+.pharmacy-banner-content p{
+    margin:auto;
+    font-size:16px;
+}
+
+.pharmacy-banner-actions{
+    justify-content:center;
+}
+
+.pharmacy-banner-image{
+    min-height:280px;
+}
+
+}
+
+</style>
+
+<div class="container">
+
+<div class="pharmacy-banner-box">
+
+<div class="pharmacy-banner-image">
+
+<img src="icons/UOI.png" alt="نسخه دامپزشکی">
+
+</div>
+
+<div class="pharmacy-banner-content">
+
+<span>
+💊 داروهای نسخه‌ای
+</span>
+
+<h2>
+نسخه ندارید؟
+<br>
+دامپزشک برایتان نسخه صادر می‌کند.
+</h2>
+
+<p>
+اگر داروی موردنظر شما نیاز به نسخه دارد، کافی است ویزیت آنلاین ثبت کنید تا دامپزشک پس از بررسی وضعیت حیوان، نسخه الکترونیکی صادر کند و خرید دارو برای شما فعال شود.
+</p>
+
+<div class="pharmacy-banner-actions">
+
+<a href="#" class="btn primary">
+🩺 شروع ویزیت آنلاین
+</a>
+
+<a href="#" class="btn outline">
+💊 مشاهده داروهای آزاد
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- <section class="pharmacy-process">
+
+<style>
+
+.pharmacy-process{
+    padding:95px 0;
+    background:#fff;
+}
+
+.pharmacy-process-head{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.pharmacy-process-head span{
+    color:var(--green);
+    font-size:15px;
+    font-weight:700;
+}
+
+.pharmacy-process-head h2{
+    margin-top:12px;
+    font-size:40px;
+    font-weight:900;
+    color:var(--text);
+}
+
+.pharmacy-process-head p{
+    max-width:720px;
+    margin:18px auto 0;
+    color:var(--muted);
+    line-height:2;
+}
+
+.pharmacy-process-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:26px;
+}
+
+.pharmacy-step{
+    position:relative;
+    background:var(--cream);
+    border:1px solid var(--soft);
+    border-radius:24px;
+    padding:38px 26px;
+    text-align:center;
+    overflow:hidden;
+    transition:.25s;
+}
+
+.pharmacy-step:hover{
+    transform:translateY(-8px);
+    box-shadow:var(--shadow);
+}
+
+.pharmacy-step-number{
+    position:absolute;
+    top:18px;
+    left:20px;
+    font-size:58px;
+    font-weight:900;
+    color:rgba(36,89,166,.08);
+    line-height:1;
+}
+
+.pharmacy-step-icon{
+    width:76px;
+    height:76px;
+    border-radius:22px;
+    margin:0 auto 24px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:36px;
+    background:rgba(36,89,166,.08);
+}
+
+.pharmacy-step:nth-child(even) .pharmacy-step-icon{
+    background:rgba(58,125,68,.10);
+}
+
+.pharmacy-step h3{
+    font-size:23px;
+    color:var(--text);
+    margin-bottom:14px;
+}
+
+.pharmacy-step p{
+    color:var(--muted);
+    line-height:2;
+    font-size:15px;
+}
+
+@media(max-width:1000px){
+
+.pharmacy-process-grid{
+    grid-template-columns:repeat(2,1fr);
+}
+
+}
+
+@media(max-width:650px){
+
+.pharmacy-process-grid{
+    grid-template-columns:1fr;
+}
+
+}
+
+</style>
+
+<div class="container">
+
+<div class="pharmacy-process-head">
+
+<span>
+مراحل خرید دارو
+</span>
+
+<h2>
+خرید دارو در داروخانه آنلاین چگونه انجام می‌شود؟
+</h2>
+
+<p>
+فرآیند خرید دارو طوری طراحی شده که کاربر سریع متوجه شود کدام دارو آزاد است و کدام دارو نیاز به نسخه دامپزشک دارد.
+</p>
+
+</div>
+
+<div class="pharmacy-process-grid">
+
+<div class="pharmacy-step">
+
+<div class="pharmacy-step-number">
+01
+</div>
+
+<div class="pharmacy-step-icon">
+🐾
+</div>
+
+<h3>
+انتخاب حیوان
+</h3>
+
+<p>
+ابتدا نوع حیوان را انتخاب کنید تا داروها و محصولات درمانی مرتبط نمایش داده شوند.
+</p>
+
+</div>
+
+<div class="pharmacy-step">
+
+<div class="pharmacy-step-number">
+02
+</div>
+
+<div class="pharmacy-step-icon">
+💊
+</div>
+
+<h3>
+انتخاب دارو
+</h3>
+
+<p>
+داروهای آزاد را مستقیم به سبد اضافه کنید یا جزئیات داروهای نسخه‌ای را مشاهده نمایید.
+</p>
+
+</div>
+
+<div class="pharmacy-step">
+
+<div class="pharmacy-step-number">
+03
+</div>
+
+<div class="pharmacy-step-icon">
+📄
+</div>
+
+<h3>
+ثبت نسخه
+</h3>
+
+<p>
+برای داروهای نسخه‌ای، نسخه معتبر دامپزشک را ثبت کنید یا ابتدا ویزیت آنلاین بگیرید.
+</p>
+
+</div>
+
+<div class="pharmacy-step">
+
+<div class="pharmacy-step-number">
+04
+</div>
+
+<div class="pharmacy-step-icon">
+🚚
+</div>
+
+<h3>
+دریافت سفارش
+</h3>
+
+<p>
+پس از تایید و پرداخت، سفارش دارویی شما آماده‌سازی و در کوتاه‌ترین زمان ارسال می‌شود.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section> -->
+
+<section class="pharmacy-trust">
+
+<style>
+
+.pharmacy-trust{
+    padding:95px 0;
+    background:var(--cream);
+}
+
+.pharmacy-trust-head{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.pharmacy-trust-head span{
+    color:var(--orange);
+    font-size:15px;
+    font-weight:700;
+}
+
+.pharmacy-trust-head h2{
+    margin-top:12px;
+    font-size:40px;
+    font-weight:900;
+    color:var(--text);
+}
+
+.pharmacy-trust-head p{
+    max-width:720px;
+    margin:18px auto 0;
+    color:var(--muted);
+    line-height:2;
+}
+
+.pharmacy-trust-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:26px;
+}
+
+.trust-card{
+    background:#fff;
+    border:1px solid var(--soft);
+    border-radius:24px;
+    padding:32px 26px;
+    transition:.25s;
+}
+
+.trust-card:hover{
+    transform:translateY(-8px);
+    box-shadow:var(--shadow);
+}
+
+.trust-icon{
+    width:72px;
+    height:72px;
+    border-radius:22px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:34px;
+    background:rgba(36,89,166,.08);
+    margin-bottom:24px;
+}
+
+.trust-card:nth-child(even) .trust-icon{
+    background:rgba(58,125,68,.10);
+}
+
+.trust-card h3{
+    font-size:22px;
+    color:var(--text);
+    margin-bottom:12px;
+}
+
+.trust-card p{
+    color:var(--muted);
+    line-height:2;
+    font-size:15px;
+}
+
+@media(max-width:950px){
+
+.pharmacy-trust-grid{
+    grid-template-columns:1fr;
+}
+
+}
+
+</style>
+
+<div class="container">
+
+<div class="pharmacy-trust-head">
+
+<span>
+اعتماد و اطمینان
+</span>
+
+<h2>
+چرا از داروخانه ما خرید کنید؟
+</h2>
+
+<p>
+در خرید دارو برای حیوانات، اصالت، شرایط نگهداری و بررسی نسخه اهمیت زیادی دارد. به همین دلیل فرآیند داروخانه با تمرکز بر امنیت و اطمینان طراحی شده است.
+</p>
+
+</div>
+
+<div class="pharmacy-trust-grid">
+
+<div class="trust-card">
+
+<div class="trust-icon">
+✅
+</div>
+
+<h3>
+داروهای معتبر
+</h3>
+
+<p>
+داروها و محصولات درمانی از تامین‌کنندگان معتبر تهیه می‌شوند و قبل از ارسال بررسی می‌گردند.
+</p>
+
+</div>
+
+<div class="trust-card">
+
+<div class="trust-icon">
+📄
+</div>
+
+<h3>
+بررسی نسخه
+</h3>
+
+<p>
+داروهای نسخه‌ای تنها پس از ثبت نسخه دامپزشک یا دریافت ویزیت آنلاین قابل تهیه هستند.
+</p>
+
+</div>
+
+<div class="trust-card">
+
+<div class="trust-icon">
+🧊
+</div>
+
+<h3>
+نگهداری استاندارد
+</h3>
+
+<p>
+محصولات حساس دارویی با شرایط مناسب نگهداری و بسته‌بندی آماده ارسال می‌شوند.
+</p>
+
+</div>
+
+<div class="trust-card">
+
+<div class="trust-icon">
+⏳
+</div>
+
+<h3>
+کنترل تاریخ انقضا
+</h3>
+
+<p>
+پیش از ارسال، تاریخ مصرف و سلامت بسته‌بندی داروها کنترل می‌شود.
+</p>
+
+</div>
+
+<div class="trust-card">
+
+<div class="trust-icon">
+🚚
+</div>
+
+<h3>
+ارسال مطمئن
+</h3>
+
+<p>
+سفارش‌های دارویی با بسته‌بندی مناسب و در کوتاه‌ترین زمان ممکن ارسال می‌شوند.
+</p>
+
+</div>
+
+<div class="trust-card">
+
+<div class="trust-icon">
+💬
+</div>
+
+<h3>
+پشتیبانی خرید دارو
+</h3>
+
+<p>
+در صورت نیاز به راهنمایی درباره نسخه یا وضعیت سفارش، پشتیبانی سامانه در دسترس شماست.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="pharmacy-cta">
+
+<style>
+
+.pharmacy-cta{
+
+    padding:100px 0;
+
+    background:linear-gradient(135deg,#2459a6 0%,#3a7d44 100%);
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+.pharmacy-cta::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:440px;
+    height:440px;
+
+    border-radius:50%;
+
+    right:-140px;
+    top:-170px;
+
+    background:rgba(255,255,255,.08);
+
+}
+
+.pharmacy-cta::after{
+
+    content:"";
+
+    position:absolute;
+
+    width:520px;
+    height:520px;
+
+    border-radius:50%;
+
+    left:-180px;
+    bottom:-230px;
+
+    background:rgba(255,255,255,.06);
+
+}
+
+.pharmacy-cta-box{
+
+    position:relative;
+
+    z-index:2;
+
+    max-width:920px;
+
+    margin:auto;
+
+    text-align:center;
+
+}
+
+.pharmacy-cta-box span{
+
+    display:inline-block;
+
+    padding:8px 18px;
+
+    border-radius:999px;
+
+    background:rgba(255,255,255,.12);
+
+    border:1px solid rgba(255,255,255,.18);
+
+    color:#fff;
+
+    font-size:14px;
+
+    font-weight:700;
+
+    margin-bottom:24px;
+
+}
+
+.pharmacy-cta-box h2{
+
+    color:#fff;
+
+    font-size:46px;
+
+    line-height:1.6;
+
+    font-weight:900;
+
+    margin-bottom:22px;
+
+}
+
+.pharmacy-cta-box p{
+
+    color:rgba(255,255,255,.88);
+
+    font-size:18px;
+
+    line-height:2;
+
+    max-width:760px;
+
+    margin:auto;
+
+}
+
+.pharmacy-cta-actions{
+
+    margin-top:42px;
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:18px;
+
+    flex-wrap:wrap;
+
+}
+
+.pharmacy-cta-actions .btn{
+
+    min-width:240px;
+
+    min-height:60px;
+
+}
+
+.pharmacy-cta-actions .btn.primary{
+
+    background:#fff;
+
+    color:var(--green);
+
+    border-color:#fff;
+
+}
+
+.pharmacy-cta-actions .btn.primary:hover{
+
+    background:transparent;
+
+    color:#fff;
+
+    border-color:#fff;
+
+}
+
+.pharmacy-cta-actions .btn.outline{
+
+    background:transparent;
+
+    color:#fff;
+
+    border:1px solid rgba(255,255,255,.35);
+
+}
+
+.pharmacy-cta-actions .btn.outline:hover{
+
+    background:#fff;
+
+    color:var(--green);
+
+    border-color:#fff;
+
+}
+
+@media(max-width:768px){
+
+.pharmacy-cta{
+
+padding:80px 0;
+
+}
+
+.pharmacy-cta-box h2{
+
+font-size:34px;
+
+}
+
+.pharmacy-cta-box p{
+
+font-size:16px;
+
+}
+
+.pharmacy-cta-actions .btn{
+
+width:100%;
+
+}
+
+}
+
+</style>
+
+<div class="container">
+
+<div class="pharmacy-cta-box">
+
+<span>
+
+💊 داروی موردنیازتان را پیدا نکردید؟
+
+</span>
+
+<h2>
+
+ابتدا نسخه دریافت کنید،
+<br>
+سپس داروی خود را آنلاین سفارش دهید.
+
+</h2>
+
+<p>
+
+اگر داروی موردنظر شما فقط با نسخه قابل تهیه است، کافی است ویزیت آنلاین ثبت کنید. دامپزشک نسخه الکترونیکی صادر می‌کند و بلافاصله امکان خرید دارو برای شما فعال خواهد شد.
+
+</p>
+
+<div class="pharmacy-cta-actions">
+
+<a href="#" class="btn primary">
+
+🩺 شروع ویزیت آنلاین
+
+</a>
+
+<a href="#" class="btn outline">
+
+💊 مشاهده داروهای بدون نسخه
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="faq">
+
+<style>
+
+.faq{
+
+    padding:100px 0;
+
+    background:#fff;
+
+}
+
+.faq-head{
+
+    text-align:center;
+
+    margin-bottom:55px;
+
+}
+
+.faq-head span{
+
+    color:var(--green);
+
+    font-size:15px;
+
+    font-weight:700;
+
+}
+
+.faq-head h2{
+
+    margin-top:12px;
+
+    font-size:42px;
+
+    font-weight:900;
+
+    color:var(--text);
+
+}
+
+.faq-head p{
+
+    max-width:700px;
+
+    margin:18px auto 0;
+
+    color:var(--muted);
+
+    line-height:2;
+
+}
+
+.faq-list{
+
+    max-width:900px;
+
+    margin:auto;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:18px;
+
+}
+
+.faq-item{
+
+    background:var(--cream);
+
+    border:1px solid var(--soft);
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+}
+
+.faq-question{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    padding:26px 30px;
+
+    cursor:pointer;
+
+    font-size:20px;
+
+    font-weight:800;
+
+    color:var(--text);
+
+}
+
+.faq-icon{
+
+    width:42px;
+
+    height:42px;
+
+    border-radius:50%;
+
+    background:#fff;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:24px;
+
+    color:var(--orange);
+
+    transition:.3s;
+
+}
+
+.faq-item.active .faq-icon{
+
+    transform:rotate(45deg);
+
+}
+
+.faq-answer{
+
+    max-height:0;
+
+    overflow:hidden;
+
+    transition:max-height .35s ease;
+
+}
+
+.faq-answer p{
+
+    padding:0 30px 28px;
+
+    color:var(--muted);
+
+    line-height:2.1;
+
+}
+
+</style>
+
+<div class="container">
+
+<div class="faq-head">
+
+<span>
+
+سوالات متداول
+
+</span>
+
+<h2>
+
+پاسخ سوالات پرتکرار کاربران
+
+</h2>
+
+<p>
+
+در این بخش پاسخ رایج‌ترین سوالات درباره ویزیت آنلاین، داروخانه، فروشگاه و نحوه استفاده از سامانه را مشاهده می‌کنید.
+
+</p>
+
+</div>
+
+<div class="faq-list">
+
+<div class="faq-item">
+
+<div class="faq-question">
+
+<span>
+
+چگونه ویزیت آنلاین انجام می‌شود؟
+
+</span>
+
+<div class="faq-icon">
+
++
+
+</div>
+
+</div>
+
+<div class="faq-answer">
+
+<p>
+
+پس از انتخاب دامپزشک، اطلاعات حیوان، تصاویر یا ویدیو را ارسال می‌کنید و در زمان تعیین‌شده به صورت آنلاین با دامپزشک گفتگو خواهید کرد.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="faq-item">
+
+<div class="faq-question">
+
+<span>
+
+برای خرید دارو داشتن نسخه الزامی است؟
+
+</span>
+
+<div class="faq-icon">
+
++
+
+</div>
+
+</div>
+
+<div class="faq-answer">
+
+<p>
+
+بله، داروهای نسخه‌ای تنها پس از بارگذاری نسخه معتبر دامپزشک قابل سفارش هستند.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="faq-item">
+
+<div class="faq-question">
+
+<span>
+
+ارسال سفارش‌ها چقدر زمان می‌برد؟
+
+</span>
+
+<div class="faq-icon">
+
++
+
+</div>
+
+</div>
+
+<div class="faq-answer">
+
+<p>
+
+بسته به شهر مقصد، سفارش‌ها معمولاً بین ۱ تا ۳ روز کاری ارسال و تحویل داده می‌شوند.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="faq-item">
+
+<div class="faq-question">
+
+<span>
+
+آیا می‌توانم سوابق درمان حیوان خود را مشاهده کنم؟
+
+</span>
+
+<div class="faq-icon">
+
++
+
+</div>
+
+</div>
+
+<div class="faq-answer">
+
+<p>
+
+بله، پس از ورود به پنل کاربری تمامی ویزیت‌ها، نسخه‌ها، داروها و سوابق درمان حیوان در پرونده سلامت ثبت خواهد شد.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="faq-item">
+
+<div class="faq-question">
+
+<span>
+
+در صورت نیاز چگونه با پشتیبانی ارتباط بگیرم؟
+
+</span>
+
+<div class="faq-icon">
+
++
+
+</div>
+
+</div>
+
+<div class="faq-answer">
+
+<p>
+
+از طریق گفتگوی آنلاین، شماره تماس یا ارسال تیکت از داخل پنل کاربری می‌توانید با تیم پشتیبانی ارتباط برقرار کنید.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+</main>
+
+
+<footer class="footer">
+
+<style>
+
+.footer{
+
+    background:#1f2937;
+
+    color:#fff;
+
+    padding:80px 0 25px;
+
+}
+
+.footer-grid{
+
+    display:grid;
+
+    grid-template-columns:1.4fr 1fr 1fr 1.2fr;
+
+    gap:50px;
+
+    margin-bottom:50px;
+
+}
+
+.footer-logo{
+
+    width:75px;
+
+    margin-bottom:18px;
+
+}
+
+.footer h3{
+
+    font-size:22px;
+
+    margin-bottom:20px;
+
+    position:relative;
+
+}
+
+.footer h3::after{
+
+    content:"";
+
+    position:absolute;
+
+    right:0;
+
+    bottom:-10px;
+
+    width:45px;
+
+    height:3px;
+
+    border-radius:999px;
+
+    background:var(--orange);
+
+}
+
+.footer p{
+
+    color:rgba(255,255,255,.75);
+
+    line-height:2.1;
+
+    font-size:15px;
+
+}
+
+.footer-links{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:14px;
+
+    margin-top:12px;
+
+}
+
+.footer-links a{
+
+    color:rgba(255,255,255,.75);
+
+    transition:.25s;
+
+}
+
+.footer-links a:hover{
+
+    color:#fff;
+
+    padding-right:8px;
+
+}
+
+.footer-contact{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:15px;
+
+    margin-top:12px;
+
+}
+
+.footer-contact div{
+
+    color:rgba(255,255,255,.75);
+
+}
+
+.footer-social{
+
+    display:flex;
+
+    gap:14px;
+
+    margin-top:28px;
+
+}
+
+.footer-social a{
+
+    width:46px;
+
+    height:46px;
+
+    border-radius:14px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    background:rgba(255,255,255,.08);
+
+    transition:.25s;
+
+    font-size:20px;
+
+}
+
+.footer-social a:hover{
+
+    background:var(--orange);
+
+    transform:translateY(-5px);
+
+}
+
+.footer-bottom{
+
+    border-top:1px solid rgba(255,255,255,.08);
+
+    padding-top:25px;
+
+    text-align:center;
+
+    color:rgba(255,255,255,.55);
+
+    font-size:14px;
+
+}
+
+@media(max-width:980px){
+
+.footer-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+@media(max-width:650px){
+
+.footer-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+</style>
+
+<div class="container">
+
+<div class="footer-grid">
+
+<div>
+
+<img src="icons/comp15.png" class="footer-logo">
+
+<p>
+
+سامانه جامع خدمات دامپزشکی آنلاین با هدف ارائه خدمات ویزیت، داروخانه و فروشگاه تخصصی حیوانات خانگی طراحی شده است.
+
+</p>
+
+<div class="footer-social">
+
+<a href="#">📷</a>
+
+<a href="#">💬</a>
+
+<a href="#">▶</a>
+
+<a href="#">📱</a>
+
+</div>
+
+</div>
+
+<div>
+
+<h3>
+
+لینک‌های سریع
+
+</h3>
+
+<div class="footer-links">
+
+<a href="#">خانه</a>
+
+<a href="#">درباره ما</a>
+
+<a href="#">تماس با ما</a>
+
+<a href="#">وبلاگ</a>
+
+<a href="#">سوالات متداول</a>
+
+</div>
+
+</div>
+
+<div>
+
+<h3>
+
+خدمات
+
+</h3>
+
+<div class="footer-links">
+
+<a href="#">ویزیت آنلاین</a>
+
+<a href="#">داروخانه</a>
+
+<a href="#">فروشگاه</a>
+
+<a href="#">نسخه الکترونیکی</a>
+
+<a href="#">پیگیری سفارش</a>
+
+</div>
+
+</div>
+
+<div>
+
+<h3>
+
+اطلاعات تماس
+
+</h3>
+
+<div class="footer-contact">
+
+<div>
+
+📍 تهران، خیابان نمونه، پلاک ۱۲۳
+
+</div>
+
+<div>
+
+☎ 021-12345678
+
+</div>
+
+<div>
+
+✉ info@example.com
+
+</div>
+
+<div>
+
+🕒 همه روزه از ساعت ۸ تا ۲۲
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="footer-bottom">
+
+تمامی حقوق این سامانه محفوظ است © ۱۴۰۴
+
+</div>
+
+</div>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

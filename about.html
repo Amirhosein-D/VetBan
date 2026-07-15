@@ -1,0 +1,2432 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+  <title>فروشگاه | وتبان</title>
+  <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="icons/comp15.png" />
+
+</head>
+
+<body>
+
+<header class="site-header">
+    <div class="container nav-wrap">
+
+        <a href="#" class="logo">
+            <img src="icons/comp15.png" alt="لوگو">
+        </a>
+
+        <nav class="main-nav">
+            <a href="index.html" class="active">خانه</a>
+            <a href="ecosystem.html">ویزیت انلاین</a>
+            <a href="company.html">داروخانه</a>
+            <a href="about.html">فروشگاه</a>
+            <a href="#">درباره ما</a>
+            <a href="#">تماس با ما</a>
+        </nav>
+
+        <div class="header-actions">
+            <a href="#" class="btn outline">
+                ورود / ثبت نام
+            </a>
+        </div>
+
+        <button class="menu-toggle">
+            ☰
+        </button>
+
+    </div>
+</header>
+
+<main>
+
+<section class="shop-hero">
+
+<style>
+
+.shop-hero{
+    position:relative;
+    padding:95px 0 120px;
+    overflow:hidden;
+    background:
+    linear-gradient(
+    135deg,
+    #f2f4f7 0%,
+    #ffffff 52%,
+    #e5e7eb 100%);
+}
+
+.shop-hero::before{
+    content:"";
+    position:absolute;
+    width:560px;
+    height:560px;
+    border-radius:50%;
+    right:-190px;
+    top:-230px;
+    background:rgba(58,125,68,.10);
+    filter:blur(45px);
+}
+
+.shop-hero::after{
+    content:"";
+    position:absolute;
+    width:520px;
+    height:520px;
+    border-radius:50%;
+    left:-180px;
+    bottom:-230px;
+    background:rgba(36,89,166,.09);
+    filter:blur(45px);
+}
+
+.shop-hero-content{
+    position:relative;
+    z-index:2;
+    max-width:920px;
+    margin:auto;
+    text-align:center;
+}
+
+.shop-hero-badge{
+    display:inline-block;
+    padding:8px 18px;
+    border-radius:999px;
+    background:#fff;
+    color:var(--green);
+    border:1px solid var(--soft);
+    font-size:14px;
+    font-weight:700;
+    margin-bottom:22px;
+}
+
+.shop-hero h1{
+    font-size:46px;
+    line-height:1.65;
+    font-weight:900;
+    color:var(--text);
+    margin-bottom:18px;
+}
+
+.shop-hero h1 strong{
+    color:var(--orange);
+}
+
+.shop-hero p{
+    max-width:760px;
+    margin:auto;
+    color:var(--muted);
+    font-size:18px;
+    line-height:2.1;
+}
+
+.shop-hero-actions{
+    margin-top:42px;
+    display:flex;
+    justify-content:center;
+    gap:18px;
+    flex-wrap:wrap;
+}
+
+.shop-hero-actions .btn{
+    min-width:235px;
+    min-height:60px;
+}
+
+.shop-hero-info{
+    margin:34px auto 0;
+    max-width:780px;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:14px;
+}
+
+.shop-info-item{
+    background:#fff;
+    border:1px solid var(--soft);
+    border-radius:18px;
+    padding:18px 16px;
+    text-align:center;
+}
+
+.shop-info-item strong{
+    display:block;
+    color:var(--text);
+    font-size:17px;
+    margin-bottom:6px;
+}
+
+.shop-info-item small{
+    color:var(--muted);
+    font-size:13px;
+}
+
+@media(max-width:768px){
+
+.shop-hero{
+    padding:75px 0;
+}
+
+.shop-hero h1{
+    font-size:34px;
+}
+
+.shop-hero p{
+    font-size:16px;
+}
+
+.shop-hero-actions .btn{
+    width:100%;
+}
+
+.shop-hero-info{
+    grid-template-columns:1fr;
+}
+
+}
+
+</style>
+
+<div class="container">
+
+<div class="shop-hero-content">
+
+<span class="shop-hero-badge">
+🛒 فروشگاه حیوانات خانگی
+</span>
+
+<h1>
+خرید خوراک، مکمل و تجهیزات
+<br>
+برای <strong>هر نوع حیوان خانگی</strong>
+</h1>
+
+<p>
+محصولات فروشگاه بر اساس نوع حیوان دسته‌بندی شده‌اند؛ از غذای سگ و گربه تا قفس پرندگان، خوراک آبزیان، تجهیزات اسب و وسایل نگهداری حیوانات کوچک.
+</p>
+
+<div class="shop-hero-actions">
+
+<a href="#shop-products" class="btn primary">
+مشاهده محصولات
+</a>
+
+<a href="#shop-animals" class="btn outline">
+انتخاب نوع حیوان
+</a>
+
+<a href="#" class="btn orange">
+محصولات پرفروش
+</a>
+
+</div>
+
+<div class="shop-hero-info">
+
+<div class="shop-info-item">
+<strong>
+خوراک و مکمل
+</strong>
+<small>
+برای انواع حیوانات
+</small>
+</div>
+
+<div class="shop-info-item">
+<strong>
+تجهیزات نگهداری
+</strong>
+<small>
+قفس، قلاده، زین و وسایل
+</small>
+</div>
+
+<div class="shop-info-item">
+<strong>
+افزودن مستقیم
+</strong>
+<small>
+به سبد خرید
+</small>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="shop-products" id="shop-products">
+
+<style>
+
+/* SHOP PRODUCTS */
+
+.shop-products{
+    padding:95px 0;
+    background:#fff;
+}
+
+.shop-head{
+    text-align:center;
+    margin-bottom:55px;
+}
+
+.shop-head span{
+    color:var(--green);
+    font-size:15px;
+    font-weight:700;
+}
+
+.shop-head h2{
+    margin-top:12px;
+    font-size:40px;
+    font-weight:900;
+    color:var(--text);
+}
+
+.shop-head p{
+    max-width:720px;
+    margin:18px auto 0;
+    color:var(--muted);
+    line-height:2;
+}
+
+.shop-cats{
+    display:grid;
+    grid-template-columns:repeat(6,1fr);
+    gap:18px;
+    margin-bottom:50px;
+}
+
+.shop-cat{
+    background:var(--cream);
+    border:1px solid var(--soft);
+    border-radius:22px;
+    padding:24px 14px;
+    text-align:center;
+    cursor:pointer;
+    transition:.25s;
+}
+
+.shop-cat:hover,
+.shop-cat.active{
+    background:#fff;
+    border-color:var(--orange);
+    box-shadow:var(--shadow);
+    transform:translateY(-6px);
+}
+
+.shop-cat-icon{
+    width:68px;
+    height:68px;
+    border-radius:20px;
+    margin:0 auto 16px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:34px;
+    background:rgba(36,89,166,.08);
+}
+
+.shop-cat:nth-child(even) .shop-cat-icon{
+    background:rgba(58,125,68,.10);
+}
+
+.shop-cat h3{
+    font-size:18px;
+    color:var(--text);
+}
+
+.shop-list-head{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:28px;
+    gap:18px;
+    flex-wrap:wrap;
+}
+
+.shop-list-head h3{
+    font-size:28px;
+    color:var(--text);
+}
+
+.shop-list-head p{
+    color:var(--muted);
+}
+
+.product-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:22px;
+    transition:.25s;
+}
+
+.product-grid.fade{
+    opacity:0;
+    transform:translateY(10px);
+}
+
+.shop-product-card{
+    background:var(--cream);
+    border:1px solid var(--soft);
+    border-radius:22px;
+    overflow:hidden;
+    cursor:pointer;
+    transition:.25s;
+}
+
+.shop-product-card:hover{
+    transform:translateY(-7px);
+    box-shadow:var(--shadow);
+}
+
+.shop-product-img{
+    height:160px;
+    background:#fff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:20px;
+}
+
+.shop-product-img img{
+    width:100%;
+    height:100%;
+    object-fit:contain;
+}
+
+.shop-product-body{
+    padding:20px;
+}
+
+.shop-product-type{
+    color:var(--orange);
+    font-size:13px;
+    font-weight:700;
+    margin-bottom:8px;
+}
+
+.shop-product-body h4{
+    color:var(--text);
+    font-size:19px;
+    margin-bottom:10px;
+}
+
+.shop-product-price{
+    color:var(--green);
+    font-size:20px;
+    font-weight:900;
+    margin-bottom:16px;
+}
+
+.shop-product-status{
+    min-height:46px;
+    border-radius:12px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-weight:800;
+    font-size:14px;
+    background:var(--orange);
+    color:#fff;
+}
+
+.shop-modal{
+    position:fixed;
+    inset:0;
+    background:rgba(17,24,39,.62);
+    backdrop-filter:blur(6px);
+    z-index:5000;
+    display:none;
+    align-items:center;
+    justify-content:center;
+    padding:24px;
+}
+
+.shop-modal.active{
+    display:flex;
+}
+
+.shop-modal-box{
+    width:min(920px,100%);
+    background:#fff;
+    border-radius:28px;
+    overflow:hidden;
+    display:grid;
+    grid-template-columns:.9fr 1.1fr;
+    position:relative;
+    animation:shopModalIn .25s ease;
+}
+
+@keyframes shopModalIn{
+    from{opacity:0; transform:translateY(20px);}
+    to{opacity:1; transform:translateY(0);}
+}
+
+.shop-modal-close{
+    position:absolute;
+    top:18px;
+    left:18px;
+    width:42px;
+    height:42px;
+    border-radius:50%;
+    border:0;
+    background:var(--cream);
+    cursor:pointer;
+    font-size:22px;
+    z-index:2;
+}
+
+.shop-modal-image{
+    background:var(--cream);
+    padding:40px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.shop-modal-image img{
+    width:100%;
+    height:320px;
+    object-fit:contain;
+}
+
+.shop-modal-content{
+    padding:45px;
+}
+
+.shop-modal-content span{
+    color:var(--orange);
+    font-weight:700;
+    font-size:14px;
+}
+
+.shop-modal-content h3{
+    margin-top:10px;
+    color:var(--text);
+    font-size:32px;
+    font-weight:900;
+}
+
+.shop-modal-content p{
+    margin-top:18px;
+    color:var(--muted);
+    line-height:2;
+}
+
+.shop-modal-price{
+    margin-top:24px;
+    font-size:28px;
+    font-weight:900;
+    color:var(--green);
+}
+
+.shop-modal-actions{
+    margin-top:30px;
+    display:flex;
+    gap:14px;
+    flex-wrap:wrap;
+}
+
+.shop-modal-actions .btn{
+    min-width:190px;
+}
+
+@media(max-width:1100px){
+
+.product-grid{
+    grid-template-columns:repeat(2,1fr);
+}
+
+.shop-cats{
+    grid-template-columns:repeat(3,1fr);
+}
+
+}
+
+@media(max-width:700px){
+
+.product-grid{
+    grid-template-columns:1fr;
+}
+
+.shop-cats{
+    grid-template-columns:repeat(2,1fr);
+}
+
+.shop-modal-box{
+    grid-template-columns:1fr;
+}
+
+.shop-modal-image img{
+    height:220px;
+}
+
+}
+
+</style>
+
+<div class="container">
+
+<div class="shop-head">
+
+<span>
+دسته‌بندی فروشگاه
+</span>
+
+<h2>
+محصولات را بر اساس نوع حیوان انتخاب کنید
+</h2>
+
+<p>
+با انتخاب نوع حیوان، خوراک، مکمل و تجهیزات مرتبط همان‌جا برای شما نمایش داده می‌شود.
+</p>
+
+</div>
+
+<div class="shop-cats" id="shop-animals">
+
+<div class="shop-cat active" data-cat="dog">
+<div class="shop-cat-icon">🐶</div>
+<h3>سگ</h3>
+</div>
+
+<div class="shop-cat" data-cat="cat">
+<div class="shop-cat-icon">🐱</div>
+<h3>گربه</h3>
+</div>
+
+<div class="shop-cat" data-cat="bird">
+<div class="shop-cat-icon">🐦</div>
+<h3>پرندگان</h3>
+</div>
+
+<div class="shop-cat" data-cat="horse">
+<div class="shop-cat-icon">🐴</div>
+<h3>اسب</h3>
+</div>
+
+<div class="shop-cat" data-cat="fish">
+<div class="shop-cat-icon">🐠</div>
+<h3>آبزیان</h3>
+</div>
+
+<div class="shop-cat" data-cat="other">
+<div class="shop-cat-icon">🐰</div>
+<h3>سایر</h3>
+</div>
+
+</div>
+
+<div class="shop-list-head">
+
+<div>
+<h3 id="shopProductTitle">محصولات سگ</h3>
+<p>برای مشاهده جزئیات، روی کارت محصول کلیک کنید.</p>
+</div>
+
+<a href="#" class="btn outline">مشاهده سبد خرید</a>
+
+</div>
+
+<div class="product-grid" id="shopProductGrid"></div>
+
+</div>
+
+<div class="shop-modal" id="shopModal">
+
+<div class="shop-modal-box">
+
+<button class="shop-modal-close" id="shopModalClose">×</button>
+
+<div class="shop-modal-image">
+<img id="shopModalImg" src="" alt="">
+</div>
+
+<div class="shop-modal-content">
+
+<span id="shopModalType"></span>
+
+<h3 id="shopModalTitle"></h3>
+
+<p id="shopModalDesc"></p>
+
+<div class="shop-modal-price" id="shopModalPrice"></div>
+
+<div class="shop-modal-actions">
+<a href="#" class="btn orange">افزودن به سبد خرید</a>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<script>
+
+const shopData = {
+    dog:[
+        {
+            name:"غذای خشک سگ بالغ",
+            type:"خوراک سگ",
+            price:"۲,۴۹۰,۰۰۰ تومان",
+            img:"icons/d4.jpeg",
+            desc:"غذای خشک مناسب سگ‌های بالغ با ترکیبات کامل برای حفظ انرژی، سلامت پوست و مو."
+        },
+        {
+            name:"تشویقی آموزشی سگ",
+            type:"تشویقی",
+            price:"۳۲۰,۰۰۰ تومان",
+            img:"icons/d3.jpeg",
+            desc:"تشویقی نرم و خوش‌خوراک مناسب آموزش، بازی و تقویت رفتار مثبت سگ."
+        },
+        {
+            name:"قلاده قابل تنظیم",
+            type:"تجهیزات سگ",
+            price:"۴۸۰,۰۰۰ تومان",
+            img:"icons/d2.jpeg",
+            desc:"قلاده مقاوم و سبک با قابلیت تنظیم سایز برای پیاده‌روی روزانه."
+        },
+        {
+            name:"شامپو مخصوص سگ",
+            type:"بهداشت",
+            price:"۳۹۰,۰۰۰ تومان",
+            img:"icons/d1.jpeg",
+            desc:"شامپوی ملایم برای شست‌وشوی سگ، مناسب پوست حساس و استفاده دوره‌ای."
+        }
+    ],
+
+    cat:[
+        {
+            name:"غذای خشک گربه",
+            type:"خوراک گربه",
+            price:"۱,۶۸۰,۰۰۰ تومان",
+            img:"icons/d3.jpeg",
+            desc:"غذای خشک کامل برای گربه‌های بالغ، مناسب سلامت گوارش و مو."
+        },
+        {
+            name:"خاک گربه معطر",
+            type:"بهداشت گربه",
+            price:"۲۸۰,۰۰۰ تومان",
+            img:"icons/d4.jpeg",
+            desc:"خاک گربه با جذب بالا و کنترل بو، مناسب استفاده روزانه."
+        },
+        {
+            name:"اسکرچر گربه",
+            type:"تجهیزات گربه",
+            price:"۷۹۰,۰۰۰ تومان",
+            img:"icons/d2.jpeg",
+            desc:"اسکرچر مقاوم برای سرگرمی، تخلیه انرژی و مراقبت از ناخن‌های گربه."
+        },
+        {
+            name:"تشویقی گربه",
+            type:"تشویقی",
+            price:"۲۱۰,۰۰۰ تومان",
+            img:"icons/d1.jpeg",
+            desc:"تشویقی خوش‌طعم مخصوص گربه، مناسب آموزش و جایزه."
+        }
+    ],
+
+    bird:[
+        {
+            name:"قفس پرنده",
+            type:"تجهیزات پرندگان",
+            price:"۱,۲۰۰,۰۰۰ تومان",
+            img:"icons/d4.jpeg",
+            desc:"قفس مناسب پرندگان زینتی با فضای کافی و طراحی استاندارد."
+        },
+        {
+            name:"غذای پرندگان",
+            type:"خوراک پرندگان",
+            price:"۲۲۰,۰۰۰ تومان",
+            img:"icons/d3.jpeg",
+            desc:"ترکیب دانه‌های مقوی مناسب پرندگان خانگی و زینتی."
+        },
+        {
+            name:"ویتامین پرندگان",
+            type:"مکمل",
+            price:"۱۸۰,۰۰۰ تومان",
+            img:"icons/d2.jpeg",
+            desc:"مکمل تقویتی برای کمک به سلامت پرها، انرژی و سیستم ایمنی پرندگان."
+        },
+        {
+            name:"اسباب‌بازی پرنده",
+            type:"سرگرمی",
+            price:"۲۶۰,۰۰۰ تومان",
+            img:"icons/d1.jpeg",
+            desc:"وسیله سرگرمی مناسب برای کاهش استرس و افزایش فعالیت پرندگان."
+        }
+    ],
+
+    horse:[
+        {
+            name:"خوراک اسب",
+            type:"خوراک اسب",
+            price:"۳,۹۰۰,۰۰۰ تومان",
+            img:"icons/d3.jpeg",
+            desc:"خوراک کامل و انرژی‌زا برای اسب‌های بالغ و فعال."
+        },
+        {
+            name:"زین اسب",
+            type:"تجهیزات اسب",
+            price:"۸,۵۰۰,۰۰۰ تومان",
+            img:"icons/d4.jpeg",
+            desc:"زین مقاوم و استاندارد مناسب تمرین و سواری روزانه."
+        },
+        {
+            name:"برس تیمار اسب",
+            type:"نگهداری",
+            price:"۴۳۰,۰۰۰ تومان",
+            img:"icons/d1.jpeg",
+            desc:"برس مناسب تیمار روزانه، تمیز کردن مو و مراقبت از پوست اسب."
+        },
+        {
+            name:"مکمل مفاصل اسب",
+            type:"مکمل",
+            price:"۱,۴۵۰,۰۰۰ تومان",
+            img:"icons/d2.jpeg",
+            desc:"مکمل کمک‌کننده به سلامت مفاصل و عضلات اسب‌های فعال."
+        }
+    ],
+
+    fish:[
+        {
+            name:"غذای ماهی",
+            type:"خوراک آبزیان",
+            price:"۱۲۰,۰۰۰ تومان",
+            img:"icons/d3.jpeg",
+            desc:"غذای کامل و سبک برای انواع ماهی‌های آکواریومی."
+        },
+        {
+            name:"فیلتر آکواریوم",
+            type:"تجهیزات آبزیان",
+            price:"۶۵۰,۰۰۰ تومان",
+            img:"icons/d4.jpeg",
+            desc:"فیلتر مناسب حفظ کیفیت آب و سلامت محیط آکواریوم."
+        },
+        {
+            name:"محلول ضد کلر",
+            type:"مراقبت آب",
+            price:"۱۵۰,۰۰۰ تومان",
+            img:"icons/d2.jpeg",
+            desc:"محلول مناسب آماده‌سازی آب آکواریوم و کاهش کلر."
+        },
+        {
+            name:"دکور آکواریوم",
+            type:"تزئینات",
+            price:"۲۹۰,۰۰۰ تومان",
+            img:"icons/d1.jpeg",
+            desc:"تزئینات سبک و ایمن برای زیباسازی محیط آکواریوم."
+        }
+    ],
+
+    other:[
+        {
+            name:"غذای خرگوش",
+            type:"خوراک جوندگان",
+            price:"۳۲۰,۰۰۰ تومان",
+            img:"icons/d3.jpeg",
+            desc:"خوراک مناسب خرگوش و جوندگان کوچک با فیبر کافی."
+        },
+        {
+            name:"خانه همستر",
+            type:"تجهیزات جوندگان",
+            price:"۴۹۰,۰۰۰ تومان",
+            img:"icons/d2.jpeg",
+            desc:"خانه کوچک و ایمن برای نگهداری و استراحت همستر."
+        },
+        {
+            name:"بستر جوندگان",
+            type:"بهداشت",
+            price:"۲۱۰,۰۰۰ تومان",
+            img:"icons/d4.jpeg",
+            desc:"بستر نرم و جاذب برای قفس جوندگان کوچک."
+        },
+        {
+            name:"اسباب‌بازی جوندگان",
+            type:"سرگرمی",
+            price:"۱۸۰,۰۰۰ تومان",
+            img:"icons/d1.jpeg",
+            desc:"وسیله سرگرمی برای افزایش فعالیت و کاهش استرس حیوانات کوچک."
+        }
+    ]
+};
+
+const shopLabels = {
+    dog:"محصولات سگ",
+    cat:"محصولات گربه",
+    bird:"محصولات پرندگان",
+    horse:"محصولات اسب",
+    fish:"محصولات آبزیان",
+    other:"محصولات سایر حیوانات"
+};
+
+const shopCats = document.querySelectorAll(".shop-cat");
+const shopProductGrid = document.getElementById("shopProductGrid");
+const shopProductTitle = document.getElementById("shopProductTitle");
+
+const shopModal = document.getElementById("shopModal");
+const shopModalClose = document.getElementById("shopModalClose");
+const shopModalImg = document.getElementById("shopModalImg");
+const shopModalType = document.getElementById("shopModalType");
+const shopModalTitle = document.getElementById("shopModalTitle");
+const shopModalDesc = document.getElementById("shopModalDesc");
+const shopModalPrice = document.getElementById("shopModalPrice");
+
+function renderShopProducts(cat){
+
+    shopProductGrid.classList.add("fade");
+
+    setTimeout(() => {
+
+        shopProductTitle.textContent = shopLabels[cat];
+
+        shopProductGrid.innerHTML = shopData[cat].map((item,index) => `
+            <div class="shop-product-card" data-cat="${cat}" data-index="${index}">
+
+                <div class="shop-product-img">
+                    <img src="${item.img}" alt="${item.name}">
+                </div>
+
+                <div class="shop-product-body">
+
+                    <div class="shop-product-type">
+                        ${item.type}
+                    </div>
+
+                    <h4>
+                        ${item.name}
+                    </h4>
+
+                    <div class="shop-product-price">
+                        ${item.price}
+                    </div>
+
+                    <div class="shop-product-status">
+                        افزودن به سبد خرید
+                    </div>
+
+                </div>
+
+            </div>
+        `).join("");
+
+        shopProductGrid.classList.remove("fade");
+
+        document.querySelectorAll(".shop-product-card").forEach(card => {
+            card.addEventListener("click", () => {
+                const cat = card.dataset.cat;
+                const index = card.dataset.index;
+                openShopModal(shopData[cat][index]);
+            });
+        });
+
+    },180);
+}
+
+function openShopModal(item){
+    shopModalImg.src = item.img;
+    shopModalImg.alt = item.name;
+    shopModalType.textContent = item.type;
+    shopModalTitle.textContent = item.name;
+    shopModalDesc.textContent = item.desc;
+    shopModalPrice.textContent = item.price;
+
+    shopModal.classList.add("active");
+}
+
+shopModalClose.addEventListener("click", () => {
+    shopModal.classList.remove("active");
+});
+
+shopModal.addEventListener("click", (e) => {
+    if(e.target === shopModal){
+        shopModal.classList.remove("active");
+    }
+});
+
+shopCats.forEach(cat => {
+    cat.addEventListener("click", () => {
+        shopCats.forEach(item => item.classList.remove("active"));
+        cat.classList.add("active");
+        renderShopProducts(cat.dataset.cat);
+    });
+});
+
+renderShopProducts("dog");
+
+</script>
+
+</section>
+
+<section class="shop-banner">
+
+<style>
+
+.shop-banner{
+    padding:70px 0;
+    background:#fff;
+}
+
+.shop-banner-box{
+    background:linear-gradient(135deg,#3a7d44 0%,#2f6f3b 100%);
+    border-radius:34px;
+    overflow:hidden;
+    min-height:440px;
+    display:grid;
+    grid-template-columns:.95fr 1.05fr;
+    align-items:center;
+    gap:40px;
+    padding:38px;
+    box-shadow:0 24px 60px rgba(58,125,68,.18);
+    position:relative;
+}
+
+.shop-banner-box::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:430px;
+    height:430px;
+
+    border-radius:50%;
+
+    right:-150px;
+    top:-170px;
+
+    background:rgba(255,255,255,.08);
+
+}
+
+.shop-banner-box::after{
+
+    content:"";
+
+    position:absolute;
+
+    width:520px;
+    height:520px;
+
+    border-radius:50%;
+
+    left:-210px;
+    bottom:-260px;
+
+    background:rgba(255,255,255,.06);
+
+}
+
+.shop-banner-image{
+
+    position:relative;
+
+    z-index:2;
+
+    background:#fff;
+
+    min-height:350px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    overflow:hidden;
+
+}
+
+.shop-banner-image img{
+
+    width:100%;
+
+    height:100%;
+
+    max-height:360px;
+
+    object-fit:contain;
+
+    display:block;
+
+}
+
+.shop-banner-content{
+
+    position:relative;
+
+    z-index:2;
+
+    color:#fff;
+
+    padding:20px 35px;
+
+}
+
+.shop-banner-content span{
+
+    display:inline-block;
+
+    padding:8px 18px;
+
+    border-radius:999px;
+
+    background:rgba(255,255,255,.14);
+
+    border:1px solid rgba(255,255,255,.22);
+
+    color:#fff;
+
+    font-size:14px;
+
+    font-weight:700;
+
+    margin-bottom:24px;
+
+}
+
+.shop-banner-content h2{
+
+    color:#fff;
+
+    font-size:42px;
+
+    font-weight:900;
+
+    line-height:1.7;
+
+    margin-bottom:18px;
+
+}
+
+.shop-banner-content p{
+
+    color:rgba(255,255,255,.9);
+
+    font-size:18px;
+
+    line-height:2.1;
+
+    max-width:680px;
+
+}
+
+.shop-banner-actions{
+
+    margin-top:38px;
+
+    display:flex;
+
+    gap:16px;
+
+    flex-wrap:wrap;
+
+}
+
+.shop-banner-actions .btn{
+
+    min-width:220px;
+
+    min-height:60px;
+
+}
+
+.shop-banner-actions .btn.primary{
+
+    background:#fff;
+
+    color:var(--green);
+
+    border-color:#fff;
+
+}
+
+.shop-banner-actions .btn.primary:hover{
+
+    background:transparent;
+
+    color:#fff;
+
+    border-color:#fff;
+
+}
+
+.shop-banner-actions .btn.outline{
+
+    background:transparent;
+
+    color:#fff;
+
+    border:1px solid rgba(255,255,255,.35);
+
+}
+
+.shop-banner-actions .btn.outline:hover{
+
+    background:#fff;
+
+    color:var(--green);
+
+    border-color:#fff;
+
+}
+
+@media(max-width:950px){
+
+.shop-banner-box{
+
+grid-template-columns:1fr;
+
+padding:28px;
+
+text-align:center;
+
+}
+
+.shop-banner-content{
+
+padding:15px 5px 30px;
+
+}
+
+.shop-banner-content h2{
+
+font-size:32px;
+
+}
+
+.shop-banner-content p{
+
+margin:auto;
+
+font-size:16px;
+
+}
+
+.shop-banner-actions{
+
+justify-content:center;
+
+}
+
+.shop-banner-image{
+
+min-height:280px;
+
+}
+
+}
+
+</style>
+
+<div class="container">
+
+<div class="shop-banner-box">
+
+<div class="shop-banner-image">
+
+<img src="icons/QW.png" alt="فروشگاه حیوانات">
+
+</div>
+
+<div class="shop-banner-content">
+
+<span>
+
+🛒 فروشگاه تخصصی حیوانات خانگی
+
+</span>
+
+<h2>
+
+هر آنچه حیوان خانگی شما
+<br>
+
+نیاز دارد، یکجا تهیه کنید.
+
+</h2>
+
+<p>
+
+غذای خشک، کنسرو، تشویقی، مکمل، اسباب‌بازی، قلاده، ظرف غذا، باکس حمل و صدها محصول دیگر از برندهای معتبر، متناسب با هر نوع حیوان خانگی و با ارسال سریع در سراسر کشور.
+
+</p>
+
+<div class="shop-banner-actions">
+
+<a href="#" class="btn primary">
+
+مشاهده همه محصولات
+
+</a>
+
+<a href="#" class="btn outline">
+
+جدیدترین محصولات
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="shop-benefits">
+
+<style>
+
+.shop-benefits{
+    padding:95px 0;
+    background:#fafbfc;
+}
+
+.shop-benefits-head{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.shop-benefits-head span{
+    color:var(--green);
+    font-weight:700;
+    font-size:15px;
+}
+
+.shop-benefits-head h2{
+    margin-top:12px;
+    font-size:40px;
+    color:var(--text);
+    font-weight:900;
+}
+
+.shop-benefits-head p{
+    max-width:720px;
+    margin:18px auto 0;
+    color:var(--muted);
+    line-height:2;
+}
+
+.shop-benefits-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:26px;
+
+}
+
+.shop-benefit{
+
+    background:#fff;
+
+    border:1px solid var(--soft);
+
+    border-radius:24px;
+
+    padding:35px 26px;
+
+    text-align:center;
+
+    transition:.25s;
+
+}
+
+.shop-benefit:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:var(--shadow);
+
+}
+
+.shop-benefit-icon{
+
+    width:78px;
+
+    height:78px;
+
+    margin:0 auto 22px;
+
+    border-radius:22px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:36px;
+
+    background:rgba(58,125,68,.10);
+
+}
+
+.shop-benefit:nth-child(even) .shop-benefit-icon{
+
+    background:rgba(36,89,166,.10);
+
+}
+
+.shop-benefit h3{
+
+    font-size:22px;
+
+    color:var(--text);
+
+    margin-bottom:12px;
+
+}
+
+.shop-benefit p{
+
+    color:var(--muted);
+
+    line-height:2;
+
+    font-size:15px;
+
+}
+
+@media(max-width:1000px){
+
+.shop-benefits-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+@media(max-width:700px){
+
+.shop-benefits-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+</style>
+
+<div class="container">
+
+<div class="shop-benefits-head">
+
+<span>
+مزایای خرید
+</span>
+
+<h2>
+چرا از فروشگاه ما خرید کنید؟
+</h2>
+
+<p>
+تمام محصولات توسط تیم دامپزشکی بررسی شده‌اند و متناسب با نیاز حیوانات خانگی دسته‌بندی می‌شوند.
+</p>
+
+</div>
+
+<div class="shop-benefits-grid">
+
+<div class="shop-benefit">
+
+<div class="shop-benefit-icon">
+📦
+</div>
+
+<h3>
+ارسال سریع
+</h3>
+
+<p>
+سفارش‌ها در کوتاه‌ترین زمان ممکن پردازش و ارسال می‌شوند.
+</p>
+
+</div>
+
+<div class="shop-benefit">
+
+<div class="shop-benefit-icon">
+✅
+</div>
+
+<h3>
+محصولات اصل
+</h3>
+
+<p>
+تمام کالاها از برندهای معتبر و دارای اصالت تهیه می‌شوند.
+</p>
+
+</div>
+
+<div class="shop-benefit">
+
+<div class="shop-benefit-icon">
+🩺
+</div>
+
+<h3>
+تأیید دامپزشک
+</h3>
+
+<p>
+محصولات درمانی و مکمل‌ها با بررسی دامپزشکان سامانه پیشنهاد می‌شوند.
+</p>
+
+</div>
+
+<div class="shop-benefit">
+
+<div class="shop-benefit-icon">
+🛒
+</div>
+
+<h3>
+خرید آسان
+</h3>
+
+<p>
+تنها با چند کلیک محصول را به سبد خرید اضافه کرده و سفارش خود را ثبت کنید.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="shop-cta">
+
+<style>
+
+.shop-cta{
+
+    padding:100px 0;
+
+    background:linear-gradient(135deg,#2459a6 0%,#3a7d44 100%);
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+.shop-cta::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:440px;
+    height:440px;
+
+    border-radius:50%;
+
+    right:-140px;
+    top:-170px;
+
+    background:rgba(255,255,255,.08);
+
+}
+
+.shop-cta::after{
+
+    content:"";
+
+    position:absolute;
+
+    width:520px;
+    height:520px;
+
+    border-radius:50%;
+
+    left:-180px;
+    bottom:-230px;
+
+    background:rgba(255,255,255,.06);
+
+}
+
+.shop-cta-box{
+
+    position:relative;
+
+    z-index:2;
+
+    max-width:920px;
+
+    margin:auto;
+
+    text-align:center;
+
+}
+
+.shop-cta-box span{
+
+    display:inline-block;
+
+    padding:8px 18px;
+
+    border-radius:999px;
+
+    background:rgba(255,255,255,.12);
+
+    border:1px solid rgba(255,255,255,.18);
+
+    color:#fff;
+
+    font-size:14px;
+
+    font-weight:700;
+
+    margin-bottom:24px;
+
+}
+
+.shop-cta-box h2{
+
+    color:#fff;
+
+    font-size:46px;
+
+    line-height:1.6;
+
+    font-weight:900;
+
+    margin-bottom:22px;
+
+}
+
+.shop-cta-box p{
+
+    color:rgba(255,255,255,.88);
+
+    font-size:18px;
+
+    line-height:2;
+
+    max-width:760px;
+
+    margin:auto;
+
+}
+
+.shop-cta-actions{
+
+    margin-top:42px;
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:18px;
+
+    flex-wrap:wrap;
+
+}
+
+.shop-cta-actions .btn{
+
+    min-width:240px;
+
+    min-height:60px;
+
+}
+
+.shop-cta-actions .btn.primary{
+
+    background:#fff;
+
+    color:var(--green);
+
+    border-color:#fff;
+
+}
+
+.shop-cta-actions .btn.primary:hover{
+
+    background:transparent;
+
+    color:#fff;
+
+    border-color:#fff;
+
+}
+
+.shop-cta-actions .btn.outline{
+
+    background:transparent;
+
+    color:#fff;
+
+    border:1px solid rgba(255,255,255,.35);
+
+}
+
+.shop-cta-actions .btn.outline:hover{
+
+    background:#fff;
+
+    color:var(--green);
+
+    border-color:#fff;
+
+}
+
+@media(max-width:768px){
+
+.shop-cta{
+
+padding:80px 0;
+
+}
+
+.shop-cta-box h2{
+
+font-size:34px;
+
+}
+
+.shop-cta-box p{
+
+font-size:16px;
+
+}
+
+.shop-cta-actions .btn{
+
+width:100%;
+
+}
+
+}
+
+</style>
+
+<div class="container">
+
+<div class="shop-cta-box">
+
+<span>
+
+🛒 آماده خرید محصولات حیوان خانگی؟
+
+</span>
+
+<h2>
+
+بهترین محصولات را
+<br>
+
+برای حیوان خانگی خود انتخاب کنید.
+
+</h2>
+
+<p>
+
+هزاران محصول تخصصی از برندهای معتبر برای سگ، گربه، پرندگان، جوندگان، آبزیان و سایر حیوانات خانگی در فروشگاه وتبان آماده سفارش است. اگر در انتخاب محصول مناسب تردید دارید، می‌توانید از دامپزشکان ما مشاوره دریافت کنید.
+
+</p>
+
+<div class="shop-cta-actions">
+
+<a href="#" class="btn primary">
+
+🛍️ مشاهده همه محصولات
+
+</a>
+
+<a href="#" class="btn outline">
+
+🩺 دریافت مشاوره خرید
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="faq">
+
+<style>
+
+.faq{
+
+    padding:100px 0;
+
+    background:#fff;
+
+}
+
+.faq-head{
+
+    text-align:center;
+
+    margin-bottom:55px;
+
+}
+
+.faq-head span{
+
+    color:var(--green);
+
+    font-size:15px;
+
+    font-weight:700;
+
+}
+
+.faq-head h2{
+
+    margin-top:12px;
+
+    font-size:42px;
+
+    font-weight:900;
+
+    color:var(--text);
+
+}
+
+.faq-head p{
+
+    max-width:700px;
+
+    margin:18px auto 0;
+
+    color:var(--muted);
+
+    line-height:2;
+
+}
+
+.faq-list{
+
+    max-width:900px;
+
+    margin:auto;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:18px;
+
+}
+
+.faq-item{
+
+    background:var(--cream);
+
+    border:1px solid var(--soft);
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+}
+
+.faq-question{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    padding:26px 30px;
+
+    cursor:pointer;
+
+    font-size:20px;
+
+    font-weight:800;
+
+    color:var(--text);
+
+}
+
+.faq-icon{
+
+    width:42px;
+
+    height:42px;
+
+    border-radius:50%;
+
+    background:#fff;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:24px;
+
+    color:var(--orange);
+
+    transition:.3s;
+
+}
+
+.faq-item.active .faq-icon{
+
+    transform:rotate(45deg);
+
+}
+
+.faq-answer{
+
+    max-height:0;
+
+    overflow:hidden;
+
+    transition:max-height .35s ease;
+
+}
+
+.faq-answer p{
+
+    padding:0 30px 28px;
+
+    color:var(--muted);
+
+    line-height:2.1;
+
+}
+
+</style>
+
+<div class="container">
+
+<div class="faq-head">
+
+<span>
+
+سوالات متداول
+
+</span>
+
+<h2>
+
+پاسخ سوالات پرتکرار کاربران
+
+</h2>
+
+<p>
+
+در این بخش پاسخ رایج‌ترین سوالات درباره ویزیت آنلاین، داروخانه، فروشگاه و نحوه استفاده از سامانه را مشاهده می‌کنید.
+
+</p>
+
+</div>
+
+<div class="faq-list">
+
+<div class="faq-item">
+
+<div class="faq-question">
+
+<span>
+
+چگونه ویزیت آنلاین انجام می‌شود؟
+
+</span>
+
+<div class="faq-icon">
+
++
+
+</div>
+
+</div>
+
+<div class="faq-answer">
+
+<p>
+
+پس از انتخاب دامپزشک، اطلاعات حیوان، تصاویر یا ویدیو را ارسال می‌کنید و در زمان تعیین‌شده به صورت آنلاین با دامپزشک گفتگو خواهید کرد.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="faq-item">
+
+<div class="faq-question">
+
+<span>
+
+برای خرید دارو داشتن نسخه الزامی است؟
+
+</span>
+
+<div class="faq-icon">
+
++
+
+</div>
+
+</div>
+
+<div class="faq-answer">
+
+<p>
+
+بله، داروهای نسخه‌ای تنها پس از بارگذاری نسخه معتبر دامپزشک قابل سفارش هستند.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="faq-item">
+
+<div class="faq-question">
+
+<span>
+
+ارسال سفارش‌ها چقدر زمان می‌برد؟
+
+</span>
+
+<div class="faq-icon">
+
++
+
+</div>
+
+</div>
+
+<div class="faq-answer">
+
+<p>
+
+بسته به شهر مقصد، سفارش‌ها معمولاً بین ۱ تا ۳ روز کاری ارسال و تحویل داده می‌شوند.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="faq-item">
+
+<div class="faq-question">
+
+<span>
+
+آیا می‌توانم سوابق درمان حیوان خود را مشاهده کنم؟
+
+</span>
+
+<div class="faq-icon">
+
++
+
+</div>
+
+</div>
+
+<div class="faq-answer">
+
+<p>
+
+بله، پس از ورود به پنل کاربری تمامی ویزیت‌ها، نسخه‌ها، داروها و سوابق درمان حیوان در پرونده سلامت ثبت خواهد شد.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="faq-item">
+
+<div class="faq-question">
+
+<span>
+
+در صورت نیاز چگونه با پشتیبانی ارتباط بگیرم؟
+
+</span>
+
+<div class="faq-icon">
+
++
+
+</div>
+
+</div>
+
+<div class="faq-answer">
+
+<p>
+
+از طریق گفتگوی آنلاین، شماره تماس یا ارسال تیکت از داخل پنل کاربری می‌توانید با تیم پشتیبانی ارتباط برقرار کنید.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+</main>
+
+<footer class="footer">
+
+<style>
+
+.footer{
+
+    background:#1f2937;
+
+    color:#fff;
+
+    padding:80px 0 25px;
+
+}
+
+.footer-grid{
+
+    display:grid;
+
+    grid-template-columns:1.4fr 1fr 1fr 1.2fr;
+
+    gap:50px;
+
+    margin-bottom:50px;
+
+}
+
+.footer-logo{
+
+    width:75px;
+
+    margin-bottom:18px;
+
+}
+
+.footer h3{
+
+    font-size:22px;
+
+    margin-bottom:20px;
+
+    position:relative;
+
+}
+
+.footer h3::after{
+
+    content:"";
+
+    position:absolute;
+
+    right:0;
+
+    bottom:-10px;
+
+    width:45px;
+
+    height:3px;
+
+    border-radius:999px;
+
+    background:var(--orange);
+
+}
+
+.footer p{
+
+    color:rgba(255,255,255,.75);
+
+    line-height:2.1;
+
+    font-size:15px;
+
+}
+
+.footer-links{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:14px;
+
+    margin-top:12px;
+
+}
+
+.footer-links a{
+
+    color:rgba(255,255,255,.75);
+
+    transition:.25s;
+
+}
+
+.footer-links a:hover{
+
+    color:#fff;
+
+    padding-right:8px;
+
+}
+
+.footer-contact{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:15px;
+
+    margin-top:12px;
+
+}
+
+.footer-contact div{
+
+    color:rgba(255,255,255,.75);
+
+}
+
+.footer-social{
+
+    display:flex;
+
+    gap:14px;
+
+    margin-top:28px;
+
+}
+
+.footer-social a{
+
+    width:46px;
+
+    height:46px;
+
+    border-radius:14px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    background:rgba(255,255,255,.08);
+
+    transition:.25s;
+
+    font-size:20px;
+
+}
+
+.footer-social a:hover{
+
+    background:var(--orange);
+
+    transform:translateY(-5px);
+
+}
+
+.footer-bottom{
+
+    border-top:1px solid rgba(255,255,255,.08);
+
+    padding-top:25px;
+
+    text-align:center;
+
+    color:rgba(255,255,255,.55);
+
+    font-size:14px;
+
+}
+
+@media(max-width:980px){
+
+.footer-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+@media(max-width:650px){
+
+.footer-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+</style>
+
+<div class="container">
+
+<div class="footer-grid">
+
+<div>
+
+<img src="icons/comp15.png" class="footer-logo">
+
+<p>
+
+سامانه جامع خدمات دامپزشکی آنلاین با هدف ارائه خدمات ویزیت، داروخانه و فروشگاه تخصصی حیوانات خانگی طراحی شده است.
+
+</p>
+
+<div class="footer-social">
+
+<a href="#">📷</a>
+
+<a href="#">💬</a>
+
+<a href="#">▶</a>
+
+<a href="#">📱</a>
+
+</div>
+
+</div>
+
+<div>
+
+<h3>
+
+لینک‌های سریع
+
+</h3>
+
+<div class="footer-links">
+
+<a href="#">خانه</a>
+
+<a href="#">درباره ما</a>
+
+<a href="#">تماس با ما</a>
+
+<a href="#">وبلاگ</a>
+
+<a href="#">سوالات متداول</a>
+
+</div>
+
+</div>
+
+<div>
+
+<h3>
+
+خدمات
+
+</h3>
+
+<div class="footer-links">
+
+<a href="#">ویزیت آنلاین</a>
+
+<a href="#">داروخانه</a>
+
+<a href="#">فروشگاه</a>
+
+<a href="#">نسخه الکترونیکی</a>
+
+<a href="#">پیگیری سفارش</a>
+
+</div>
+
+</div>
+
+<div>
+
+<h3>
+
+اطلاعات تماس
+
+</h3>
+
+<div class="footer-contact">
+
+<div>
+
+📍 تهران، خیابان نمونه، پلاک ۱۲۳
+
+</div>
+
+<div>
+
+☎ 021-12345678
+
+</div>
+
+<div>
+
+✉ info@example.com
+
+</div>
+
+<div>
+
+🕒 همه روزه از ساعت ۸ تا ۲۲
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="footer-bottom">
+
+تمامی حقوق این سامانه محفوظ است © ۱۴۰۴
+
+</div>
+
+</div>
+
+</footer>
+<script src="script.js"></script>
+
+
+
+</body>
+</html>

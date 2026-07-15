@@ -1,0 +1,304 @@
+@font-face {
+  font-family: "IRANSansX";
+  src: url("Font/IRANSansXFaNum-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+	font-family: 'PeydaWeb';
+	src: url('woff2/PeydaWeb-ExtraLight.woff2') format('woff2'),
+		 url('woff/PeydaWeb-ExtraLight.woff') format('woff');
+	font-weight: 200;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'PeydaWeb';
+	src: url('Font/woff2/PeydaWeb-Regular.woff2') format('woff2'),
+		 url('Font/woff/PeydaWeb-Regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'PeydaWeb';
+	src: url('Font/woff2/PeydaWeb-SemiBold.woff2') format('woff2'),
+		 url('Font/woff/PeydaWeb-SemiBold.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+@font-face {
+	font-family: 'PeydaWeb';
+	src: url('Font/woff2/PeydaWeb-Black.woff2') format('woff2'),
+		 url('Font/woff/PeydaWeb-Black.woff') format('woff');
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'PeydaWeb';
+	src: url('Font/woff2/PeydaWeb-Bold.woff2') format('woff2'),
+		 url('Font/woff/PeydaWeb-Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+
+:root {
+  --green: #3a7d44;
+  --green-2: #4b5563;
+  --orange: #2459a6;
+  --cream: #f2f4f7;
+  --text: #4b5563;
+  --muted: #7b8794;
+  --white: #ffffff;
+  --green-3: #2f6b39;
+  --soft: #e5e7eb;
+  --radius: 22px;
+  --shadow: 0 18px 45px rgba(75, 85, 99, 0.12);
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  /* font-family: "IRANSansX", Tahoma, sans-serif; */
+  font-family: "PeydaWeb";
+  background: var(--cream);
+  color: var(--text);
+  line-height: 1.9;
+  overflow-x: hidden;
+  direction: rtl;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  width: min(1180px, calc(100% - 40px));
+  margin-inline: auto;
+}
+
+
+
+
+.site-header{
+    position: sticky;
+    top:0;
+    z-index:1000;
+
+    height:78px;
+
+    background:#fff;
+
+    border-bottom:1px solid var(--soft);
+
+    box-shadow:0 2px 10px rgba(0,0,0,.03);
+}
+
+.nav-wrap{
+    height:78px;
+
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+}
+
+.logo img{
+    width:130px;
+    height:auto;
+}
+
+.logo span {
+  display: grid;
+  color: var(--green);
+  font-weight: bolder;
+  margin-right: .4rem;
+  text-align: center;
+}
+
+.logo small {
+  color: var(--orange);
+  font-weight: 700;
+  font-size: 8px;
+}
+
+.logo img {
+  width: 65px;
+}
+
+.main-nav{
+    display:flex;
+    align-items:center;
+    gap:42px;
+}
+
+.main-nav a{
+
+    color:var(--text);
+
+    font-size:15px;
+
+    font-weight:600;
+
+    padding:8px 0;
+
+    transition:color .2s;
+}
+/* .main-nav a:hover {
+  color: var(--orange);
+} */
+
+
+
+/* .main-nav a::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  border-radius: 999px;
+  background: var(--orange);
+  transition: width .28s ease;
+}
+
+.main-nav a:hover {
+  color: var(--orange);
+  transform: translateY(-3px);
+}
+
+.main-nav a:hover::after {
+  width: 100%;
+} */
+
+.header-actions{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+}
+
+.main-nav a:hover,
+.main-nav a.active{
+
+    color:var(--orange);
+
+}
+
+.menu-toggle {
+  display: none;
+  border: 0;
+  background: var(--green);
+  color: #fff;
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  font-size: 22px;
+}
+
+/* BTNS */
+
+.btn {
+  min-height: 52px;
+  padding: 0 28px;
+  border-radius: 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+  font-weight: 700;
+  cursor: pointer;
+
+  position: relative;
+  overflow: hidden;
+
+  transition:
+    transform .28s ease,
+    background-color .28s ease,
+    color .28s ease,
+    border-color .28s ease,
+    box-shadow .28s ease;
+}
+
+.btn:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 14px 28px rgba(75, 85, 99, .16);
+}
+
+.btn:active {
+  transform: translateY(-3px);
+}
+
+.btn.primary {
+  background: var(--green);
+  color: var(--white);
+  border-color: var(--green);
+}
+
+.btn.primary:hover {
+  background: var(--white);
+  color: var(--green);
+  border-color: var(--green);
+}
+
+.btn.outline {
+  background: rgba(255, 255, 255, .8);
+  color: var(--orange);
+  border-color: rgba(36, 89, 166, .4);
+}
+
+.btn.outline:hover {
+  background: var(--orange);
+  color: var(--white);
+  border-color: var(--orange);
+  box-shadow: 0 14px 28px rgba(36, 89, 166, .22);
+}
+
+.btn.orange {
+  background: var(--orange);
+  color: var(--white);
+  border-color: var(--orange);
+}
+
+.btn.orange:hover {
+  background: var(--white);
+  color: var(--orange);
+  border-color: var(--orange);
+  box-shadow: 0 14px 28px rgba(36, 89, 166, .22);
+}
+
+/* BTNS */

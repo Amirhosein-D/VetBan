@@ -1,0 +1,2556 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+  <title>ویزیت انلاین | وتبان</title>
+  <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="icons/comp15.png" />
+</head>
+
+<body>
+
+<header class="site-header">
+    <div class="container nav-wrap">
+
+        <a href="#" class="logo">
+            <img src="icons/comp15.png" alt="لوگو">
+        </a>
+
+        <nav class="main-nav">
+            <a href="index.html" class="active">خانه</a>
+            <a href="ecosystem.html">ویزیت انلاین</a>
+            <a href="company.html">داروخانه</a>
+            <a href="about.html">فروشگاه</a>
+            <a href="#">درباره ما</a>
+            <a href="#">تماس با ما</a>
+        </nav>
+        <div class="header-actions">
+            <a href="#" class="btn outline">
+                ورود / ثبت نام
+            </a>
+        </div>
+
+        <button class="menu-toggle">
+            ☰
+        </button>
+
+    </div>
+</header>
+
+
+<main>
+
+<section class="visit-hero">
+
+<style>
+
+.visit-hero{
+    position:relative;
+    padding:90px 0 120px;
+    overflow:hidden;
+    background:
+    linear-gradient(
+    135deg,
+    #dbeafe 0%,
+    #f2f4f7 48%,
+    #ffffff 100%);
+}
+
+.visit-hero::before{
+    content:"";
+    position:absolute;
+    width:620px;
+    height:620px;
+    border-radius:50%;
+    right:-220px;
+    top:-260px;
+    background:rgba(36,89,166,.13);
+    filter:blur(45px);
+}
+
+.visit-hero::after{
+    content:"";
+    position:absolute;
+    width:520px;
+    height:520px;
+    border-radius:50%;
+    left:-180px;
+    bottom:-240px;
+    background:rgba(58,125,68,.10);
+    filter:blur(45px);
+}
+
+.visit-hero-wrap{
+    position:relative;
+    z-index:2;
+    display:grid;
+    grid-template-columns:1.05fr .95fr;
+    align-items:center;
+    gap:60px;
+}
+
+.visit-hero-content span{
+    display:inline-block;
+    padding:8px 18px;
+    border-radius:999px;
+    background:#fff;
+    color:var(--orange);
+    border:1px solid var(--soft);
+    font-size:14px;
+    font-weight:700;
+    margin-bottom:20px;
+}
+
+.visit-hero-content h1{
+    font-size:46px;
+    line-height:1.65;
+    font-weight:900;
+    color:var(--text);
+    margin-bottom:18px;
+}
+
+.visit-hero-content h1 strong{
+    color:var(--orange);
+}
+
+.visit-hero-content p{
+    color:var(--muted);
+    font-size:18px;
+    line-height:2.1;
+    max-width:650px;
+}
+
+.visit-hero-actions{
+    margin-top:38px;
+    display:flex;
+    gap:16px;
+    flex-wrap:wrap;
+}
+
+.visit-hero-actions .btn{
+    min-width:220px;
+    min-height:60px;
+}
+
+.visit-hero-box{
+    background:#fff;
+    border:1px solid var(--soft);
+    border-radius:32px;
+    padding:28px;
+    box-shadow:var(--shadow);
+}
+
+.visit-preview{
+    display:flex;
+    flex-direction:column;
+    gap:16px;
+}
+
+.visit-doctor-row{
+    display:grid;
+    grid-template-columns:88px 1fr auto;
+    align-items:center;
+    gap:18px;
+    background:var(--cream);
+    border:1px solid var(--soft);
+    border-radius:22px;
+    padding:14px;
+}
+
+.visit-doctor-row img{
+    width:88px;
+    height:88px;
+    border-radius:18px;
+    object-fit:cover;
+}
+
+.visit-doctor-row h3{
+    color:var(--text);
+    font-size:18px;
+    margin-bottom:4px;
+}
+
+.visit-doctor-row p{
+    color:var(--muted);
+    font-size:13px;
+    line-height:1.7;
+}
+
+.visit-rating{
+    color:#ffb400;
+    font-size:16px;
+    white-space:nowrap;
+}
+
+.visit-hero-note{
+    margin-top:18px;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:12px;
+}
+
+.visit-note-item{
+    background:#fff;
+    border:1px solid var(--soft);
+    border-radius:18px;
+    padding:14px;
+    text-align:center;
+}
+
+.visit-note-item strong{
+    display:block;
+    color:var(--text);
+    font-size:16px;
+    margin-bottom:4px;
+}
+
+.visit-note-item small{
+    color:var(--muted);
+    font-size:12px;
+}
+
+@media(max-width:980px){
+
+.visit-hero-wrap{
+    grid-template-columns:1fr;
+    text-align:center;
+}
+
+.visit-hero-content p{
+    margin:auto;
+}
+
+.visit-hero-actions{
+    justify-content:center;
+}
+
+}
+
+@media(max-width:650px){
+
+.visit-hero{
+    padding:70px 0;
+}
+
+.visit-hero-content h1{
+    font-size:34px;
+}
+
+.visit-doctor-row{
+    grid-template-columns:1fr;
+    text-align:center;
+}
+
+.visit-doctor-row img{
+    margin:auto;
+}
+
+.visit-hero-note{
+    grid-template-columns:1fr;
+}
+
+.visit-hero-actions .btn{
+    width:100%;
+}
+
+}
+
+</style>
+
+<div class="container">
+
+<div class="visit-hero-wrap">
+
+<div class="visit-hero-content">
+
+<span>
+🩺 ویزیت آنلاین دامپزشکی
+</span>
+
+<h1>
+ویزیت دامپزشکی آنلاین،
+<br>
+پاسخ تخصصی در کمتر از <strong>۲۰ دقیقه</strong>
+</h1>
+
+<p>
+نوع حیوان و مشکل را انتخاب کنید، دامپزشک مناسب را به سبد ویزیت اضافه کنید و پس از پرداخت، مشاوره آنلاین شما آغاز می‌شود.
+</p>
+
+<div class="visit-hero-actions">
+
+<a href="#doctors" class="btn orange">
+مشاهده دامپزشکان
+</a>
+
+<a href="#animals" class="btn outline">
+انتخاب نوع حیوان
+</a>
+
+</div>
+
+</div>
+
+<div class="visit-hero-box">
+
+<div class="visit-preview">
+
+<div class="visit-doctor-row">
+
+<img src="icons/images (1).jpg" alt="دامپزشک">
+
+<div>
+<h3>
+دکتر علی رضایی
+</h3>
+<p>
+متخصص حیوانات خانگی • پاسخگویی آنلاین
+</p>
+</div>
+
+<div class="visit-rating">
+★★★★★
+</div>
+
+</div>
+
+<div class="visit-doctor-row">
+
+<img src="icons/images.jpg" alt="دامپزشک">
+
+<div>
+<h3>
+دکتر مریم صالحی
+</h3>
+<p>
+مشاوره درمانی و نسخه الکترونیکی
+</p>
+</div>
+
+<div class="visit-rating">
+★★★★★
+</div>
+
+</div>
+
+<div class="visit-doctor-row">
+
+<img src="icons/images (2).jpg" alt="دامپزشک">
+
+<div>
+<h3>
+دکتر مهرداد شیرازی
+</h3>
+<p>
+ویزیت آنلاین سگ، گربه و پرندگان
+</p>
+</div>
+
+<div class="visit-rating">
+★★★★★
+</div>
+
+</div>
+
+</div>
+
+<div class="visit-hero-note">
+
+<div class="visit-note-item">
+<strong>۲۰ دقیقه</strong>
+<small>زمان پاسخگویی</small>
+</div>
+
+<div class="visit-note-item">
+<strong>نسخه</strong>
+<small>الکترونیکی</small>
+</div>
+
+<div class="visit-note-item">
+<strong>پرداخت</strong>
+<small>امن آنلاین</small>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section class="visit-selection" id="animals">
+
+<style>
+
+.visit-selection{
+    padding:95px 0;
+    background:#fff;
+}
+
+.visit-selection-head{
+    text-align:center;
+    margin-bottom:55px;
+}
+
+.visit-selection-head span{
+    color:var(--green);
+    font-size:15px;
+    font-weight:700;
+}
+
+.visit-selection-head h2{
+    margin-top:12px;
+    font-size:40px;
+    font-weight:900;
+    color:var(--text);
+}
+
+.visit-selection-head p{
+    max-width:720px;
+    margin:18px auto 0;
+    color:var(--muted);
+    line-height:2;
+}
+
+.visit-animals-grid{
+    display:grid;
+    grid-template-columns:repeat(6,1fr);
+    gap:22px;
+    margin-bottom:70px;
+}
+
+.visit-animal-card{
+    background:var(--cream);
+    border:1px solid var(--soft);
+    border-radius:24px;
+    padding:30px 18px;
+    text-align:center;
+    cursor:pointer;
+    transition:.25s;
+}
+
+.visit-animal-card.active,
+.visit-animal-card:hover{
+    background:#fff;
+    border-color:var(--orange);
+    box-shadow:var(--shadow);
+    transform:translateY(-8px);
+}
+
+.visit-animal-icon{
+    width:82px;
+    height:82px;
+    border-radius:24px;
+    margin:0 auto 20px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:42px;
+    background:rgba(36,89,166,.08);
+}
+
+.visit-animal-card:nth-child(even) .visit-animal-icon{
+    background:rgba(58,125,68,.10);
+}
+
+.visit-animal-card h3{
+    font-size:21px;
+    color:var(--text);
+    margin-bottom:8px;
+}
+
+.visit-animal-card span{
+    color:var(--muted);
+    font-size:14px;
+}
+
+.visit-doctors-head{
+    display:flex;
+    justify-content:space-between;
+    align-items:end;
+    gap:24px;
+    flex-wrap:wrap;
+    margin-bottom:35px;
+}
+
+.visit-doctors-title span{
+    color:var(--orange);
+    font-size:15px;
+    font-weight:700;
+}
+
+.visit-doctors-title h2{
+    margin-top:10px;
+    font-size:34px;
+    font-weight:900;
+    color:var(--text);
+}
+
+.visit-doctors-title p{
+    color:var(--muted);
+    margin-top:10px;
+    line-height:2;
+}
+
+.visit-doctors-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:28px;
+    opacity:1;
+    transition:.25s;
+}
+
+.visit-doctors-grid.fade{
+    opacity:0;
+    transform:translateY(10px);
+}
+
+.visit-doctor-card{
+    background:var(--cream);
+    border:1px solid var(--soft);
+    border-radius:26px;
+    overflow:hidden;
+    transition:.25s;
+}
+
+.visit-doctor-card:hover{
+    transform:translateY(-8px);
+    box-shadow:var(--shadow);
+}
+
+.visit-doctor-image{
+    height:245px;
+    background:#fff;
+}
+
+.visit-doctor-image img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.visit-doctor-body{
+    padding:28px;
+}
+
+.visit-doctor-body h3{
+    font-size:24px;
+    color:var(--text);
+    margin-bottom:8px;
+}
+
+.visit-doctor-specialty{
+    color:var(--orange);
+    font-weight:700;
+    margin-bottom:16px;
+}
+
+.visit-doctor-meta{
+    display:flex;
+    justify-content:space-between;
+    color:var(--muted);
+    font-size:15px;
+    margin-bottom:20px;
+}
+
+.visit-doctor-rate{
+    color:#ffb400;
+}
+
+.visit-doctor-tags{
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+    margin-bottom:24px;
+}
+
+.visit-doctor-tags span{
+    padding:6px 12px;
+    border-radius:999px;
+    background:rgba(36,89,166,.08);
+    color:var(--text);
+    font-size:13px;
+    font-weight:700;
+}
+
+.visit-doctor-card .btn{
+    width:100%;
+}
+
+@media(max-width:1100px){
+
+.visit-animals-grid{
+    grid-template-columns:repeat(3,1fr);
+}
+
+.visit-doctors-grid{
+    grid-template-columns:1fr;
+}
+
+}
+
+@media(max-width:650px){
+
+.visit-animals-grid{
+    grid-template-columns:repeat(2,1fr);
+}
+
+.visit-selection-head h2{
+    font-size:32px;
+}
+
+.visit-doctors-title h2{
+    font-size:28px;
+}
+
+}
+
+</style>
+
+<div class="container">
+
+<div class="visit-selection-head">
+
+<span>
+انتخاب نوع حیوان
+</span>
+
+<h2>
+ابتدا نوع حیوان خانگی خود را انتخاب کنید
+</h2>
+
+<p>
+با انتخاب نوع حیوان، دامپزشکان مرتبط همان‌جا برای شما نمایش داده می‌شوند.
+</p>
+
+</div>
+
+<div class="visit-animals-grid">
+
+<div class="visit-animal-card active" data-animal="dog">
+<div class="visit-animal-icon">🐶</div>
+<h3>سگ</h3>
+<span>ویزیت تخصصی سگ</span>
+</div>
+
+<div class="visit-animal-card" data-animal="cat">
+<div class="visit-animal-icon">🐱</div>
+<h3>گربه</h3>
+<span>ویزیت تخصصی گربه</span>
+</div>
+
+<div class="visit-animal-card" data-animal="bird">
+<div class="visit-animal-icon">🐦</div>
+<h3>پرندگان</h3>
+<span>مشاوره پرندگان</span>
+</div>
+
+<div class="visit-animal-card" data-animal="rodent">
+<div class="visit-animal-icon">🐰</div>
+<h3>جوندگان</h3>
+<span>خرگوش و همستر</span>
+</div>
+
+<div class="visit-animal-card" data-animal="fish">
+<div class="visit-animal-icon">🐠</div>
+<h3>آبزیان</h3>
+<span>مشاوره آبزیان</span>
+</div>
+
+<div class="visit-animal-card" data-animal="other">
+<div class="visit-animal-icon">🦜</div>
+<h3>سایر حیوانات</h3>
+<span>سایر موارد</span>
+</div>
+
+</div>
+
+<div class="visit-doctors-head">
+
+<div class="visit-doctors-title">
+
+<span id="selectedAnimalLabel">
+دامپزشکان سگ
+</span>
+
+<h2>
+دامپزشک مناسب را انتخاب کنید
+</h2>
+
+<p>
+لیست پزشکان بر اساس نوع حیوان انتخاب‌شده تغییر می‌کند.
+</p>
+
+</div>
+
+<a href="#visit-price" class="btn orange">
+دریافت ویزیت
+</a>
+
+</div>
+
+<div class="visit-doctors-grid" id="visitDoctorsGrid"></div>
+
+</div>
+
+<script>
+
+const doctorsData = {
+    dog: {
+        label: "دامپزشکان سگ",
+        doctors: [
+            {
+                name: "دکتر علی رضایی",
+                specialty: "متخصص سگ و گربه",
+                visits: "۸۵۰ ویزیت",
+                img: "icons/images (1).jpg",
+                tags: ["پوست", "گوارش", "تغذیه"]
+            },
+            {
+                name: "دکتر مریم صالحی",
+                specialty: "جراح دامپزشک",
+                visits: "۶۴۰ ویزیت",
+                img: "icons/images.jpg",
+                tags: ["جراحی", "اورژانس", "داخلی"]
+            },
+            {
+                name: "دکتر مهرداد شیرازی",
+                specialty: "مشاور تغذیه سگ",
+                visits: "۵۲۰ ویزیت",
+                img: "icons/images (2).jpg",
+                tags: ["تغذیه", "توله سگ", "چاقی"]
+            }
+        ]
+    },
+
+    cat: {
+        label: "دامپزشکان گربه",
+        doctors: [
+            {
+                name: "دکتر نازنین احمدی",
+                specialty: "متخصص گربه‌های خانگی",
+                visits: "۷۲۰ ویزیت",
+                img: "icons/images (2).jpg",
+                tags: ["پوست", "کلیه", "تغذیه"]
+            },
+            {
+                name: "دکتر سارا کیانی",
+                specialty: "درمان بیماری‌های گربه",
+                visits: "۵۹۰ ویزیت",
+                img: "icons/images.jpg",
+                tags: ["داخلی", "گوارش", "رفتار"]
+            },
+            {
+                name: "دکتر امیر نادری",
+                specialty: "مشاوره نگهداری گربه",
+                visits: "۴۸۰ ویزیت",
+                img: "icons/images (1).jpg",
+                tags: ["واکسیناسیون", "تغذیه", "درمان"]
+            }
+        ]
+    },
+
+    bird: {
+        label: "دامپزشکان پرندگان",
+        doctors: [
+            {
+                name: "دکتر مهسا راد",
+                specialty: "متخصص پرندگان زینتی",
+                visits: "۴۱۰ ویزیت",
+                img: "icons/images (1).jpg",
+                tags: ["تغذیه", "پرریزی", "تنفس"]
+            },
+            {
+                name: "دکتر آرش زمانی",
+                specialty: "مشاوره طوطی و عروس هلندی",
+                visits: "۳۹۰ ویزیت",
+                img: "icons/images (2).jpg",
+                tags: ["رفتار", "تغذیه", "درمان"]
+            },
+            {
+                name: "دکتر لیلا شریفی",
+                specialty: "درمان بیماری‌های پرندگان",
+                visits: "۳۵۰ ویزیت",
+                img: "icons/images.jpg",
+                tags: ["تنفسی", "انگل", "ضعف"]
+            }
+        ]
+    },
+
+    rodent: {
+        label: "دامپزشکان جوندگان",
+        doctors: [
+            {
+                name: "دکتر پویا کریمی",
+                specialty: "متخصص خرگوش و همستر",
+                visits: "۳۱۰ ویزیت",
+                img: "icons/images (2).jpg",
+                tags: ["دندان", "تغذیه", "گوارش"]
+            },
+            {
+                name: "دکتر نگار موسوی",
+                specialty: "مشاوره جوندگان خانگی",
+                visits: "۲۸۰ ویزیت",
+                img: "icons/images (1).jpg",
+                tags: ["رفتار", "پوست", "تغذیه"]
+            },
+            {
+                name: "دکتر سامان نوری",
+                specialty: "درمان حیوانات کوچک",
+                visits: "۲۶۰ ویزیت",
+                img: "icons/images.jpg",
+                tags: ["خرگوش", "همستر", "درمان"]
+            }
+        ]
+    },
+
+    fish: {
+        label: "دامپزشکان آبزیان",
+        doctors: [
+            {
+                name: "دکتر سینا بهرامی",
+                specialty: "مشاوره آبزیان زینتی",
+                visits: "۲۲۰ ویزیت",
+                img: "icons/images (2).jpg",
+                tags: ["آکواریوم", "قارچ", "تغذیه"]
+            },
+            {
+                name: "دکتر هانیه محمدی",
+                specialty: "درمان بیماری‌های ماهی",
+                visits: "۲۰۰ ویزیت",
+                img: "icons/images.jpg",
+                tags: ["آب", "بیماری", "تغذیه"]
+            },
+            {
+                name: "دکتر فرهاد سلیمی",
+                specialty: "مشاوره نگهداری آبزیان",
+                visits: "۱۸۰ ویزیت",
+                img: "icons/images (1).jpg",
+                tags: ["کیفیت آب", "آکواریوم", "درمان"]
+            }
+        ]
+    },
+
+    other: {
+        label: "دامپزشکان سایر حیوانات",
+        doctors: [
+            {
+                name: "دکتر پریسا یوسفی",
+                specialty: "متخصص حیوانات خاص",
+                visits: "۳۰۰ ویزیت",
+                img: "icons/images (1).jpg",
+                tags: ["اگزوتیک", "درمان", "مشاوره"]
+            },
+            {
+                name: "دکتر کامران فرجی",
+                specialty: "مشاوره حیوانات خانگی خاص",
+                visits: "۲۷۰ ویزیت",
+                img: "icons/images.jpg",
+                tags: ["رفتار", "تغذیه", "مراقبت"]
+            },
+            {
+                name: "دکتر نرگس صفری",
+                specialty: "درمان عمومی حیوانات",
+                visits: "۲۵۰ ویزیت",
+                img: "icons/images (2).jpg",
+                tags: ["عمومی", "ویزیت", "نسخه"]
+            }
+        ]
+    }
+};
+
+const animalCards = document.querySelectorAll(".visit-animal-card");
+const doctorsGrid = document.getElementById("visitDoctorsGrid");
+const selectedAnimalLabel = document.getElementById("selectedAnimalLabel");
+
+function renderDoctors(animalKey){
+
+    const animalData = doctorsData[animalKey];
+
+    doctorsGrid.classList.add("fade");
+
+    setTimeout(() => {
+
+        selectedAnimalLabel.textContent = animalData.label;
+
+        doctorsGrid.innerHTML = animalData.doctors.map((doctor) => {
+
+            const tags = doctor.tags.map(tag => `<span>${tag}</span>`).join("");
+
+            return `
+                <div class="visit-doctor-card">
+
+                    <div class="visit-doctor-image">
+                        <img src="${doctor.img}" alt="${doctor.name}">
+                    </div>
+
+                    <div class="visit-doctor-body">
+
+                        <h3>${doctor.name}</h3>
+
+                        <div class="visit-doctor-specialty">
+                            ${doctor.specialty}
+                        </div>
+
+                        <div class="visit-doctor-meta">
+                            <span>${doctor.visits}</span>
+                            <span class="visit-doctor-rate">★★★★★</span>
+                        </div>
+
+                        <div class="visit-doctor-tags">
+                            ${tags}
+                        </div>
+
+                        <a href="#visit-price" class="btn orange">
+                            انتخاب برای ویزیت
+                        </a>
+
+                    </div>
+
+                </div>
+            `;
+
+        }).join("");
+
+        doctorsGrid.classList.remove("fade");
+
+    }, 180);
+}
+
+animalCards.forEach(card => {
+
+    card.addEventListener("click", () => {
+
+        animalCards.forEach(item => item.classList.remove("active"));
+
+        card.classList.add("active");
+
+        const animalKey = card.dataset.animal;
+
+        renderDoctors(animalKey);
+
+        setTimeout(() => {
+            document.getElementById("visitDoctorsGrid").scrollIntoView({
+                behavior:"smooth",
+                block:"start"
+            });
+        }, 220);
+
+    });
+
+});
+
+renderDoctors("dog");
+
+</script>
+
+</section>
+
+<section class="visit-process">
+
+<style>
+
+.visit-process{
+    padding:95px 0;
+    background:#fff;
+}
+
+.visit-process-head{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.visit-process-head span{
+    color:var(--green);
+    font-size:15px;
+    font-weight:700;
+}
+
+.visit-process-head h2{
+    margin-top:12px;
+    font-size:40px;
+    font-weight:900;
+    color:var(--text);
+}
+
+.visit-process-head p{
+    max-width:720px;
+    margin:18px auto 0;
+    color:var(--muted);
+    line-height:2;
+}
+
+.visit-process-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:26px;
+}
+
+.process-card{
+    position:relative;
+    background:var(--cream);
+    border:1px solid var(--soft);
+    border-radius:24px;
+    padding:38px 26px;
+    text-align:center;
+    overflow:hidden;
+    transition:.25s;
+}
+
+.process-card:hover{
+    transform:translateY(-8px);
+    box-shadow:var(--shadow);
+}
+
+.process-number{
+    position:absolute;
+    top:18px;
+    left:20px;
+    font-size:58px;
+    font-weight:900;
+    color:rgba(36,89,166,.08);
+    line-height:1;
+}
+
+.process-icon{
+    width:76px;
+    height:76px;
+    border-radius:22px;
+    margin:0 auto 24px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:36px;
+    background:rgba(36,89,166,.08);
+}
+
+.process-card:nth-child(even) .process-icon{
+    background:rgba(58,125,68,.10);
+}
+
+.process-card h3{
+    font-size:23px;
+    color:var(--text);
+    margin-bottom:14px;
+}
+
+.process-card p{
+    color:var(--muted);
+    line-height:2;
+    font-size:15px;
+}
+
+@media(max-width:1000px){
+
+.visit-process-grid{
+    grid-template-columns:repeat(2,1fr);
+}
+
+}
+
+@media(max-width:650px){
+
+.visit-process-grid{
+    grid-template-columns:1fr;
+}
+
+}
+
+</style>
+
+<div class="container">
+
+<div class="visit-process-head">
+
+<span>
+فرآیند ویزیت آنلاین
+</span>
+
+<h2>
+ویزیت دامپزشکی چگونه انجام می‌شود؟
+</h2>
+
+<p>
+فرآیند ویزیت طوری طراحی شده که کاربر بدون انتخاب ساعت و بدون پیچیدگی، درخواست خود را ثبت کند و بعد از پرداخت، دامپزشک پاسخگویی را آغاز نماید.
+</p>
+
+</div>
+
+<div class="visit-process-grid">
+
+<div class="process-card">
+
+<div class="process-number">
+01
+</div>
+
+<div class="process-icon">
+🐾
+</div>
+
+<h3>
+انتخاب حیوان
+</h3>
+
+<p>
+ابتدا نوع حیوان خانگی خود را انتخاب کنید تا دامپزشکان مرتبط نمایش داده شوند.
+</p>
+
+</div>
+
+<div class="process-card">
+
+<div class="process-number">
+02
+</div>
+
+<div class="process-icon">
+🩺
+</div>
+
+<h3>
+انتخاب دامپزشک
+</h3>
+
+<p>
+دامپزشک موردنظر را بر اساس تخصص، امتیاز و تجربه انتخاب نمایید.
+</p>
+
+</div>
+
+<div class="process-card">
+
+<div class="process-number">
+03
+</div>
+
+<div class="process-icon">
+🛒
+</div>
+
+<h3>
+افزودن ویزیت
+</h3>
+
+<p>
+ویزیت انتخاب‌شده به سبد خرید اضافه می‌شود و پس از پرداخت فعال خواهد شد.
+</p>
+
+</div>
+
+<div class="process-card">
+
+<div class="process-number">
+04
+</div>
+
+<div class="process-icon">
+💬
+</div>
+
+<h3>
+دریافت پاسخ
+</h3>
+
+<p>
+پس از پرداخت، دامپزشک حداکثر تا ۲۰ دقیقه پاسخگویی آنلاین را آغاز می‌کند.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="visit-price">
+
+<style>
+
+.visit-price{
+
+    padding:95px 0;
+
+    background:var(--cream);
+
+}
+
+.visit-price-box{
+
+    max-width:950px;
+
+    margin:auto;
+
+    background:#fff;
+
+    border:1px solid var(--soft);
+
+    border-radius:32px;
+
+    overflow:hidden;
+
+    display:grid;
+
+    grid-template-columns:1.1fr .9fr;
+
+    box-shadow:var(--shadow);
+
+}
+
+.visit-price-content{
+
+    padding:50px;
+
+}
+
+.visit-price-content span{
+
+    color:var(--orange);
+
+    font-size:15px;
+
+    font-weight:700;
+
+}
+
+.visit-price-content h2{
+
+    margin-top:12px;
+
+    font-size:38px;
+
+    font-weight:900;
+
+    color:var(--text);
+
+}
+
+.visit-price-content p{
+
+    margin-top:16px;
+
+    color:var(--muted);
+
+    line-height:2;
+
+}
+
+.visit-features{
+
+    margin-top:30px;
+
+    display:grid;
+
+    gap:16px;
+
+}
+
+.visit-feature{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:14px;
+
+}
+
+.visit-feature-icon{
+
+    width:42px;
+
+    height:42px;
+
+    border-radius:14px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    background:rgba(58,125,68,.10);
+
+    font-size:20px;
+
+}
+
+.visit-feature span{
+
+    color:var(--text);
+
+    font-size:16px;
+
+    font-weight:600;
+
+}
+
+.visit-price-side{
+
+    background:linear-gradient(135deg,#2459a6,#3a7d44);
+
+    color:#fff;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:45px;
+
+    text-align:center;
+
+}
+
+.visit-price-side small{
+
+    font-size:15px;
+
+    opacity:.85;
+
+}
+
+.visit-price-side h3{
+
+    margin:12px 0;
+
+    font-size:52px;
+
+    font-weight:900;
+
+}
+
+.visit-price-side p{
+
+    opacity:.9;
+
+    line-height:2;
+
+    margin-bottom:30px;
+
+}
+
+.visit-price-side .btn{
+
+    width:100%;
+
+    background:#fff;
+
+    color:var(--green);
+
+    border-color:#fff;
+
+}
+
+.visit-price-side .btn:hover{
+
+    background:transparent;
+
+    color:#fff;
+
+    border-color:#fff;
+
+}
+
+@media(max-width:950px){
+
+.visit-price-box{
+
+grid-template-columns:1fr;
+
+}
+
+.visit-price-content{
+
+padding:35px;
+
+}
+
+.visit-price-side{
+
+padding:35px;
+
+}
+
+}
+
+</style>
+
+<div class="container">
+
+<div class="visit-price-box">
+
+<div class="visit-price-content">
+
+<span>
+
+هزینه ویزیت آنلاین
+
+</span>
+
+<h2>
+
+با یک پرداخت، ویزیت آنلاین شما آغاز می‌شود
+
+</h2>
+
+<p>
+
+پس از افزودن ویزیت به سبد خرید و تکمیل پرداخت، درخواست شما برای دامپزشک ارسال شده و پاسخگویی حداکثر تا ۲۰ دقیقه آغاز خواهد شد.
+
+</p>
+
+<div class="visit-features">
+
+<div class="visit-feature">
+
+<div class="visit-feature-icon">
+
+✔️
+
+</div>
+
+<span>
+
+پاسخ دامپزشک تا ۲۰ دقیقه
+
+</span>
+
+</div>
+
+<div class="visit-feature">
+
+<div class="visit-feature-icon">
+
+📄
+
+</div>
+
+<span>
+
+دریافت نسخه الکترونیکی در صورت نیاز
+
+</span>
+
+</div>
+
+<div class="visit-feature">
+
+<div class="visit-feature-icon">
+
+📷
+
+</div>
+
+<span>
+
+امکان ارسال عکس و ویدیو از حیوان
+
+</span>
+
+</div>
+
+<div class="visit-feature">
+
+<div class="visit-feature-icon">
+
+💬
+
+</div>
+
+<span>
+
+گفتگو و پیگیری از طریق پنل کاربری
+
+</span>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="visit-price-side">
+
+<small>
+
+تعرفه ویزیت آنلاین
+
+</small>
+
+<h3>
+
+۲۹۹٬۰۰۰ تومان
+
+</h3>
+
+<p>
+
+پرداخت امن، فعال‌سازی فوری ویزیت و شروع فرآیند پاسخگویی دامپزشک
+
+</p>
+
+<a href="#" class="btn">
+
+🛒 افزودن ویزیت به سبد خرید
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="visit-benefits">
+
+<style>
+
+.visit-benefits{
+    padding:95px 0;
+    background:var(--cream);
+}
+
+.visit-benefits-wrap{
+    display:grid;
+    grid-template-columns:.95fr 1.05fr;
+    gap:60px;
+    align-items:center;
+}
+
+.visit-benefits-image{
+    background:#fff;
+    border:1px solid var(--soft);
+    border-radius:32px;
+    padding:30px;
+    box-shadow:var(--shadow);
+}
+
+.visit-benefits-image img{
+    width:100%;
+    height:420px;
+    object-fit:contain;
+}
+
+.visit-benefits-content span{
+    color:var(--orange);
+    font-size:15px;
+    font-weight:700;
+}
+
+.visit-benefits-content h2{
+    margin-top:12px;
+    font-size:40px;
+    font-weight:900;
+    color:var(--text);
+    line-height:1.7;
+}
+
+.visit-benefits-content p{
+    margin-top:16px;
+    color:var(--muted);
+    line-height:2;
+    max-width:680px;
+}
+
+.visit-benefits-list{
+    margin-top:34px;
+    display:grid;
+    gap:18px;
+}
+
+.visit-benefit-item{
+    display:flex;
+    align-items:center;
+    gap:16px;
+    background:#fff;
+    border:1px solid var(--soft);
+    border-radius:20px;
+    padding:20px 24px;
+}
+
+.visit-benefit-icon{
+    width:58px;
+    height:58px;
+    border-radius:18px;
+    background:rgba(36,89,166,.08);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:28px;
+    flex-shrink:0;
+}
+
+.visit-benefit-item:nth-child(even) .visit-benefit-icon{
+    background:rgba(58,125,68,.10);
+}
+
+.visit-benefit-item h3{
+    color:var(--text);
+    font-size:19px;
+    margin-bottom:4px;
+}
+
+.visit-benefit-item p{
+    margin:0;
+    color:var(--muted);
+    font-size:14px;
+    line-height:1.9;
+}
+
+@media(max-width:950px){
+
+.visit-benefits-wrap{
+    grid-template-columns:1fr;
+    text-align:center;
+}
+
+.visit-benefits-image img{
+    height:auto;
+}
+
+.visit-benefit-item{
+    text-align:right;
+}
+
+}
+
+</style>
+
+<div class="container">
+
+<div class="visit-benefits-wrap">
+
+<div class="visit-benefits-image">
+<img src="icons/rok.png" alt="مزایای ویزیت آنلاین دامپزشکی">
+</div>
+
+<div class="visit-benefits-content">
+
+<!-- <span>
+مزایای ویزیت آنلاین
+</span> -->
+
+<h2>
+  مزایای ویزیت آنلاین
+</h2>
+
+<!-- <p>
+ویزیت آنلاین برای مواقعی طراحی شده که نیاز به راهنمایی سریع، بررسی علائم، دریافت نسخه یا مشاوره اولیه دارید و نمی‌خواهید زمان زیادی برای مراجعه حضوری صرف کنید.
+</p> -->
+
+<div class="visit-benefits-list">
+
+<div class="visit-benefit-item">
+
+<div class="visit-benefit-icon">
+⏱️
+</div>
+
+<div>
+<h3>
+پاسخگویی تا ۲۰ دقیقه
+</h3>
+<p>
+پس از پرداخت، درخواست ویزیت برای دامپزشک ارسال می‌شود.
+</p>
+</div>
+
+</div>
+
+<div class="visit-benefit-item">
+
+<div class="visit-benefit-icon">
+📄
+</div>
+
+<div>
+<h3>
+نسخه الکترونیکی
+</h3>
+<p>
+در صورت نیاز، نسخه دامپزشک داخل پنل شما ثبت می‌شود.
+</p>
+</div>
+
+</div>
+
+<div class="visit-benefit-item">
+
+<div class="visit-benefit-icon">
+📷
+</div>
+
+<div>
+<h3>
+ارسال عکس و توضیحات
+</h3>
+<p>
+می‌توانید علائم، تصاویر یا ویدیوهای حیوان را برای بررسی ارسال کنید.
+</p>
+</div>
+
+</div>
+
+<div class="visit-benefit-item">
+
+<div class="visit-benefit-icon">
+🔒
+</div>
+
+<div>
+<h3>
+پرداخت امن
+</h3>
+<p>
+ویزیت تنها پس از پرداخت فعال می‌شود و اطلاعات شما محفوظ می‌ماند.
+</p>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="visit-cta">
+
+<style>
+
+.visit-cta{
+    padding:100px 0;
+    background:linear-gradient(135deg,#2459a6 0%,#3a7d44 100%);
+    position:relative;
+    overflow:hidden;
+}
+
+.visit-cta::before{
+    content:"";
+    position:absolute;
+    width:430px;
+    height:430px;
+    border-radius:50%;
+    right:-140px;
+    top:-150px;
+    background:rgba(255,255,255,.08);
+}
+
+.visit-cta::after{
+    content:"";
+    position:absolute;
+    width:520px;
+    height:520px;
+    border-radius:50%;
+    left:-190px;
+    bottom:-220px;
+    background:rgba(255,255,255,.06);
+}
+
+.visit-cta-box{
+    position:relative;
+    z-index:2;
+    max-width:900px;
+    margin:auto;
+    text-align:center;
+}
+
+.visit-cta-box span{
+    display:inline-block;
+    padding:8px 18px;
+    border-radius:999px;
+    background:rgba(255,255,255,.12);
+    border:1px solid rgba(255,255,255,.18);
+    color:#fff;
+    font-size:14px;
+    font-weight:700;
+    margin-bottom:24px;
+}
+
+.visit-cta-box h2{
+    color:#fff;
+    font-size:46px;
+    line-height:1.6;
+    font-weight:900;
+    margin-bottom:22px;
+}
+
+.visit-cta-box p{
+    color:rgba(255,255,255,.88);
+    font-size:18px;
+    line-height:2;
+    max-width:720px;
+    margin:auto;
+}
+
+.visit-cta-actions{
+    margin-top:42px;
+    display:flex;
+    justify-content:center;
+    gap:18px;
+    flex-wrap:wrap;
+}
+
+.visit-cta-actions .btn{
+    min-width:240px;
+    min-height:60px;
+}
+
+.visit-cta-actions .btn.primary{
+    background:#fff;
+    color:var(--orange);
+    border-color:#fff;
+}
+
+.visit-cta-actions .btn.primary:hover{
+    background:transparent;
+    color:#fff;
+    border-color:#fff;
+}
+
+.visit-cta-actions .btn.outline{
+    background:transparent;
+    color:#fff;
+    border:1px solid rgba(255,255,255,.35);
+}
+
+.visit-cta-actions .btn.outline:hover{
+    background:#fff;
+    color:var(--green);
+    border-color:#fff;
+}
+
+@media(max-width:768px){
+
+.visit-cta{
+    padding:80px 0;
+}
+
+.visit-cta-box h2{
+    font-size:34px;
+}
+
+.visit-cta-box p{
+    font-size:16px;
+}
+
+.visit-cta-actions .btn{
+    width:100%;
+}
+
+}
+
+</style>
+
+<div class="container">
+
+<div class="visit-cta-box">
+
+<span>
+🩺 آماده شروع ویزیت هستید؟
+</span>
+
+<h2>
+دامپزشک آنلاین، فقط چند کلیک فاصله دارد
+</h2>
+
+<p>
+نوع حیوان را انتخاب کنید، دامپزشک مناسب را به سبد خرید اضافه کنید و پس از پرداخت، پاسخگویی آنلاین حداکثر تا ۲۰ دقیقه آغاز می‌شود.
+</p>
+
+<div class="visit-cta-actions">
+
+<a href="#doctors" class="btn primary">
+انتخاب دامپزشک
+</a>
+
+<a href="#" class="btn outline">
+افزودن ویزیت به سبد خرید
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="faq">
+
+<style>
+
+.faq{
+
+    padding:100px 0;
+
+    background:#fff;
+
+}
+
+.faq-head{
+
+    text-align:center;
+
+    margin-bottom:55px;
+
+}
+
+.faq-head span{
+
+    color:var(--green);
+
+    font-size:15px;
+
+    font-weight:700;
+
+}
+
+.faq-head h2{
+
+    margin-top:12px;
+
+    font-size:42px;
+
+    font-weight:900;
+
+    color:var(--text);
+
+}
+
+.faq-head p{
+
+    max-width:700px;
+
+    margin:18px auto 0;
+
+    color:var(--muted);
+
+    line-height:2;
+
+}
+
+.faq-list{
+
+    max-width:900px;
+
+    margin:auto;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:18px;
+
+}
+
+.faq-item{
+
+    background:var(--cream);
+
+    border:1px solid var(--soft);
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+}
+
+.faq-question{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    padding:26px 30px;
+
+    cursor:pointer;
+
+    font-size:20px;
+
+    font-weight:800;
+
+    color:var(--text);
+
+}
+
+.faq-icon{
+
+    width:42px;
+
+    height:42px;
+
+    border-radius:50%;
+
+    background:#fff;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:24px;
+
+    color:var(--orange);
+
+    transition:.3s;
+
+}
+
+.faq-item.active .faq-icon{
+
+    transform:rotate(45deg);
+
+}
+
+.faq-answer{
+
+    max-height:0;
+
+    overflow:hidden;
+
+    transition:max-height .35s ease;
+
+}
+
+.faq-answer p{
+
+    padding:0 30px 28px;
+
+    color:var(--muted);
+
+    line-height:2.1;
+
+}
+
+</style>
+
+<div class="container">
+
+<div class="faq-head">
+
+<span>
+
+سوالات متداول
+
+</span>
+
+<h2>
+
+پاسخ سوالات پرتکرار کاربران
+
+</h2>
+
+<p>
+
+در این بخش پاسخ رایج‌ترین سوالات درباره ویزیت آنلاین، داروخانه، فروشگاه و نحوه استفاده از سامانه را مشاهده می‌کنید.
+
+</p>
+
+</div>
+
+<div class="faq-list">
+
+<div class="faq-item">
+
+<div class="faq-question">
+
+<span>
+
+چگونه ویزیت آنلاین انجام می‌شود؟
+
+</span>
+
+<div class="faq-icon">
+
++
+
+</div>
+
+</div>
+
+<div class="faq-answer">
+
+<p>
+
+پس از انتخاب دامپزشک، اطلاعات حیوان، تصاویر یا ویدیو را ارسال می‌کنید و در زمان تعیین‌شده به صورت آنلاین با دامپزشک گفتگو خواهید کرد.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="faq-item">
+
+<div class="faq-question">
+
+<span>
+
+برای خرید دارو داشتن نسخه الزامی است؟
+
+</span>
+
+<div class="faq-icon">
+
++
+
+</div>
+
+</div>
+
+<div class="faq-answer">
+
+<p>
+
+بله، داروهای نسخه‌ای تنها پس از بارگذاری نسخه معتبر دامپزشک قابل سفارش هستند.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="faq-item">
+
+<div class="faq-question">
+
+<span>
+
+ارسال سفارش‌ها چقدر زمان می‌برد؟
+
+</span>
+
+<div class="faq-icon">
+
++
+
+</div>
+
+</div>
+
+<div class="faq-answer">
+
+<p>
+
+بسته به شهر مقصد، سفارش‌ها معمولاً بین ۱ تا ۳ روز کاری ارسال و تحویل داده می‌شوند.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="faq-item">
+
+<div class="faq-question">
+
+<span>
+
+آیا می‌توانم سوابق درمان حیوان خود را مشاهده کنم؟
+
+</span>
+
+<div class="faq-icon">
+
++
+
+</div>
+
+</div>
+
+<div class="faq-answer">
+
+<p>
+
+بله، پس از ورود به پنل کاربری تمامی ویزیت‌ها، نسخه‌ها، داروها و سوابق درمان حیوان در پرونده سلامت ثبت خواهد شد.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="faq-item">
+
+<div class="faq-question">
+
+<span>
+
+در صورت نیاز چگونه با پشتیبانی ارتباط بگیرم؟
+
+</span>
+
+<div class="faq-icon">
+
++
+
+</div>
+
+</div>
+
+<div class="faq-answer">
+
+<p>
+
+از طریق گفتگوی آنلاین، شماره تماس یا ارسال تیکت از داخل پنل کاربری می‌توانید با تیم پشتیبانی ارتباط برقرار کنید.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+</main>
+
+<footer class="footer">
+
+<style>
+
+.footer{
+
+    background:#1f2937;
+
+    color:#fff;
+
+    padding:80px 0 25px;
+
+}
+
+.footer-grid{
+
+    display:grid;
+
+    grid-template-columns:1.4fr 1fr 1fr 1.2fr;
+
+    gap:50px;
+
+    margin-bottom:50px;
+
+}
+
+.footer-logo{
+
+    width:75px;
+
+    margin-bottom:18px;
+
+}
+
+.footer h3{
+
+    font-size:22px;
+
+    margin-bottom:20px;
+
+    position:relative;
+
+}
+
+.footer h3::after{
+
+    content:"";
+
+    position:absolute;
+
+    right:0;
+
+    bottom:-10px;
+
+    width:45px;
+
+    height:3px;
+
+    border-radius:999px;
+
+    background:var(--orange);
+
+}
+
+.footer p{
+
+    color:rgba(255,255,255,.75);
+
+    line-height:2.1;
+
+    font-size:15px;
+
+}
+
+.footer-links{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:14px;
+
+    margin-top:12px;
+
+}
+
+.footer-links a{
+
+    color:rgba(255,255,255,.75);
+
+    transition:.25s;
+
+}
+
+.footer-links a:hover{
+
+    color:#fff;
+
+    padding-right:8px;
+
+}
+
+.footer-contact{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:15px;
+
+    margin-top:12px;
+
+}
+
+.footer-contact div{
+
+    color:rgba(255,255,255,.75);
+
+}
+
+.footer-social{
+
+    display:flex;
+
+    gap:14px;
+
+    margin-top:28px;
+
+}
+
+.footer-social a{
+
+    width:46px;
+
+    height:46px;
+
+    border-radius:14px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    background:rgba(255,255,255,.08);
+
+    transition:.25s;
+
+    font-size:20px;
+
+}
+
+.footer-social a:hover{
+
+    background:var(--orange);
+
+    transform:translateY(-5px);
+
+}
+
+.footer-bottom{
+
+    border-top:1px solid rgba(255,255,255,.08);
+
+    padding-top:25px;
+
+    text-align:center;
+
+    color:rgba(255,255,255,.55);
+
+    font-size:14px;
+
+}
+
+@media(max-width:980px){
+
+.footer-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+@media(max-width:650px){
+
+.footer-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+</style>
+
+<div class="container">
+
+<div class="footer-grid">
+
+<div>
+
+<img src="icons/comp15.png" class="footer-logo">
+
+<p>
+
+سامانه جامع خدمات دامپزشکی آنلاین با هدف ارائه خدمات ویزیت، داروخانه و فروشگاه تخصصی حیوانات خانگی طراحی شده است.
+
+</p>
+
+<div class="footer-social">
+
+<a href="#">📷</a>
+
+<a href="#">💬</a>
+
+<a href="#">▶</a>
+
+<a href="#">📱</a>
+
+</div>
+
+</div>
+
+<div>
+
+<h3>
+
+لینک‌های سریع
+
+</h3>
+
+<div class="footer-links">
+
+<a href="#">خانه</a>
+
+<a href="#">درباره ما</a>
+
+<a href="#">تماس با ما</a>
+
+<a href="#">وبلاگ</a>
+
+<a href="#">سوالات متداول</a>
+
+</div>
+
+</div>
+
+<div>
+
+<h3>
+
+خدمات
+
+</h3>
+
+<div class="footer-links">
+
+<a href="#">ویزیت آنلاین</a>
+
+<a href="#">داروخانه</a>
+
+<a href="#">فروشگاه</a>
+
+<a href="#">نسخه الکترونیکی</a>
+
+<a href="#">پیگیری سفارش</a>
+
+</div>
+
+</div>
+
+<div>
+
+<h3>
+
+اطلاعات تماس
+
+</h3>
+
+<div class="footer-contact">
+
+<div>
+
+📍 تهران، خیابان نمونه، پلاک ۱۲۳
+
+</div>
+
+<div>
+
+☎ 021-12345678
+
+</div>
+
+<div>
+
+✉ info@example.com
+
+</div>
+
+<div>
+
+🕒 همه روزه از ساعت ۸ تا ۲۲
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="footer-bottom">
+
+تمامی حقوق این سامانه محفوظ است © ۱۴۰۴
+
+</div>
+
+</div>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

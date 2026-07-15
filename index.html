@@ -1,0 +1,3758 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+  <title>وتبان</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="icons/comp15.png" />
+
+</head>
+<body>
+
+<header class="site-header">
+    <div class="container nav-wrap">
+
+        <a href="#" class="logo">
+            <img src="icons/comp15.png" alt="لوگو">
+        </a>
+
+        <nav class="main-nav">
+            <a href="index.html" class="active">خانه</a>
+            <a href="ecosystem.html">ویزیت انلاین</a>
+            <a href="company.html">داروخانه</a>
+            <a href="about.html">فروشگاه</a>
+            <a href="#">درباره ما</a>
+            <a href="#">تماس با ما</a>
+        </nav>
+
+        <div class="header-actions">
+            <a href="#" class="btn outline">
+                ورود / ثبت نام
+            </a>
+        </div>
+
+        <button class="menu-toggle">
+            ☰
+        </button>
+
+    </div>
+</header>
+
+<main>
+
+<section class="hero">
+  <style>
+.hero{
+    position:relative;
+    padding:35px 0 135px;
+    overflow:hidden;
+    background:
+    linear-gradient(
+    135deg,
+    #f2f4f7 0%,
+    #fafafa 55%,
+    #e5e7eb 100%);
+}
+
+.hero::before{
+    content:"";
+    position:absolute;
+    width:520px;
+    height:520px;
+    border-radius:50%;
+    top:-220px;
+    right:-180px;
+    background:rgba(58,125,68,.08);
+    filter:blur(40px);
+}
+
+.hero::after{
+    content:"";
+    position:absolute;
+    width:500px;
+    height:500px;
+    border-radius:50%;
+    left:-180px;
+    bottom:-220px;
+    background:rgba(36,89,166,.08);
+    filter:blur(45px);
+}
+
+.hero-wave{
+    position:absolute;
+    left:0;
+    bottom:-1px;
+    width:100%;
+    height:115px;
+    background:#fff;
+    z-index:5;
+
+    clip-path:ellipse(75% 90% at 50% 100%);
+}
+
+.hero-content{
+    position:relative;
+    z-index:2;
+    text-align:center;
+    max-width:900px;
+    margin:auto;
+}
+
+.hero-badge{
+    display:inline-block;
+    padding:8px 18px;
+    border-radius:999px;
+    background:#fff;
+    color:var(--orange);
+    border:1px solid var(--soft);
+    font-size:14px;
+    font-weight:700;
+    margin-bottom:20px;
+}
+
+.hero h1{
+    font-size:46px;
+    line-height:1.6;
+    font-weight:900;
+    color:var(--text);
+    margin-bottom:18px;
+}
+
+.hero p{
+    max-width:700px;
+    margin:auto;
+    color:var(--muted);
+    font-size:19px;
+    line-height:2;
+}
+
+.hero-actions{
+    margin-top:45px;
+    display:flex;
+    justify-content:center;
+    gap:18px;
+    flex-wrap:wrap;
+}
+
+.hero-actions .btn{
+    min-width:220px;
+    min-height:60px;
+    font-size:16px;
+}
+  </style>
+
+  <div class="container">
+    <div class="hero-content">
+
+      <!-- <span class="hero-badge">
+        خدمات جامع دامپزشکی آنلاین
+      </span> -->
+
+      <h1>
+        <!-- هرآنچه حیوان خانگی شما نیاز دارد، -->
+        <!-- <br> -->
+        <!-- در یک سامانه -->
+          خدمات جامع دامپزشکی آنلاین
+      </h1>
+
+      <p>
+        ویزیت آنلاین، خرید دارو با نسخه دامپزشک و
+        تهیه خوراک و تجهیزات تنها با چند کلیک
+      </p>
+
+      <div class="hero-actions">
+
+        <a href="#" class="btn primary">
+          🩺 ویزیت آنلاین
+        </a>
+
+        <a href="#" class="btn orange">
+          🛒 فروشگاه خوراک و تجهیزات
+        </a>
+
+        <a href="#" class="btn primary">
+          💊 خرید دارو
+        </a>
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class="hero-wave"></div>
+
+</section>
+
+<section class="services">
+
+<style>
+
+.services{
+    padding:0 0 90px;
+    background:#fff;
+    margin-top:-55px;
+    position:relative;
+    z-index:6;
+}
+
+.services-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:28px;
+
+}
+
+.service-card{
+  
+
+    background:#fff;
+
+    border:1px solid var(--soft);
+
+    border-radius:24px;
+
+    overflow:hidden;
+
+    text-align:center;
+
+    transition:.25s;
+
+    box-shadow:0 16px 40px rgba(75,85,99,.08);
+    
+
+}
+
+.service-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:var(--shadow);
+
+}
+
+.service-image{
+
+    height:220px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    padding:25px 20px 10px;
+    
+
+}
+
+.service-image img{
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:contain;
+
+}
+
+.service-content{
+
+    padding:0 18px 0;
+
+}
+
+.service-content h3{
+
+    font-size:30px;
+
+    color:var(--text);
+
+    font-weight:900;
+
+    margin-bottom:14px;
+    
+    
+
+}
+
+.service-content p{
+
+    color:var(--muted);
+
+    line-height:2;
+
+    font-size:16px;
+
+    min-height:70px;
+
+    margin-bottom:24px;
+    
+
+}
+
+@media(max-width:960px){
+
+.services{
+
+margin-top:0;
+
+padding:60px 0;
+
+}
+
+.services-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+</style>
+
+<div class="container">
+
+<div class="services-grid">
+
+<div class="service-card">
+
+<div class="service-image">
+
+<img src="icons/Tio1.png" alt="داروخانه آنلاین">
+
+</div>
+
+<div class="service-content">
+
+<h3>
+
+داروخانه آنلاین
+
+</h3>
+
+<p>
+
+فروش محصولات درمانی و داروهای دامپزشکی
+
+</p>
+
+</div>
+
+</div>
+
+<div class="service-card">
+
+<div class="service-image">
+
+<img src="icons/Tio2.png" alt="ویزیت آنلاین دامپزشک">
+
+</div>
+
+<div class="service-content">
+
+<h3>
+
+ویزیت آنلاین دامپزشک
+
+</h3>
+
+<p>
+
+مشاوره و دریافت نسخه الکترونیکی
+
+</p>
+
+</div>
+
+</div>
+
+<div class="service-card">
+
+<div class="service-image">
+
+<img src="icons/Tio3.png" alt="خوراک و تجهیزات">
+
+</div>
+
+<div class="service-content">
+
+<h3>
+
+خوراک و تجهیزات
+
+</h3>
+
+<p>
+
+خوراک، مکمل و تجهیزات نگهداری حیوانات
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="pet-insurance">
+
+<style>
+
+.pet-insurance{
+    padding:30px 0 95px;
+    background:#fff;
+}
+
+.insurance-box{
+    background:linear-gradient(135deg,#3a7d44 0%,#2f6b39 100%);
+    border-radius:32px;
+    overflow:hidden;
+    display:grid;
+    grid-template-columns:1.1fr .9fr;
+    align-items:center;
+    min-height:360px;
+    box-shadow:var(--shadow);
+}
+
+.insurance-content{
+    padding:55px;
+    color:#fff;
+}
+
+.insurance-content span{
+    display:inline-block;
+    padding:8px 18px;
+    border-radius:999px;
+    background:rgba(255,255,255,.14);
+    border:1px solid rgba(255,255,255,.2);
+    font-size:14px;
+    font-weight:700;
+    margin-bottom:20px;
+}
+
+.insurance-content h2{
+    font-size:38px;
+    line-height:1.7;
+    font-weight:900;
+    margin-bottom:16px;
+}
+
+.insurance-content p{
+    color:rgba(255,255,255,.86);
+    line-height:2;
+    font-size:17px;
+    max-width:620px;
+}
+
+.insurance-content .btn{
+    margin-top:32px;
+    background:#fff;
+    color:var(--green);
+    border-color:#fff;
+}
+
+.insurance-content .btn:hover{
+    background:transparent;
+    color:#fff;
+    border-color:#fff;
+}
+
+.insurance-image{
+    height:100%;
+    min-height:360px;
+    background:rgba(255,255,255,.08);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:30px;
+}
+
+.insurance-image img{
+    width:100%;
+    height:100%;
+    object-fit:contain;
+}
+
+@media(max-width:900px){
+
+.insurance-box{
+    grid-template-columns:1fr;
+}
+
+.insurance-content{
+    padding:38px 28px;
+    text-align:center;
+}
+
+.insurance-content h2{
+    font-size:30px;
+}
+
+.insurance-image{
+    min-height:260px;
+}
+
+}
+
+</style>
+
+<div class="container">
+
+<div class="insurance-box">
+
+<div class="insurance-content">
+
+<span>
+بیمه حیوانات خانگی
+</span>
+
+<h2>
+با خیال راحت‌تر از حیوان خانگی خود مراقبت کنید
+</h2>
+
+<p>
+با بیمه حیوانات خانگی، بخشی از هزینه‌های درمان، ویزیت، دارو و خدمات دامپزشکی قابل مدیریت‌تر می‌شود.
+</p>
+
+<a href="#" class="btn">
+مشاهده شرایط بیمه
+</a>
+
+</div>
+
+<div class="insurance-image">
+<img src="icons/bime.png" alt="بیمه حیوانات خانگی">
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="features">
+
+<style>
+
+.features{
+
+    padding:90px 0;
+
+    background:var(--cream);
+
+}
+
+.features-head{
+
+    text-align:center;
+
+    margin-bottom:60px;
+
+}
+
+.features-head span{
+
+    color:var(--green);
+
+    font-weight:700;
+
+    font-size:15px;
+
+}
+
+.features-head h2{
+
+    margin-top:12px;
+
+    font-size:38px;
+
+    font-weight:900;
+
+    color:var(--text);
+
+}
+
+.features-head p{
+
+    max-width:720px;
+
+    margin:18px auto 0;
+
+    color:var(--muted);
+
+    line-height:2;
+
+}
+
+.features-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:24px;
+
+}
+
+.feature{
+
+    background:#fff;
+
+    border:1px solid var(--soft);
+
+    border-radius:22px;
+
+    padding:35px 25px;
+
+    text-align:center;
+
+    transition:.25s;
+
+}
+
+.feature:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:var(--shadow);
+
+}
+
+.feature-icon{
+
+    width:70px;
+
+    height:70px;
+
+    margin:0 auto 20px;
+
+    border-radius:20px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:34px;
+
+    background:rgba(36,89,166,.08);
+
+}
+
+.feature:nth-child(2) .feature-icon{
+
+    background:rgba(58,125,68,.08);
+
+}
+
+.feature:nth-child(3) .feature-icon{
+
+    background:rgba(75,85,99,.08);
+
+}
+
+.feature:nth-child(4) .feature-icon{
+
+    background:rgba(36,89,166,.08);
+
+}
+
+.feature h3{
+
+    margin-bottom:12px;
+
+    font-size:21px;
+
+    color:var(--text);
+
+}
+
+.feature p{
+
+    color:var(--muted);
+
+    line-height:2;
+
+    font-size:15px;
+
+}
+
+@media(max-width:1000px){
+
+.features-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+@media(max-width:650px){
+
+.features-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+</style>
+
+<div class="container">
+
+<div class="features-head">
+
+<span>
+
+چرا ما؟
+
+</span>
+
+<h2>
+
+با خیال راحت از خدمات سامانه استفاده کنید
+
+</h2>
+
+<p>
+
+تمام خدمات با همکاری دامپزشکان معتبر انجام می‌شود و سفارش‌های شما در کوتاه‌ترین زمان ممکن پردازش خواهد شد.
+
+</p>
+
+</div>
+
+<div class="features-grid">
+
+<div class="feature">
+
+<div class="feature-icon">
+
+🩺
+
+</div>
+
+<h3>
+
+دامپزشکان معتبر
+
+</h3>
+
+<p>
+
+ویزیت توسط دامپزشکان دارای مجوز و با تجربه انجام می‌شود.
+
+</p>
+
+</div>
+
+<div class="feature">
+
+<div class="feature-icon">
+
+⚡
+
+</div>
+
+<h3>
+
+پاسخگویی سریع
+
+</h3>
+
+<p>
+
+در کوتاه‌ترین زمان ممکن به درخواست ویزیت یا سفارش شما رسیدگی می‌شود.
+
+</p>
+
+</div>
+
+<div class="feature">
+
+<div class="feature-icon">
+
+🔒
+
+</div>
+
+<h3>
+
+اطلاعات امن
+
+</h3>
+
+<p>
+
+اطلاعات پرونده حیوان خانگی و نسخه‌ها به صورت محرمانه نگهداری می‌شوند.
+
+</p>
+
+</div>
+
+<div class="feature">
+
+<div class="feature-icon">
+
+🚚
+
+</div>
+
+<h3>
+
+ارسال سریع
+
+</h3>
+
+<p>
+
+دارو، خوراک و تجهیزات در سریع‌ترین زمان برای شما ارسال خواهند شد.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="pets">
+
+<style>
+
+.pets{
+
+    padding:90px 0;
+
+    background:#fff;
+
+}
+
+.pets-head{
+
+    text-align:center;
+
+    margin-bottom:55px;
+
+}
+
+.pets-head span{
+
+    color:var(--orange);
+
+    font-weight:700;
+
+    font-size:15px;
+
+}
+
+.pets-head h2{
+
+    margin-top:12px;
+
+    font-size:38px;
+
+    color:var(--text);
+
+    font-weight:900;
+
+}
+
+.pets-head p{
+
+    max-width:700px;
+
+    margin:18px auto 0;
+
+    color:var(--muted);
+
+    line-height:2;
+
+}
+
+.pets-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(6,1fr);
+
+    gap:22px;
+
+}
+
+.pet-card{
+
+    background:#fff;
+
+    border:1px solid var(--soft);
+
+    border-radius:22px;
+
+    padding:28px 18px;
+
+    text-align:center;
+
+    transition:.25s;
+
+    cursor:pointer;
+
+}
+
+.pet-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:var(--green);
+
+    box-shadow:var(--shadow);
+
+}
+
+.pet-icon{
+
+    width:78px;
+
+    height:78px;
+
+    border-radius:22px;
+
+    margin:auto;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:42px;
+
+    background:rgba(58,125,68,.08);
+
+    margin-bottom:18px;
+
+}
+
+.pet-card:nth-child(even) .pet-icon{
+
+    background:rgba(36,89,166,.08);
+
+}
+
+.pet-card h3{
+
+    font-size:20px;
+
+    color:var(--text);
+
+    margin-bottom:8px;
+
+}
+
+.pet-card span{
+
+    color:var(--muted);
+
+    font-size:14px;
+
+}
+
+@media(max-width:1100px){
+
+.pets-grid{
+
+grid-template-columns:repeat(3,1fr);
+
+}
+
+}
+
+@media(max-width:700px){
+
+.pets-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+</style>
+
+<div class="container">
+
+<div class="pets-head">
+
+<span>
+
+برای چه حیوانی؟
+
+</span>
+
+<h2>
+
+خدمت موردنظر را بر اساس حیوان انتخاب کنید
+
+</h2>
+
+<p>
+
+با انتخاب نوع حیوان، محصولات، داروها و دامپزشکان مرتبط سریع‌تر نمایش داده می‌شوند.
+
+</p>
+
+</div>
+
+<div class="pets-grid">
+
+<a href="projects.html">
+
+  <div class="pet-card">
+
+<div class="pet-icon">
+
+🐶
+
+</div>
+
+<h3>
+
+سگ
+
+</h3>
+
+<span>
+
+خوراک • دارو • ویزیت
+
+</span>
+
+</div>
+
+</a>
+
+<div class="pet-card">
+
+<div class="pet-icon">
+
+🐱
+
+</div>
+
+<h3>
+
+گربه
+
+</h3>
+
+<span>
+
+خوراک • دارو • ویزیت
+
+</span>
+
+</div>
+
+<div class="pet-card">
+
+<div class="pet-icon">
+
+🐦
+
+</div>
+
+<h3>
+
+پرندگان
+
+</h3>
+
+<span>
+
+خوراک • دارو • ویزیت
+
+</span>
+
+</div>
+
+<div class="pet-card">
+
+<div class="pet-icon">
+
+🐠
+
+</div>
+
+<h3>
+
+آبزیان
+
+</h3>
+
+<span>
+
+خوراک • دارو
+
+</span>
+
+</div>
+
+<div class="pet-card">
+
+<div class="pet-icon">
+
+🐰
+
+</div>
+
+<h3>
+
+جوندگان
+
+</h3>
+
+<span>
+
+خوراک • دارو
+
+</span>
+
+</div>
+
+<div class="pet-card">
+
+<div class="pet-icon">
+
+🦜
+
+</div>
+
+<h3>
+
+سایر حیوانات
+
+</h3>
+
+<span>
+
+مشاهده خدمات
+
+</span>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="doctors">
+
+<style>
+
+.doctors{
+
+    padding:95px 0;
+
+    background:var(--cream);
+
+}
+
+.doctors-head{
+
+    text-align:center;
+
+    margin-bottom:55px;
+
+}
+
+.doctors-head span{
+
+    color:var(--green);
+
+    font-weight:700;
+
+    font-size:15px;
+
+}
+
+.doctors-head h2{
+
+    margin-top:12px;
+
+    font-size:38px;
+
+    color:var(--text);
+
+    font-weight:900;
+
+}
+
+.doctors-head p{
+
+    max-width:720px;
+
+    margin:18px auto 0;
+
+    color:var(--muted);
+
+    line-height:2;
+
+}
+
+.doctors-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:28px;
+
+}
+
+.doctor-card{
+
+    background:#fff;
+
+    border:1px solid var(--soft);
+
+    border-radius:24px;
+
+    overflow:hidden;
+
+    transition:.25s;
+
+}
+
+.doctor-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:var(--shadow);
+
+}
+
+.doctor-image{
+
+    height:280px;
+
+    overflow:hidden;
+
+}
+
+.doctor-image img{
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+}
+
+.doctor-body{
+
+    padding:28px;
+
+}
+
+.doctor-body h3{
+
+    font-size:24px;
+
+    margin-bottom:8px;
+
+    color:var(--text);
+
+}
+
+.speciality{
+
+    color:var(--orange);
+
+    font-weight:700;
+
+    margin-bottom:18px;
+
+}
+
+.doctor-info{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    margin-bottom:22px;
+
+    color:var(--muted);
+
+    font-size:15px;
+
+}
+
+.rating{
+
+    color:#f7b500;
+
+    font-size:18px;
+
+}
+
+.doctor-body .btn{
+
+    width:100%;
+
+}
+
+@media(max-width:980px){
+
+.doctors-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+</style>
+
+<div class="container">
+
+<div class="doctors-head">
+
+<span>
+
+دامپزشکان منتخب
+
+</span>
+
+<h2>
+
+با متخصصان باتجربه گفتگو کنید
+
+</h2>
+
+<p>
+
+دامپزشکان حاضر در سامانه دارای سابقه فعالیت حرفه‌ای هستند و آماده پاسخگویی به سوالات و ویزیت آنلاین حیوان خانگی شما می‌باشند.
+
+</p>
+
+</div>
+
+<div class="doctors-grid">
+
+<div class="doctor-card">
+
+<div class="doctor-image">
+
+<img src="icons/images (1).jpg">
+
+</div>
+
+<div class="doctor-body">
+
+<h3>
+
+دکتر علی رضایی
+
+</h3>
+
+<div class="speciality">
+
+متخصص حیوانات کوچک
+
+</div>
+
+<div class="doctor-info">
+
+<span>۸۵۰ ویزیت</span>
+
+<span class="rating">
+
+★★★★★
+
+</span>
+
+</div>
+
+<a href="#" class="btn primary">
+
+شروع ویزیت
+
+</a>
+
+</div>
+
+</div>
+
+<div class="doctor-card">
+
+<div class="doctor-image">
+
+<img src="icons/images.jpg">
+
+</div>
+
+<div class="doctor-body">
+
+<h3>
+
+دکتر مریم صالحی
+
+</h3>
+
+<div class="speciality">
+
+جراح دامپزشک
+
+</div>
+
+<div class="doctor-info">
+
+<span>۶۴۰ ویزیت</span>
+
+<span class="rating">
+
+★★★★★
+
+</span>
+
+</div>
+
+<a href="#" class="btn primary">
+
+مشاهده پروفایل
+
+</a>
+
+</div>
+
+</div>
+
+<div class="doctor-card">
+
+<div class="doctor-image">
+
+<img src="icons/images (2).jpg">
+
+</div>
+
+<div class="doctor-body">
+
+<h3>
+
+دکتر مهرداد شیرازی
+
+</h3>
+
+<div class="speciality">
+
+متخصص پرندگان
+
+</div>
+
+<div class="doctor-info">
+
+<span>۵۲۰ ویزیت</span>
+
+<span class="rating">
+
+★★★★★
+
+</span>
+
+</div>
+
+<a href="#" class="btn primary">
+
+رزرو نوبت
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="products">
+
+<style>
+
+.products{
+
+    padding:95px 0;
+
+    background:#fff;
+
+}
+
+.products-head{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:end;
+
+    margin-bottom:50px;
+
+    flex-wrap:wrap;
+
+    gap:20px;
+
+}
+
+.products-title span{
+
+    color:var(--green);
+
+    font-weight:700;
+
+}
+
+.products-title h2{
+
+    margin-top:10px;
+
+    font-size:38px;
+
+    font-weight:900;
+
+    color:var(--text);
+
+}
+
+.products-title p{
+
+    margin-top:12px;
+
+    color:var(--muted);
+
+    max-width:620px;
+
+}
+
+.products-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:26px;
+
+}
+
+.product-card{
+
+    background:#fff;
+
+    border-radius:24px;
+
+    overflow:hidden;
+
+    border:1px solid var(--soft);
+
+    transition:.25s;
+
+}
+
+.product-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:var(--shadow);
+
+}
+
+.product-image{
+
+    height:220px;
+
+    background:#fff;
+
+}
+
+.product-image img{
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:contain;
+
+    padding:25px;
+
+}
+
+.product-body{
+
+    padding:24px;
+
+}
+
+.product-category{
+
+    color:var(--orange);
+
+    font-size:14px;
+
+    font-weight:700;
+
+    margin-bottom:8px;
+
+}
+
+.product-body h3{
+
+    font-size:20px;
+
+    margin-bottom:12px;
+
+    color:var(--text);
+
+}
+
+.product-price{
+
+    font-size:22px;
+
+    font-weight:900;
+
+    color:var(--green);
+
+    margin-bottom:20px;
+
+}
+
+.product-body .btn{
+
+    width:100%;
+
+}
+
+.more-products{
+
+    text-align:center;
+
+    margin-top:45px;
+
+}
+
+@media(max-width:1100px){
+
+.products-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+@media(max-width:700px){
+
+.products-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+</style>
+
+<div class="container">
+
+<div class="products-head">
+
+<div class="products-title">
+
+<span>
+
+پرفروش‌ترین محصولات
+
+</span>
+
+<h2>
+
+محصولات منتخب این هفته
+
+</h2>
+
+<p>
+
+محبوب‌ترین محصولات فروشگاه که توسط کاربران بیشترین خرید را داشته‌اند.
+
+</p>
+
+</div>
+
+<a href="#" class="btn outline">
+
+مشاهده همه محصولات
+
+</a>
+
+</div>
+
+<div class="products-grid">
+
+<div class="product-card">
+
+<div class="product-image">
+
+<img src="icons/d1.jpeg">
+
+</div>
+
+<div class="product-body">
+
+<div class="product-category">
+
+خوراک سگ
+
+</div>
+
+<h3>
+
+غذای خشک رویال کنین
+
+</h3>
+
+<div class="product-price">
+
+۲,۴۹۰,۰۰۰ تومان
+
+</div>
+
+<a href="#" class="btn orange">
+
+مشاهده محصول
+
+</a>
+
+</div>
+
+</div>
+
+<div class="product-card">
+
+<div class="product-image">
+
+<img src="icons/d2.jpeg">
+
+</div>
+
+<div class="product-body">
+
+<div class="product-category">
+
+خوراک گربه
+
+</div>
+
+<h3>
+
+غذای گربه جوسرا
+
+</h3>
+
+<div class="product-price">
+
+۱,۶۸۰,۰۰۰ تومان
+
+</div>
+
+<a href="#" class="btn orange">
+
+مشاهده محصول
+
+</a>
+
+</div>
+
+</div>
+
+<div class="product-card">
+
+<div class="product-image">
+
+<img src="icons/d3.jpeg">
+
+</div>
+
+<div class="product-body">
+
+<div class="product-category">
+
+مکمل
+
+</div>
+
+<h3>
+
+ویتامین حیوانات
+
+</h3>
+
+<div class="product-price">
+
+۵۹۰,۰۰۰ تومان
+
+</div>
+
+<a href="#" class="btn orange">
+
+مشاهده محصول
+
+</a>
+
+</div>
+
+</div>
+
+<div class="product-card">
+
+<div class="product-image">
+
+<img src="icons/d4.jpeg">
+
+</div>
+
+<div class="product-body">
+
+<div class="product-category">
+
+بهداشت
+
+</div>
+
+<h3>
+
+شامپو حیوانات
+
+</h3>
+
+<div class="product-price">
+
+۳۸۵,۰۰۰ تومان
+
+</div>
+
+<a href="#" class="btn orange">
+
+مشاهده محصول
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="steps">
+
+<style>
+
+.steps{
+
+    padding:95px 0;
+
+    background:var(--cream);
+
+}
+
+.steps-head{
+
+    text-align:center;
+
+    margin-bottom:65px;
+
+}
+
+.steps-head span{
+
+    color:var(--orange);
+
+    font-size:15px;
+
+    font-weight:700;
+
+}
+
+.steps-head h2{
+
+    margin-top:12px;
+
+    font-size:40px;
+
+    font-weight:900;
+
+    color:var(--text);
+
+}
+
+.steps-head p{
+
+    max-width:720px;
+
+    margin:18px auto 0;
+
+    color:var(--muted);
+
+    line-height:2;
+
+}
+
+.steps-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:28px;
+
+}
+
+.step-card{
+
+    position:relative;
+
+    background:#fff;
+
+    border:1px solid var(--soft);
+
+    border-radius:24px;
+
+    padding:42px 28px 32px;
+
+    transition:.3s;
+
+    overflow:hidden;
+
+}
+
+.step-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:var(--shadow);
+
+}
+
+.step-number{
+
+    position:absolute;
+
+    top:18px;
+
+    left:20px;
+
+    font-size:60px;
+
+    font-weight:900;
+
+    color:rgba(36,89,166,.08);
+
+    line-height:1;
+
+    user-select:none;
+
+}
+
+.step-icon{
+
+    width:72px;
+
+    height:72px;
+
+    border-radius:20px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    margin-bottom:25px;
+
+    font-size:34px;
+
+    background:rgba(36,89,166,.08);
+
+}
+
+.step-card:nth-child(2) .step-icon{
+
+    background:rgba(58,125,68,.10);
+
+}
+
+.step-card:nth-child(3) .step-icon{
+
+    background:rgba(36,89,166,.08);
+
+}
+
+.step-card:nth-child(4) .step-icon{
+
+    background:rgba(58,125,68,.10);
+
+}
+
+.step-card h3{
+
+    font-size:24px;
+
+    color:var(--text);
+
+    margin-bottom:15px;
+
+}
+
+.step-card p{
+
+    color:var(--muted);
+
+    line-height:2;
+
+    font-size:15px;
+
+}
+
+.steps-bottom{
+
+    margin-top:60px;
+
+    text-align:center;
+
+}
+
+@media(max-width:1000px){
+
+.steps-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+@media(max-width:650px){
+
+.steps-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+</style>
+
+<div class="container">
+
+<div class="steps-head">
+
+<span>
+
+شروع خدمات تنها در ۴ قدم
+
+</span>
+
+<h2>
+
+چطور از سامانه استفاده کنم؟
+
+</h2>
+
+<p>
+
+فرآیند دریافت خدمات به گونه‌ای طراحی شده که تنها در چند دقیقه بتوانید ویزیت آنلاین بگیرید، دارو سفارش دهید یا محصولات موردنیاز حیوان خانگی خود را تهیه کنید.
+
+</p>
+
+</div>
+
+<div class="steps-grid">
+
+<div class="step-card">
+
+<div class="step-number">
+
+01
+
+</div>
+
+<div class="step-icon">
+
+👤
+
+</div>
+
+<h3>
+
+ایجاد حساب
+
+</h3>
+
+<p>
+
+در کمتر از یک دقیقه ثبت‌نام کنید و اطلاعات حیوان خانگی خود را تکمیل نمایید.
+
+</p>
+
+</div>
+
+<div class="step-card">
+
+<div class="step-number">
+
+02
+
+</div>
+
+<div class="step-icon">
+
+🩺
+
+</div>
+
+<h3>
+
+انتخاب خدمت
+
+</h3>
+
+<p>
+
+ویزیت آنلاین، خرید دارو یا فروشگاه را بر اساس نیاز خود انتخاب کنید.
+
+</p>
+
+</div>
+
+<div class="step-card">
+
+<div class="step-number">
+
+03
+
+</div>
+
+<div class="step-icon">
+
+📄
+
+</div>
+
+<h3>
+
+ثبت درخواست
+
+</h3>
+
+<p>
+
+در صورت نیاز نسخه دامپزشک را بارگذاری کرده یا اطلاعات لازم را ثبت نمایید.
+
+</p>
+
+</div>
+
+<div class="step-card">
+
+<div class="step-number">
+
+04
+
+</div>
+
+<div class="step-icon">
+
+✅
+
+</div>
+
+<h3>
+
+دریافت خدمت
+
+</h3>
+
+<p>
+
+ویزیت آنلاین انجام می‌شود یا سفارش دارو و محصولات در کوتاه‌ترین زمان برای شما ارسال خواهد شد.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="steps-bottom">
+
+<a href="#" class="btn orange">
+
+همین حالا شروع کنید
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="testimonials">
+
+<style>
+
+.testimonials{
+
+    padding:95px 0;
+
+    background:#fff;
+
+}
+
+.testimonials-head{
+
+    text-align:center;
+
+    margin-bottom:60px;
+
+}
+
+.testimonials-head span{
+
+    color:var(--green);
+
+    font-size:15px;
+
+    font-weight:700;
+
+}
+
+.testimonials-head h2{
+
+    margin-top:12px;
+
+    font-size:40px;
+
+    color:var(--text);
+
+    font-weight:900;
+
+}
+
+.testimonials-head p{
+
+    margin:18px auto 0;
+
+    max-width:720px;
+
+    color:var(--muted);
+
+    line-height:2;
+
+}
+
+.testimonials-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:28px;
+
+}
+
+.testimonial-card{
+
+    position:relative;
+
+    background:var(--cream);
+
+    border-radius:24px;
+
+    padding:38px 34px;
+
+    transition:.3s;
+
+    border:1px solid var(--soft);
+
+}
+
+.testimonial-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:var(--shadow);
+
+}
+
+.quote{
+
+    font-size:58px;
+
+    color:rgba(36,89,166,.15);
+
+    line-height:1;
+
+    margin-bottom:18px;
+
+}
+
+.stars{
+
+    color:#ffb400;
+
+    font-size:18px;
+
+    letter-spacing:2px;
+
+    margin-bottom:18px;
+
+}
+
+.testimonial-card p{
+
+    color:var(--muted);
+
+    line-height:2.1;
+
+    min-height:120px;
+
+}
+
+.user{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:16px;
+
+    margin-top:25px;
+
+}
+
+.avatar{
+
+    width:58px;
+
+    height:58px;
+
+    border-radius:50%;
+
+    background:rgba(36,89,166,.08);
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:24px;
+
+}
+
+.user h4{
+
+    color:var(--text);
+
+    margin-bottom:3px;
+
+}
+
+.user span{
+
+    color:var(--muted);
+
+    font-size:14px;
+
+}
+
+@media(max-width:1000px){
+
+.testimonials-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+</style>
+
+<div class="container">
+
+<div class="testimonials-head">
+
+<span>
+
+تجربه کاربران
+
+</span>
+
+<h2>
+
+کاربران درباره ما چه می‌گویند؟
+
+</h2>
+
+<p>
+
+رضایت کاربران مهم‌ترین سرمایه ماست. بخشی از تجربه افرادی که از خدمات سامانه استفاده کرده‌اند را مشاهده کنید.
+
+</p>
+
+</div>
+
+<div class="testimonials-grid">
+
+<div class="testimonial-card">
+
+<div class="quote">
+
+❝
+
+</div>
+
+<div class="stars">
+
+★★★★★
+
+</div>
+
+<p>
+
+برای سگم ویزیت آنلاین گرفتم. پزشک خیلی سریع پاسخ داد و نسخه الکترونیکی صادر شد. تجربه‌ای راحت و بدون نیاز به مراجعه حضوری بود.
+
+</p>
+
+<div class="user">
+
+<div class="avatar">
+
+🐶
+
+</div>
+
+<div>
+
+<h4>
+
+محمد رضایی
+
+</h4>
+
+<span>
+
+صاحب سگ شیتزو
+
+</span>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="testimonial-card">
+
+<div class="quote">
+
+❝
+
+</div>
+
+<div class="stars">
+
+★★★★★
+
+</div>
+
+<p>
+
+نسخه دامپزشک را بارگذاری کردم و داروها همان روز برایم ارسال شدند. روند سفارش خیلی ساده و سریع بود.
+
+</p>
+
+<div class="user">
+
+<div class="avatar">
+
+🐱
+
+</div>
+
+<div>
+
+<h4>
+
+فاطمه کریمی
+
+</h4>
+
+<span>
+
+صاحب گربه پرشین
+
+</span>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="testimonial-card">
+
+<div class="quote">
+
+❝
+
+</div>
+
+<div class="stars">
+
+★★★★★
+
+</div>
+
+<p>
+
+برای خرید غذای پرنده از فروشگاه استفاده کردم. کیفیت محصولات عالی بود و بسته‌بندی خیلی تمیزی داشت.
+
+</p>
+
+<div class="user">
+
+<div class="avatar">
+
+🦜
+
+</div>
+
+<div>
+
+<h4>
+
+امیر حسینی
+
+</h4>
+
+<span>
+
+صاحب عروس هلندی
+
+</span>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="cta">
+
+<style>
+
+.cta{
+
+    padding:100px 0;
+
+    background:
+    linear-gradient(
+    135deg,
+    #2459a6 0%,
+    #3a7d44 100%);
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+.cta::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:420px;
+
+    height:420px;
+
+    border-radius:50%;
+
+    right:-120px;
+
+    top:-120px;
+
+    background:rgba(255,255,255,.08);
+
+}
+
+.cta::after{
+
+    content:"";
+
+    position:absolute;
+
+    width:520px;
+
+    height:520px;
+
+    border-radius:50%;
+
+    left:-180px;
+
+    bottom:-200px;
+
+    background:rgba(255,255,255,.05);
+
+}
+
+.cta-box{
+
+    position:relative;
+
+    z-index:2;
+
+    max-width:900px;
+
+    margin:auto;
+
+    text-align:center;
+
+}
+
+.cta-box span{
+
+    display:inline-block;
+
+    padding:8px 18px;
+
+    border-radius:999px;
+
+    background:rgba(255,255,255,.12);
+
+    border:1px solid rgba(255,255,255,.18);
+
+    color:#fff;
+
+    font-size:14px;
+
+    font-weight:700;
+
+    margin-bottom:24px;
+
+}
+
+.cta-box h2{
+
+    color:#fff;
+
+    font-size:46px;
+
+    line-height:1.6;
+
+    font-weight:900;
+
+    margin-bottom:22px;
+
+}
+
+.cta-box p{
+
+    color:rgba(255,255,255,.88);
+
+    font-size:18px;
+
+    line-height:2;
+
+    max-width:700px;
+
+    margin:auto;
+
+}
+
+.cta-actions{
+
+    margin-top:42px;
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:18px;
+
+    flex-wrap:wrap;
+
+}
+
+.cta-actions .btn{
+
+    min-width:220px;
+
+}
+
+.cta-actions .btn.primary{
+
+    background:#fff;
+
+    color:var(--orange);
+
+    border-color:#fff;
+
+}
+
+.cta-actions .btn.primary:hover{
+
+    background:transparent;
+
+    color:#fff;
+
+    border-color:#fff;
+
+}
+
+.cta-actions .btn.outline{
+
+    background:transparent;
+
+    color:#fff;
+
+    border:1px solid rgba(255,255,255,.35);
+
+}
+
+.cta-actions .btn.outline:hover{
+
+    background:#fff;
+
+    color:var(--green);
+
+    border-color:#fff;
+
+}
+
+@media(max-width:768px){
+
+.cta{
+
+padding:80px 0;
+
+}
+
+.cta-box h2{
+
+font-size:34px;
+
+}
+
+.cta-box p{
+
+font-size:16px;
+
+}
+
+}
+
+</style>
+
+<div class="container">
+
+<div class="cta-box">
+
+<span>
+
+همین حالا شروع کنید
+
+</span>
+
+<h2>
+
+سلامت حیوان خانگی شما،
+تنها چند کلیک فاصله دارد.
+
+</h2>
+
+<p>
+
+از ویزیت آنلاین گرفته تا خرید دارو و تهیه خوراک و تجهیزات، همه خدمات موردنیاز را به صورت یکپارچه و آنلاین دریافت کنید.
+
+</p>
+
+<div class="cta-actions">
+
+<a href="#" class="btn primary">
+
+🩺 شروع ویزیت
+
+</a>
+
+<a href="#" class="btn outline">
+
+🛒 ورود به فروشگاه
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- <section class="features-strip">
+
+<style>
+
+.features-strip{
+
+    padding:38px 0;
+
+    background:#fff;
+
+    border-top:1px solid var(--soft);
+
+    border-bottom:1px solid var(--soft);
+
+}
+
+.features-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:25px;
+
+}
+
+.feature-item{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:16px;
+
+    text-align:right;
+
+}
+
+.feature-icon{
+
+    width:70px;
+
+    height:70px;
+
+    border-radius:20px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    background:rgba(36,89,166,.08);
+
+    color:#2459A6;
+
+    font-size:28px;
+
+    flex-shrink:0;
+
+}
+
+.feature-item:nth-child(2) .feature-icon{
+
+    background:rgba(58,125,68,.10);
+
+    color:#3A7D44;
+
+}
+
+.feature-item:nth-child(3) .feature-icon{
+
+    background:rgba(36,89,166,.08);
+
+}
+
+.feature-item:nth-child(4) .feature-icon{
+
+    background:rgba(58,125,68,.10);
+
+}
+
+.feature-text h3{
+
+    font-size:18px;
+
+    color:var(--text);
+
+    margin-bottom:6px;
+
+    font-weight:800;
+
+}
+
+.feature-text p{
+
+    color:var(--muted);
+
+    font-size:14px;
+
+    line-height:1.8;
+
+}
+
+@media(max-width:1000px){
+
+.features-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+@media(max-width:650px){
+
+.features-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.feature-item{
+
+justify-content:flex-start;
+
+}
+
+}
+
+</style>
+
+<div class="container">
+
+<div class="features-grid">
+
+<div class="feature-item">
+
+<div class="feature-icon">
+
+🛡️
+
+</div>
+
+<div class="feature-text">
+
+<h3>
+
+پرداخت امن
+
+</h3>
+
+<p>
+
+پرداخت آنلاین با درگاه‌های معتبر بانکی
+
+</p>
+
+</div>
+
+</div>
+
+<div class="feature-item">
+
+<div class="feature-icon">
+
+🚚
+
+</div>
+
+<div class="feature-text">
+
+<h3>
+
+ارسال سریع
+
+</h3>
+
+<p>
+
+ارسال دارو و محصولات در کوتاه‌ترین زمان
+
+</p>
+
+</div>
+
+</div>
+
+<div class="feature-item">
+
+<div class="feature-icon">
+
+💬
+
+</div>
+
+<div class="feature-text">
+
+<h3>
+
+پشتیبانی آنلاین
+
+</h3>
+
+<p>
+
+پاسخگویی همه روزه از ساعت ۸ تا ۲۲
+
+</p>
+
+</div>
+
+</div>
+
+<div class="feature-item">
+
+<div class="feature-icon">
+
+🩺
+
+</div>
+
+<div class="feature-text">
+
+<h3>
+
+دامپزشکان متخصص
+
+</h3>
+
+<p>
+
+همکاری با پزشکان دارای مجوز و باتجربه
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section> -->
+
+<section class="faq">
+
+<style>
+
+.faq{
+
+    padding:100px 0;
+
+    background:#fff;
+
+}
+
+.faq-head{
+
+    text-align:center;
+
+    margin-bottom:55px;
+
+}
+
+.faq-head span{
+
+    color:var(--green);
+
+    font-size:15px;
+
+    font-weight:700;
+
+}
+
+.faq-head h2{
+
+    margin-top:12px;
+
+    font-size:42px;
+
+    font-weight:900;
+
+    color:var(--text);
+
+}
+
+.faq-head p{
+
+    max-width:700px;
+
+    margin:18px auto 0;
+
+    color:var(--muted);
+
+    line-height:2;
+
+}
+
+.faq-list{
+
+    max-width:900px;
+
+    margin:auto;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:18px;
+
+}
+
+.faq-item{
+
+    background:var(--cream);
+
+    border:1px solid var(--soft);
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+}
+
+.faq-question{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    padding:26px 30px;
+
+    cursor:pointer;
+
+    font-size:20px;
+
+    font-weight:800;
+
+    color:var(--text);
+
+}
+
+.faq-icon{
+
+    width:42px;
+
+    height:42px;
+
+    border-radius:50%;
+
+    background:#fff;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:24px;
+
+    color:var(--orange);
+
+    transition:.3s;
+
+}
+
+.faq-item.active .faq-icon{
+
+    transform:rotate(45deg);
+
+}
+
+.faq-answer{
+
+    max-height:0;
+
+    overflow:hidden;
+
+    transition:max-height .35s ease;
+
+}
+
+.faq-answer p{
+
+    padding:0 30px 28px;
+
+    color:var(--muted);
+
+    line-height:2.1;
+
+}
+
+</style>
+
+<div class="container">
+
+<div class="faq-head">
+
+<span>
+
+سوالات متداول
+
+</span>
+
+<h2>
+
+پاسخ سوالات پرتکرار کاربران
+
+</h2>
+
+<p>
+
+در این بخش پاسخ رایج‌ترین سوالات درباره ویزیت آنلاین، داروخانه، فروشگاه و نحوه استفاده از سامانه را مشاهده می‌کنید.
+
+</p>
+
+</div>
+
+<div class="faq-list">
+
+<div class="faq-item">
+
+<div class="faq-question">
+
+<span>
+
+چگونه ویزیت آنلاین انجام می‌شود؟
+
+</span>
+
+<div class="faq-icon">
+
++
+
+</div>
+
+</div>
+
+<div class="faq-answer">
+
+<p>
+
+پس از انتخاب دامپزشک، اطلاعات حیوان، تصاویر یا ویدیو را ارسال می‌کنید و در زمان تعیین‌شده به صورت آنلاین با دامپزشک گفتگو خواهید کرد.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="faq-item">
+
+<div class="faq-question">
+
+<span>
+
+برای خرید دارو داشتن نسخه الزامی است؟
+
+</span>
+
+<div class="faq-icon">
+
++
+
+</div>
+
+</div>
+
+<div class="faq-answer">
+
+<p>
+
+بله، داروهای نسخه‌ای تنها پس از بارگذاری نسخه معتبر دامپزشک قابل سفارش هستند.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="faq-item">
+
+<div class="faq-question">
+
+<span>
+
+ارسال سفارش‌ها چقدر زمان می‌برد؟
+
+</span>
+
+<div class="faq-icon">
+
++
+
+</div>
+
+</div>
+
+<div class="faq-answer">
+
+<p>
+
+بسته به شهر مقصد، سفارش‌ها معمولاً بین ۱ تا ۳ روز کاری ارسال و تحویل داده می‌شوند.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="faq-item">
+
+<div class="faq-question">
+
+<span>
+
+آیا می‌توانم سوابق درمان حیوان خود را مشاهده کنم؟
+
+</span>
+
+<div class="faq-icon">
+
++
+
+</div>
+
+</div>
+
+<div class="faq-answer">
+
+<p>
+
+بله، پس از ورود به پنل کاربری تمامی ویزیت‌ها، نسخه‌ها، داروها و سوابق درمان حیوان در پرونده سلامت ثبت خواهد شد.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="faq-item">
+
+<div class="faq-question">
+
+<span>
+
+در صورت نیاز چگونه با پشتیبانی ارتباط بگیرم؟
+
+</span>
+
+<div class="faq-icon">
+
++
+
+</div>
+
+</div>
+
+<div class="faq-answer">
+
+<p>
+
+از طریق گفتگوی آنلاین، شماره تماس یا ارسال تیکت از داخل پنل کاربری می‌توانید با تیم پشتیبانی ارتباط برقرار کنید.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+</main>
+
+<footer class="footer">
+
+<style>
+
+.footer{
+
+    background:#1f2937;
+
+    color:#fff;
+
+    padding:80px 0 25px;
+
+}
+
+.footer-grid{
+
+    display:grid;
+
+    grid-template-columns:1.4fr 1fr 1fr 1.2fr;
+
+    gap:50px;
+
+    margin-bottom:50px;
+
+}
+
+.footer-logo{
+
+    width:75px;
+
+    margin-bottom:18px;
+
+}
+
+.footer h3{
+
+    font-size:22px;
+
+    margin-bottom:20px;
+
+    position:relative;
+
+}
+
+.footer h3::after{
+
+    content:"";
+
+    position:absolute;
+
+    right:0;
+
+    bottom:-10px;
+
+    width:45px;
+
+    height:3px;
+
+    border-radius:999px;
+
+    background:var(--orange);
+
+}
+
+.footer p{
+
+    color:rgba(255,255,255,.75);
+
+    line-height:2.1;
+
+    font-size:15px;
+
+}
+
+.footer-links{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:14px;
+
+    margin-top:12px;
+
+}
+
+.footer-links a{
+
+    color:rgba(255,255,255,.75);
+
+    transition:.25s;
+
+}
+
+.footer-links a:hover{
+
+    color:#fff;
+
+    padding-right:8px;
+
+}
+
+.footer-contact{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:15px;
+
+    margin-top:12px;
+
+}
+
+.footer-contact div{
+
+    color:rgba(255,255,255,.75);
+
+}
+
+.footer-social{
+
+    display:flex;
+
+    gap:14px;
+
+    margin-top:28px;
+
+}
+
+.footer-social a{
+
+    width:46px;
+
+    height:46px;
+
+    border-radius:14px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    background:rgba(255,255,255,.08);
+
+    transition:.25s;
+
+    font-size:20px;
+
+}
+
+.footer-social a:hover{
+
+    background:var(--orange);
+
+    transform:translateY(-5px);
+
+}
+
+.footer-bottom{
+
+    border-top:1px solid rgba(255,255,255,.08);
+
+    padding-top:25px;
+
+    text-align:center;
+
+    color:rgba(255,255,255,.55);
+
+    font-size:14px;
+
+}
+
+@media(max-width:980px){
+
+.footer-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+@media(max-width:650px){
+
+.footer-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+</style>
+
+<div class="container">
+
+<div class="footer-grid">
+
+<div>
+
+<img src="icons/comp15.png" class="footer-logo">
+
+<p>
+
+سامانه جامع خدمات دامپزشکی آنلاین با هدف ارائه خدمات ویزیت، داروخانه و فروشگاه تخصصی حیوانات خانگی طراحی شده است.
+
+</p>
+
+<div class="footer-social">
+
+<a href="#">📷</a>
+
+<a href="#">💬</a>
+
+<a href="#">▶</a>
+
+<a href="#">📱</a>
+
+</div>
+
+</div>
+
+<div>
+
+<h3>
+
+لینک‌های سریع
+
+</h3>
+
+<div class="footer-links">
+
+<a href="#">خانه</a>
+
+<a href="#">درباره ما</a>
+
+<a href="#">تماس با ما</a>
+
+<a href="#">وبلاگ</a>
+
+<a href="#">سوالات متداول</a>
+
+</div>
+
+</div>
+
+<div>
+
+<h3>
+
+خدمات
+
+</h3>
+
+<div class="footer-links">
+
+<a href="#">ویزیت آنلاین</a>
+
+<a href="#">داروخانه</a>
+
+<a href="#">فروشگاه</a>
+
+<a href="#">نسخه الکترونیکی</a>
+
+<a href="#">پیگیری سفارش</a>
+
+</div>
+
+</div>
+
+<div>
+
+<h3>
+
+اطلاعات تماس
+
+</h3>
+
+<div class="footer-contact">
+
+<div>
+
+📍 تهران، خیابان نمونه، پلاک ۱۲۳
+
+</div>
+
+<div>
+
+☎ 021-12345678
+
+</div>
+
+<div>
+
+✉ info@example.com
+
+</div>
+
+<div>
+
+🕒 همه روزه از ساعت ۸ تا ۲۲
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="footer-bottom">
+
+تمامی حقوق این سامانه محفوظ است © ۱۴۰۴
+
+</div>
+
+</div>
+
+</footer>
+
+
+
+
+
+
+<script src="script.js"></script>
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,3936 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+  <title>وتبان | خدمات</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="icons/comp15.png" />
+</head>
+
+<body>
+
+<header class="site-header">
+    <div class="container nav-wrap">
+
+        <a href="#" class="logo">
+            <img src="icons/comp15.png" alt="لوگو">
+        </a>
+
+        <nav class="main-nav">
+            <a href="index.html" class="active">خانه</a>
+            <a href="ecosystem.html">ویزیت انلاین</a>
+            <a href="company.html">داروخانه</a>
+            <a href="about.html">فروشگاه</a>
+            <a href="#">درباره ما</a>
+            <a href="#">تماس با ما</a>
+        </nav>
+
+        <div class="header-actions">
+            <a href="#" class="btn outline">
+                ورود / ثبت نام
+            </a>
+        </div>
+
+        <button class="menu-toggle">
+            ☰
+        </button>
+
+    </div>
+</header>
+
+<main>
+
+<section class="dog-hero">
+
+<style>
+
+.dog-hero{
+
+    position:relative;
+
+    padding:85px 0;
+
+    background:
+    linear-gradient(
+    135deg,
+    #f2f4f7 0%,
+    #ffffff 50%,
+    #e5e7eb 100%);
+
+    overflow:hidden;
+
+}
+
+.dog-hero::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:520px;
+
+    height:520px;
+
+    border-radius:50%;
+
+    right:-180px;
+
+    top:-220px;
+
+    background:rgba(58,125,68,.08);
+
+    filter:blur(40px);
+
+}
+
+.dog-hero::after{
+
+    content:"";
+
+    position:absolute;
+
+    width:500px;
+
+    height:500px;
+
+    border-radius:50%;
+
+    left:-180px;
+
+    bottom:-220px;
+
+    background:rgba(36,89,166,.08);
+
+    filter:blur(45px);
+
+}
+
+.dog-hero-wrap{
+
+    position:relative;
+
+    z-index:2;
+
+    display:grid;
+
+    grid-template-columns:1.1fr .9fr;
+
+    align-items:center;
+
+    gap:60px;
+
+}
+
+.dog-hero-content span{
+
+    display:inline-block;
+
+    padding:8px 18px;
+
+    border-radius:999px;
+
+    background:#fff;
+
+    color:var(--orange);
+
+    border:1px solid var(--soft);
+
+    font-size:14px;
+
+    font-weight:700;
+
+    margin-bottom:20px;
+
+}
+
+.dog-hero-content h1{
+
+    font-size:46px;
+
+    line-height:1.6;
+
+    font-weight:900;
+
+    color:var(--text);
+
+    margin-bottom:18px;
+
+}
+
+.dog-hero-content p{
+
+    color:var(--muted);
+
+    font-size:18px;
+
+    line-height:2;
+
+    max-width:650px;
+
+}
+
+.dog-hero-actions{
+
+    margin-top:38px;
+
+    display:flex;
+
+    gap:16px;
+
+    flex-wrap:wrap;
+
+}
+
+.dog-hero-actions .btn{
+
+    min-width:210px;
+
+    min-height:60px;
+
+}
+
+.dog-hero-image{
+
+    background:#fff;
+
+    border:1px solid var(--soft);
+
+    border-radius:32px;
+
+    overflow:hidden;
+
+    height:450px;
+
+    box-shadow:var(--shadow);
+
+}
+
+.dog-hero-image img{
+
+    width:100%;
+
+    height:100%;
+
+    display:block;
+
+    object-fit:cover;
+
+}
+
+.dog-quick-info{
+
+    margin-top:24px;
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:14px;
+
+}
+
+.dog-info-item{
+
+    background:#fff;
+
+    border:1px solid var(--soft);
+
+    border-radius:18px;
+
+    padding:16px;
+
+    text-align:center;
+
+}
+
+.dog-info-item strong{
+
+    display:block;
+
+    color:var(--text);
+
+    font-size:18px;
+
+    margin-bottom:5px;
+
+}
+
+.dog-info-item small{
+
+    color:var(--muted);
+
+    font-size:13px;
+
+}
+
+@media(max-width:950px){
+
+.dog-hero-wrap{
+
+grid-template-columns:1fr;
+
+text-align:center;
+
+}
+
+.dog-hero-content p{
+
+margin:auto;
+
+}
+
+.dog-hero-actions{
+
+justify-content:center;
+
+}
+
+}
+
+@media(max-width:650px){
+
+.dog-hero{
+
+padding:70px 0;
+
+}
+
+.dog-hero-content h1{
+
+font-size:34px;
+
+}
+
+.dog-quick-info{
+
+grid-template-columns:1fr;
+
+}
+
+.dog-hero-actions .btn{
+
+width:100%;
+
+}
+
+}
+
+</style>
+
+<div class="container">
+
+<div class="dog-hero-wrap">
+
+<div class="dog-hero-content">
+
+<span>
+
+🐶 خدمات تخصصی سگ
+
+</span>
+
+<h1>
+
+مراقبت، ویزیت و خرید محصولات سگ
+در یک صفحه
+
+</h1>
+
+<p>
+
+از ویزیت آنلاین با دامپزشک تا خرید غذای خشک، دارو، مکمل و تجهیزات نگهداری سگ؛ همه چیز بر اساس نیاز سگ شما دسته‌بندی شده است.
+
+</p>
+
+<div class="dog-hero-actions">
+
+<a href="#" class="btn orange">
+
+🩺 شروع ویزیت سگ
+
+</a>
+
+<a href="#" class="btn outline">
+
+🛒 مشاهده محصولات سگ
+
+</a>
+
+</div>
+
+<div class="dog-quick-info">
+
+<div class="dog-info-item">
+
+<strong>
+
+ویزیت
+
+</strong>
+
+<small>
+
+دامپزشکان متخصص
+
+</small>
+
+</div>
+
+<div class="dog-info-item">
+
+<strong>
+
+دارو
+
+</strong>
+
+<small>
+
+با نسخه معتبر
+
+</small>
+
+</div>
+
+<div class="dog-info-item">
+
+<strong>
+
+فروشگاه
+
+</strong>
+
+<small>
+
+خوراک و تجهیزات
+
+</small>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="dog-hero-image">
+
+<img src="icons/dog2.JPG" alt="خدمات سگ">
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="dog-services">
+
+<style>
+
+.dog-services{
+
+    padding:95px 0;
+
+    background:#fff;
+
+}
+
+.dog-services-head{
+
+    text-align:center;
+
+    margin-bottom:58px;
+
+}
+
+.dog-services-head span{
+
+    color:var(--green);
+
+    font-size:15px;
+
+    font-weight:700;
+
+}
+
+.dog-services-head h2{
+
+    margin-top:12px;
+
+    font-size:40px;
+
+    font-weight:900;
+
+    color:var(--text);
+
+}
+
+.dog-services-head p{
+
+    max-width:720px;
+
+    margin:18px auto 0;
+
+    color:var(--muted);
+
+    line-height:2;
+
+}
+
+.dog-services-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:28px;
+
+}
+
+.dog-service-card{
+
+    background:var(--cream);
+
+    border:1px solid var(--soft);
+
+    border-radius:26px;
+
+    padding:38px 30px;
+
+    text-align:center;
+
+    transition:.28s;
+
+}
+
+.dog-service-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:var(--shadow);
+
+}
+
+.dog-service-icon{
+
+    width:82px;
+
+    height:82px;
+
+    border-radius:24px;
+
+    margin:0 auto 24px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:38px;
+
+    background:rgba(36,89,166,.08);
+
+}
+
+.dog-service-card:nth-child(2) .dog-service-icon{
+
+    background:rgba(58,125,68,.10);
+
+}
+
+.dog-service-card:nth-child(3) .dog-service-icon{
+
+    background:rgba(36,89,166,.08);
+
+}
+
+.dog-service-card h3{
+
+    font-size:25px;
+
+    color:var(--text);
+
+    margin-bottom:14px;
+
+}
+
+.dog-service-card p{
+
+    color:var(--muted);
+
+    line-height:2;
+
+    min-height:105px;
+
+}
+
+.dog-service-card .btn{
+
+    width:100%;
+
+    margin-top:28px;
+
+}
+
+@media(max-width:950px){
+
+.dog-services-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+</style>
+
+<div class="container">
+
+<div class="dog-services-head">
+
+<span>
+
+خدمات مخصوص سگ
+
+</span>
+
+<h2>
+
+برای سگ شما چه کاری انجام می‌دهیم؟
+
+</h2>
+
+<p>
+
+در این بخش می‌توانید سریع‌تر به خدمات مرتبط با سگ دسترسی داشته باشید؛ از مشاوره دامپزشکی تا خرید دارو و محصولات تخصصی.
+
+</p>
+
+</div>
+
+<div class="dog-services-grid">
+
+<div class="dog-service-card">
+
+<div class="dog-service-icon">
+
+🩺
+
+</div>
+
+<h3>
+
+ویزیت آنلاین سگ
+
+</h3>
+
+<p>
+
+علائم، تصاویر یا ویدیوهای سگ خود را ارسال کنید و از دامپزشک متخصص راهنمایی و نسخه الکترونیکی دریافت نمایید.
+
+</p>
+
+<a href="#" class="btn primary">
+
+شروع ویزیت
+
+</a>
+
+</div>
+
+<div class="dog-service-card">
+
+<div class="dog-service-icon">
+
+💊
+
+</div>
+
+<h3>
+
+داروخانه سگ
+
+</h3>
+
+<p>
+
+داروها و مکمل‌های موردنیاز سگ را با نسخه معتبر ثبت کنید و سفارش خود را به صورت آنلاین پیگیری نمایید.
+
+</p>
+
+<a href="#" class="btn primary">
+
+مشاهده داروها
+
+</a>
+
+</div>
+
+<div class="dog-service-card">
+
+<div class="dog-service-icon">
+
+🛒
+
+</div>
+
+<h3>
+
+فروشگاه سگ
+
+</h3>
+
+<p>
+
+غذای خشک، کنسرو، تشویقی، قلاده، اسباب‌بازی و تجهیزات نگهداری سگ را از فروشگاه تهیه کنید.
+
+</p>
+
+<a href="#" class="btn primary">
+
+ورود به فروشگاه
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="dog-categories">
+
+<style>
+
+.dog-categories{
+
+    padding:95px 0;
+
+    background:var(--cream);
+
+}
+
+.dog-categories-head{
+
+    text-align:center;
+
+    margin-bottom:58px;
+
+}
+
+.dog-categories-head span{
+
+    color:var(--orange);
+
+    font-size:15px;
+
+    font-weight:700;
+
+}
+
+.dog-categories-head h2{
+
+    margin-top:12px;
+
+    font-size:40px;
+
+    font-weight:900;
+
+    color:var(--text);
+
+}
+
+.dog-categories-head p{
+
+    max-width:720px;
+
+    margin:18px auto 0;
+
+    color:var(--muted);
+
+    line-height:2;
+
+}
+
+.dog-categories-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(6,1fr);
+
+    gap:22px;
+
+}
+
+.dog-category-card{
+
+    background:#fff;
+
+    border:1px solid var(--soft);
+
+    border-radius:24px;
+
+    padding:30px 18px;
+
+    text-align:center;
+
+    transition:.28s;
+
+    cursor:pointer;
+
+}
+
+.dog-category-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:var(--shadow);
+
+    border-color:var(--orange);
+
+}
+
+.dog-category-icon{
+
+    width:78px;
+
+    height:78px;
+
+    border-radius:22px;
+
+    margin:0 auto 20px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:38px;
+
+    background:rgba(36,89,166,.08);
+
+}
+
+.dog-category-card:nth-child(even) .dog-category-icon{
+
+    background:rgba(58,125,68,.10);
+
+}
+
+.dog-category-card h3{
+
+    font-size:20px;
+
+    color:var(--text);
+
+    margin-bottom:8px;
+
+}
+
+.dog-category-card span{
+
+    color:var(--muted);
+
+    font-size:14px;
+
+}
+
+@media(max-width:1100px){
+
+.dog-categories-grid{
+
+grid-template-columns:repeat(3,1fr);
+
+}
+
+}
+
+@media(max-width:650px){
+
+.dog-categories-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+</style>
+
+<div class="container">
+
+<div class="dog-categories-head">
+
+<span>
+
+دسته‌بندی فروشگاه سگ
+
+</span>
+
+<h2>
+
+محصولات سگ را سریع‌تر پیدا کنید
+
+</h2>
+
+<p>
+
+محصولات فروشگاه سگ بر اساس نیازهای اصلی دسته‌بندی شده‌اند تا کاربر بدون جستجوی زیاد، سریع‌تر به محصول مناسب برسد.
+
+</p>
+
+</div>
+
+<div class="dog-categories-grid">
+
+<div class="dog-category-card">
+
+<div class="dog-category-icon">
+
+🍖
+
+</div>
+
+<h3>
+
+غذای خشک
+
+</h3>
+
+<span>
+
+انواع برندهای تخصصی
+
+</span>
+
+</div>
+
+<div class="dog-category-card">
+
+<div class="dog-category-icon">
+
+🥫
+
+</div>
+
+<h3>
+
+کنسرو
+
+</h3>
+
+<span>
+
+غذای تر و مقوی
+
+</span>
+
+</div>
+
+<div class="dog-category-card">
+
+<div class="dog-category-icon">
+
+🦴
+
+</div>
+
+<h3>
+
+تشویقی
+
+</h3>
+
+<span>
+
+برای آموزش و جایزه
+
+</span>
+
+</div>
+
+<div class="dog-category-card">
+
+<div class="dog-category-icon">
+
+💊
+
+</div>
+
+<h3>
+
+مکمل
+
+</h3>
+
+<span>
+
+ویتامین و تقویتی
+
+</span>
+
+</div>
+
+<div class="dog-category-card">
+
+<div class="dog-category-icon">
+
+🧴
+
+</div>
+
+<h3>
+
+بهداشت
+
+</h3>
+
+<span>
+
+شامپو و مراقبت
+
+</span>
+
+</div>
+
+<div class="dog-category-card">
+
+<div class="dog-category-icon">
+
+🎾
+
+</div>
+
+<h3>
+
+اسباب‌بازی
+
+</h3>
+
+<span>
+
+سرگرمی و فعالیت
+
+</span>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="dog-shortcuts">
+
+<style>
+
+.dog-shortcuts{
+
+    padding:95px 0;
+
+    background:#fff;
+
+}
+
+.dog-shortcuts-head{
+
+    text-align:center;
+
+    margin-bottom:60px;
+
+}
+
+.dog-shortcuts-head span{
+
+    color:var(--green);
+
+    font-size:15px;
+
+    font-weight:700;
+
+}
+
+.dog-shortcuts-head h2{
+
+    margin-top:12px;
+
+    font-size:40px;
+
+    font-weight:900;
+
+    color:var(--text);
+
+}
+
+.dog-shortcuts-head p{
+
+    max-width:720px;
+
+    margin:18px auto 0;
+
+    color:var(--muted);
+
+    line-height:2;
+
+}
+
+.dog-shortcuts-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:28px;
+
+}
+
+.shortcut-card{
+
+    background:var(--cream);
+
+    border:1px solid var(--soft);
+
+    border-radius:28px;
+
+    padding:42px 32px;
+
+    text-align:center;
+
+    transition:.28s;
+
+}
+
+.shortcut-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:var(--shadow);
+
+}
+
+.shortcut-icon{
+
+    width:90px;
+
+    height:90px;
+
+    margin:0 auto 24px;
+
+    border-radius:24px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:42px;
+
+    background:rgba(36,89,166,.08);
+
+}
+
+.shortcut-card:nth-child(2) .shortcut-icon{
+
+    background:rgba(58,125,68,.10);
+
+}
+
+.shortcut-card:nth-child(3) .shortcut-icon{
+
+    background:rgba(36,89,166,.08);
+
+}
+
+.shortcut-card h3{
+
+    font-size:26px;
+
+    margin-bottom:16px;
+
+    color:var(--text);
+
+}
+
+.shortcut-card p{
+
+    color:var(--muted);
+
+    line-height:2;
+
+    min-height:95px;
+
+}
+
+.shortcut-card .btn{
+
+    width:100%;
+
+    margin-top:28px;
+
+}
+
+@media(max-width:950px){
+
+.dog-shortcuts-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+</style>
+
+<div class="container">
+
+<div class="dog-shortcuts-head">
+
+<span>
+
+دسترسی سریع
+
+</span>
+
+<h2>
+
+الان دقیقاً دنبال چه کاری هستید؟
+
+</h2>
+
+<p>
+
+مسیر موردنظر خود را انتخاب کنید تا سریع‌تر به بخش مناسب هدایت شوید و بدون جستجوی اضافی خدمات موردنیاز سگ خود را دریافت کنید.
+
+</p>
+
+</div>
+
+<div class="dog-shortcuts-grid">
+
+<div class="shortcut-card">
+
+<div class="shortcut-icon">
+
+🤒
+
+</div>
+
+<h3>
+
+سگم بیمار شده
+
+</h3>
+
+<p>
+
+اگر سگ شما علائمی مانند بی‌حالی، استفراغ، تب یا مشکلات پوستی دارد، همین حالا با دامپزشک آنلاین گفتگو کنید.
+
+</p>
+
+<a href="#" class="btn primary">
+
+شروع ویزیت
+
+</a>
+
+</div>
+
+<div class="shortcut-card">
+
+<div class="shortcut-icon">
+
+📄
+
+</div>
+
+<h3>
+
+نسخه دامپزشک دارم
+
+</h3>
+
+<p>
+
+نسخه خود را بارگذاری کنید تا داروهای موردنیاز بررسی و در کوتاه‌ترین زمان برای شما ارسال شوند.
+
+</p>
+
+<a href="#" class="btn primary">
+
+ثبت نسخه
+
+</a>
+
+</div>
+
+<div class="shortcut-card">
+
+<div class="shortcut-icon">
+
+🛍️
+
+</div>
+
+<h3>
+
+فقط می‌خواهم خرید کنم
+
+</h3>
+
+<p>
+
+اگر به دنبال غذای خشک، تشویقی، مکمل یا تجهیزات نگهداری سگ هستید، وارد فروشگاه تخصصی شوید.
+
+</p>
+
+<a href="#" class="btn primary">
+
+ورود به فروشگاه
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="dog-products">
+
+<style>
+
+.dog-products{
+
+    padding:95px 0;
+
+    background:#fff;
+
+}
+
+.dog-products-head{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:end;
+
+    gap:24px;
+
+    flex-wrap:wrap;
+
+    margin-bottom:55px;
+
+}
+
+.dog-products-title span{
+
+    color:var(--green);
+
+    font-size:15px;
+
+    font-weight:700;
+
+}
+
+.dog-products-title h2{
+
+    margin-top:12px;
+
+    font-size:40px;
+
+    font-weight:900;
+
+    color:var(--text);
+
+}
+
+.dog-products-title p{
+
+    max-width:650px;
+
+    margin-top:14px;
+
+    color:var(--muted);
+
+    line-height:2;
+
+}
+
+.dog-products-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:26px;
+
+}
+
+.dog-product-card{
+
+    background:var(--cream);
+
+    border:1px solid var(--soft);
+
+    border-radius:24px;
+
+    overflow:hidden;
+
+    transition:.28s;
+
+}
+
+.dog-product-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:var(--shadow);
+
+}
+
+.dog-product-image{
+
+    height:220px;
+
+    background:#fff;
+
+}
+
+.dog-product-image img{
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:contain;
+
+    padding:25px;
+
+}
+
+.dog-product-body{
+
+    padding:24px;
+
+}
+
+.dog-product-category{
+
+    color:var(--orange);
+
+    font-size:14px;
+
+    font-weight:700;
+
+    margin-bottom:8px;
+
+}
+
+.dog-product-body h3{
+
+    font-size:20px;
+
+    color:var(--text);
+
+    margin-bottom:12px;
+
+}
+
+.dog-product-price{
+
+    font-size:22px;
+
+    font-weight:900;
+
+    color:var(--green);
+
+    margin-bottom:20px;
+
+}
+
+.dog-product-body .btn{
+
+    width:100%;
+
+}
+
+@media(max-width:1100px){
+
+.dog-products-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+@media(max-width:650px){
+
+.dog-products-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+</style>
+
+<div class="container">
+
+<div class="dog-products-head">
+
+<div class="dog-products-title">
+
+<span>
+
+محصولات پرفروش سگ
+
+</span>
+
+<h2>
+
+انتخاب‌های محبوب صاحبان سگ
+
+</h2>
+
+<p>
+
+محصولات پرکاربرد و پرفروش مخصوص سگ، شامل غذا، مکمل، بهداشت و سرگرمی را سریع‌تر پیدا کنید.
+
+</p>
+
+</div>
+
+<a href="#" class="btn outline">
+
+مشاهده همه محصولات سگ
+
+</a>
+
+</div>
+
+<div class="dog-products-grid">
+
+<div class="dog-product-card">
+
+<div class="dog-product-image">
+
+<img src="icons/d1.jpeg" alt="غذای خشک سگ">
+
+</div>
+
+<div class="dog-product-body">
+
+<div class="dog-product-category">
+
+غذای خشک
+
+</div>
+
+<h3>
+
+غذای خشک سگ بالغ
+
+</h3>
+
+<div class="dog-product-price">
+
+۲,۴۹۰,۰۰۰ تومان
+
+</div>
+
+<a href="#" class="btn orange">
+
+مشاهده محصول
+
+</a>
+
+</div>
+
+</div>
+
+<div class="dog-product-card">
+
+<div class="dog-product-image">
+
+<img src="icons/d2.jpeg" alt="تشویقی سگ">
+
+</div>
+
+<div class="dog-product-body">
+
+<div class="dog-product-category">
+
+تشویقی
+
+</div>
+
+<h3>
+
+تشویقی نرم آموزشی
+
+</h3>
+
+<div class="dog-product-price">
+
+۳۲۰,۰۰۰ تومان
+
+</div>
+
+<a href="#" class="btn orange">
+
+مشاهده محصول
+
+</a>
+
+</div>
+
+</div>
+
+<div class="dog-product-card">
+
+<div class="dog-product-image">
+
+<img src="icons/d3.jpeg" alt="مکمل سگ">
+
+</div>
+
+<div class="dog-product-body">
+
+<div class="dog-product-category">
+
+مکمل
+
+</div>
+
+<h3>
+
+مکمل تقویت مفاصل
+
+</h3>
+
+<div class="dog-product-price">
+
+۶۸۰,۰۰۰ تومان
+
+</div>
+
+<a href="#" class="btn orange">
+
+مشاهده محصول
+
+</a>
+
+</div>
+
+</div>
+
+<div class="dog-product-card">
+
+<div class="dog-product-image">
+
+<img src="icons/d4.jpeg" alt="شامپو سگ">
+
+</div>
+
+<div class="dog-product-body">
+
+<div class="dog-product-category">
+
+بهداشت
+
+</div>
+
+<h3>
+
+شامپو مخصوص سگ
+
+</h3>
+
+<div class="dog-product-price">
+
+۳۹۰,۰۰۰ تومان
+
+</div>
+
+<a href="#" class="btn orange">
+
+مشاهده محصول
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="dog-doctors">
+
+<style>
+
+.dog-doctors{
+
+    padding:95px 0;
+
+    background:var(--cream);
+
+}
+
+.dog-doctors-head{
+
+    text-align:center;
+
+    margin-bottom:58px;
+
+}
+
+.dog-doctors-head span{
+
+    color:var(--orange);
+
+    font-size:15px;
+
+    font-weight:700;
+
+}
+
+.dog-doctors-head h2{
+
+    margin-top:12px;
+
+    font-size:40px;
+
+    font-weight:900;
+
+    color:var(--text);
+
+}
+
+.dog-doctors-head p{
+
+    max-width:720px;
+
+    margin:18px auto 0;
+
+    color:var(--muted);
+
+    line-height:2;
+
+}
+
+.dog-doctors-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:28px;
+
+}
+
+.dog-doctor-card{
+
+    background:#fff;
+
+    border:1px solid var(--soft);
+
+    border-radius:26px;
+
+    overflow:hidden;
+
+    transition:.28s;
+
+}
+
+.dog-doctor-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:var(--shadow);
+
+}
+
+.dog-doctor-image{
+
+    height:275px;
+
+    background:var(--cream);
+
+    overflow:hidden;
+
+}
+
+.dog-doctor-image img{
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+}
+
+.dog-doctor-body{
+
+    padding:28px;
+
+}
+
+.dog-doctor-body h3{
+
+    font-size:24px;
+
+    color:var(--text);
+
+    margin-bottom:8px;
+
+}
+
+.dog-doctor-speciality{
+
+    color:var(--orange);
+
+    font-weight:700;
+
+    margin-bottom:18px;
+
+}
+
+.dog-doctor-tags{
+
+    display:flex;
+
+    gap:10px;
+
+    flex-wrap:wrap;
+
+    margin-bottom:22px;
+
+}
+
+.dog-doctor-tags span{
+
+    padding:6px 12px;
+
+    border-radius:999px;
+
+    background:rgba(36,89,166,.08);
+
+    color:var(--text);
+
+    font-size:13px;
+
+    font-weight:700;
+
+}
+
+.dog-doctor-meta{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    color:var(--muted);
+
+    font-size:15px;
+
+    margin-bottom:24px;
+
+}
+
+.dog-doctor-rate{
+
+    color:#ffb400;
+
+    font-size:17px;
+
+}
+
+.dog-doctor-body .btn{
+
+    width:100%;
+
+}
+
+@media(max-width:980px){
+
+.dog-doctors-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+</style>
+
+<div class="container">
+
+<div class="dog-doctors-head">
+
+<span>
+
+دامپزشکان متخصص سگ
+
+</span>
+
+<h2>
+
+ویزیت آنلاین با پزشکان باتجربه
+
+</h2>
+
+<p>
+
+در این بخش دامپزشکانی نمایش داده می‌شوند که تجربه بیشتری در زمینه بیماری‌ها، تغذیه و مراقبت از سگ‌ها دارند.
+
+</p>
+
+</div>
+
+<div class="dog-doctors-grid">
+
+<div class="dog-doctor-card">
+
+<div class="dog-doctor-image">
+
+<img src="icons/images (1).jpg" alt="دامپزشک متخصص سگ">
+
+</div>
+
+<div class="dog-doctor-body">
+
+<h3>
+
+دکتر علی رضایی
+
+</h3>
+
+<div class="dog-doctor-speciality">
+
+متخصص داخلی سگ
+
+</div>
+
+<div class="dog-doctor-tags">
+
+<span>پوست</span>
+
+<span>گوارش</span>
+
+<span>تغذیه</span>
+
+</div>
+
+<div class="dog-doctor-meta">
+
+<span>۸۵۰ ویزیت</span>
+
+<span class="dog-doctor-rate">★★★★★</span>
+
+</div>
+
+<a href="#" class="btn primary">
+
+شروع ویزیت
+
+</a>
+
+</div>
+
+</div>
+
+<div class="dog-doctor-card">
+
+<div class="dog-doctor-image">
+
+<img src="icons/images.jpg" alt="دامپزشک جراح سگ">
+
+</div>
+
+<div class="dog-doctor-body">
+
+<h3>
+
+دکتر مریم صالحی
+
+</h3>
+
+<div class="dog-doctor-speciality">
+
+جراح دامپزشک
+
+</div>
+
+<div class="dog-doctor-tags">
+
+<span>جراحی</span>
+
+<span>ارتوپدی</span>
+
+<span>اورژانس</span>
+
+</div>
+
+<div class="dog-doctor-meta">
+
+<span>۶۴۰ ویزیت</span>
+
+<span class="dog-doctor-rate">★★★★★</span>
+
+</div>
+
+<a href="#" class="btn primary">
+
+مشاهده پروفایل
+
+</a>
+
+</div>
+
+</div>
+
+<div class="dog-doctor-card">
+
+<div class="dog-doctor-image">
+
+<img src="icons/images (2).jpg" alt="دامپزشک تغذیه سگ">
+
+</div>
+
+<div class="dog-doctor-body">
+
+<h3>
+
+دکتر مهرداد شیرازی
+
+</h3>
+
+<div class="dog-doctor-speciality">
+
+مشاور تغذیه سگ
+
+</div>
+
+<div class="dog-doctor-tags">
+
+<span>چاقی</span>
+
+<span>رژیم غذایی</span>
+
+<span>توله سگ</span>
+
+</div>
+
+<div class="dog-doctor-meta">
+
+<span>۵۲۰ ویزیت</span>
+
+<span class="dog-doctor-rate">★★★★★</span>
+
+</div>
+
+<a href="#" class="btn primary">
+
+رزرو نوبت
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="dog-blog">
+
+<style>
+
+.dog-blog{
+
+    padding:95px 0;
+
+    background:#fff;
+
+}
+
+.dog-blog-head{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:end;
+
+    gap:25px;
+
+    margin-bottom:55px;
+
+    flex-wrap:wrap;
+
+}
+
+.dog-blog-title span{
+
+    color:var(--green);
+
+    font-size:15px;
+
+    font-weight:700;
+
+}
+
+.dog-blog-title h2{
+
+    margin-top:12px;
+
+    font-size:40px;
+
+    font-weight:900;
+
+    color:var(--text);
+
+}
+
+.dog-blog-title p{
+
+    margin-top:15px;
+
+    max-width:650px;
+
+    color:var(--muted);
+
+    line-height:2;
+
+}
+
+.dog-blog-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:28px;
+
+}
+
+.blog-card{
+
+    background:var(--cream);
+
+    border-radius:26px;
+
+    overflow:hidden;
+
+    border:1px solid var(--soft);
+
+    transition:.28s;
+
+}
+
+.blog-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:var(--shadow);
+
+}
+
+.blog-image{
+
+    height:230px;
+
+    overflow:hidden;
+
+}
+
+.blog-image img{
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+    transition:.4s;
+
+}
+
+.blog-card:hover img{
+
+    transform:scale(1.05);
+
+}
+
+.blog-body{
+
+    padding:28px;
+
+}
+
+.blog-meta{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    margin-bottom:14px;
+
+    color:var(--muted);
+
+    font-size:13px;
+
+}
+
+.blog-body h3{
+
+    font-size:24px;
+
+    color:var(--text);
+
+    line-height:1.7;
+
+    margin-bottom:16px;
+
+}
+
+.blog-body p{
+
+    color:var(--muted);
+
+    line-height:2;
+
+    margin-bottom:24px;
+
+}
+
+.blog-link{
+
+    color:var(--orange);
+
+    font-weight:700;
+
+}
+
+@media(max-width:1000px){
+
+.dog-blog-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+</style>
+
+<div class="container">
+
+<div class="dog-blog-head">
+
+<div class="dog-blog-title">
+
+<span>
+
+مجله سلامت سگ
+
+</span>
+
+<h2>
+
+توصیه‌های دامپزشکان را بخوانید
+
+</h2>
+
+<p>
+
+جدیدترین مقالات آموزشی درباره تغذیه، مراقبت، بیماری‌ها و سبک زندگی سالم سگ‌ها توسط دامپزشکان و متخصصان تهیه شده‌اند.
+
+</p>
+
+</div>
+
+<a href="#" class="btn outline">
+
+مشاهده همه مقالات
+
+</a>
+
+</div>
+
+<div class="dog-blog-grid">
+
+<div class="blog-card">
+
+<div class="blog-image">
+
+<img src="icons/bb1.jpg">
+
+</div>
+
+<div class="blog-body">
+
+<div class="blog-meta">
+
+<span>۵ دقیقه مطالعه</span>
+
+<span>۱۸ خرداد ۱۴۰۴</span>
+
+</div>
+
+<h3>
+
+راهنمای کامل تغذیه توله سگ در سال اول زندگی
+
+</h3>
+
+<p>
+
+با انتخاب غذای مناسب در ماه‌های ابتدایی، رشد سالم‌تر و سیستم ایمنی قوی‌تری برای سگ خود فراهم کنید.
+
+</p>
+
+<a href="#" class="blog-link">
+
+مطالعه مقاله →
+
+</a>
+
+</div>
+
+</div>
+
+<div class="blog-card">
+
+<div class="blog-image">
+
+<img src="icons/bb2.jpg">
+
+</div>
+
+<div class="blog-body">
+
+<div class="blog-meta">
+
+<span>۷ دقیقه مطالعه</span>
+
+<span>۱۴ خرداد ۱۴۰۴</span>
+
+</div>
+
+<h3>
+
+علائم بیماری‌های پوستی در سگ و زمان مراجعه به دامپزشک
+
+</h3>
+
+<p>
+
+خارش، ریزش مو و التهاب پوست از رایج‌ترین مشکلات سگ‌ها هستند که باید به موقع بررسی شوند.
+
+</p>
+
+<a href="#" class="blog-link">
+
+مطالعه مقاله →
+
+</a>
+
+</div>
+
+</div>
+
+<div class="blog-card">
+
+<div class="blog-image">
+
+<img src="icons/bb3.jpg">
+
+</div>
+
+<div class="blog-body">
+
+<div class="blog-meta">
+
+<span>۶ دقیقه مطالعه</span>
+
+<span>۹ خرداد ۱۴۰۴</span>
+
+</div>
+
+<h3>
+
+برنامه واکسیناسیون سگ از تولگی تا بزرگسالی
+
+</h3>
+
+<p>
+
+با رعایت برنامه واکسیناسیون، از بسیاری از بیماری‌های خطرناک و واگیردار پیشگیری کنید.
+
+</p>
+
+<a href="#" class="blog-link">
+
+مطالعه مقاله →
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="dog-tips">
+
+<style>
+
+.dog-tips{
+
+    padding:95px 0;
+
+    background:var(--cream);
+
+}
+
+.dog-tips-head{
+
+    text-align:center;
+
+    margin-bottom:60px;
+
+}
+
+.dog-tips-head span{
+
+    color:var(--orange);
+
+    font-size:15px;
+
+    font-weight:700;
+
+}
+
+.dog-tips-head h2{
+
+    margin-top:12px;
+
+    font-size:40px;
+
+    font-weight:900;
+
+    color:var(--text);
+
+}
+
+.dog-tips-head p{
+
+    max-width:720px;
+
+    margin:18px auto 0;
+
+    color:var(--muted);
+
+    line-height:2;
+
+}
+
+.dog-tips-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:28px;
+
+}
+
+.tip-card{
+
+    background:#fff;
+
+    border:1px solid var(--soft);
+
+    border-radius:26px;
+
+    padding:36px 30px;
+
+    transition:.28s;
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+.tip-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:var(--shadow);
+
+}
+
+.tip-card::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:120px;
+
+    height:120px;
+
+    border-radius:50%;
+
+    left:-45px;
+
+    top:-45px;
+
+    background:rgba(36,89,166,.07);
+
+}
+
+.tip-card:nth-child(2)::before{
+
+    background:rgba(58,125,68,.09);
+
+}
+
+.tip-icon{
+
+    width:76px;
+
+    height:76px;
+
+    border-radius:22px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:36px;
+
+    background:rgba(36,89,166,.08);
+
+    margin-bottom:24px;
+
+}
+
+.tip-card:nth-child(2) .tip-icon{
+
+    background:rgba(58,125,68,.10);
+
+}
+
+.tip-card h3{
+
+    font-size:24px;
+
+    color:var(--text);
+
+    margin-bottom:14px;
+
+}
+
+.tip-card p{
+
+    color:var(--muted);
+
+    line-height:2;
+
+}
+
+.tip-note{
+
+    margin-top:55px;
+
+    background:#fff;
+
+    border:1px solid var(--soft);
+
+    border-radius:26px;
+
+    padding:30px 34px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    gap:25px;
+
+}
+
+.tip-note-text h3{
+
+    color:var(--text);
+
+    font-size:24px;
+
+    margin-bottom:8px;
+
+}
+
+.tip-note-text p{
+
+    color:var(--muted);
+
+    line-height:2;
+
+}
+
+@media(max-width:1000px){
+
+.dog-tips-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.tip-note{
+
+flex-direction:column;
+
+text-align:center;
+
+}
+
+}
+
+</style>
+
+<div class="container">
+
+<div class="dog-tips-head">
+
+<span>
+
+نکات طلایی نگهداری سگ
+
+</span>
+
+<h2>
+
+چند توصیه ساده برای سلامت بهتر سگ شما
+
+</h2>
+
+<p>
+
+رعایت چند نکته ساده در تغذیه، فعالیت روزانه و مراقبت‌های دوره‌ای می‌تواند از بسیاری از مشکلات رایج جلوگیری کند.
+
+</p>
+
+</div>
+
+<div class="dog-tips-grid">
+
+<div class="tip-card">
+
+<div class="tip-icon">
+
+🥣
+
+</div>
+
+<h3>
+
+تغذیه منظم
+
+</h3>
+
+<p>
+
+برنامه غذایی سگ باید متناسب با سن، وزن، نژاد و میزان فعالیت او تنظیم شود و از تغییر ناگهانی غذا خودداری گردد.
+
+</p>
+
+</div>
+
+<div class="tip-card">
+
+<div class="tip-icon">
+
+🎾
+
+</div>
+
+<h3>
+
+فعالیت روزانه
+
+</h3>
+
+<p>
+
+پیاده‌روی و بازی روزانه به سلامت مفاصل، کنترل وزن و کاهش اضطراب سگ کمک می‌کند.
+
+</p>
+
+</div>
+
+<div class="tip-card">
+
+<div class="tip-icon">
+
+💉
+
+</div>
+
+<h3>
+
+مراقبت دوره‌ای
+
+</h3>
+
+<p>
+
+واکسیناسیون، ضدانگل و معاینه دوره‌ای توسط دامپزشک نقش مهمی در پیشگیری از بیماری‌ها دارد.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="tip-note">
+
+<div class="tip-note-text">
+
+<h3>
+
+مطمئن نیستید کدام مراقبت برای سگ شما مناسب است؟
+
+</h3>
+
+<p>
+
+با ثبت ویزیت آنلاین، دامپزشک بر اساس شرایط سگ شما بهترین راهنمایی را ارائه می‌دهد.
+
+</p>
+
+</div>
+
+<a href="#" class="btn orange">
+
+مشاوره با دامپزشک
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="health-record">
+
+<style>
+
+.health-record{
+
+    padding:95px 0;
+
+    background:#fff;
+
+}
+
+.health-wrap{
+
+    display:grid;
+
+    grid-template-columns:1.1fr .9fr;
+
+    gap:60px;
+
+    align-items:center;
+
+}
+
+.health-content span{
+
+    color:var(--green);
+
+    font-weight:700;
+
+    font-size:15px;
+
+}
+
+.health-content h2{
+
+    margin-top:14px;
+
+    font-size:42px;
+
+    font-weight:900;
+
+    color:var(--text);
+
+}
+
+.health-content p{
+
+    margin:20px 0 35px;
+
+    color:var(--muted);
+
+    line-height:2;
+
+}
+
+.health-list{
+
+    display:grid;
+
+    gap:18px;
+
+}
+
+.health-item{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:18px;
+
+    background:var(--cream);
+
+    border:1px solid var(--soft);
+
+    padding:20px 24px;
+
+    border-radius:18px;
+
+}
+
+.health-icon{
+
+    width:60px;
+
+    height:60px;
+
+    border-radius:18px;
+
+    background:rgba(36,89,166,.08);
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:28px;
+
+}
+
+.health-image{
+
+    background:var(--cream);
+
+    border-radius:28px;
+
+    padding:35px;
+
+    border:1px solid var(--soft);
+
+}
+
+.health-image img{
+
+    width:100%;
+
+    object-fit:contain;
+
+}
+
+@media(max-width:960px){
+
+.health-wrap{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+</style>
+
+<div class="container">
+
+<div class="health-wrap">
+
+<div class="health-content">
+
+<span>
+
+پرونده سلامت سگ
+
+</span>
+
+<h2>
+
+همه اطلاعات سگ خود را
+در یک پرونده نگهداری کنید
+
+</h2>
+
+<p>
+
+پس از ثبت‌نام می‌توانید اطلاعات واکسن‌ها، داروها، وزن، سوابق درمان و ویزیت‌های قبلی سگ خود را در یک پرونده دیجیتال مشاهده و مدیریت کنید.
+
+</p>
+
+<div class="health-list">
+
+<div class="health-item">
+
+<div class="health-icon">
+
+💉
+
+</div>
+
+<div>
+
+<strong>
+
+ثبت واکسیناسیون
+
+</strong>
+
+</div>
+
+</div>
+
+<div class="health-item">
+
+<div class="health-icon">
+
+⚖️
+
+</div>
+
+<div>
+
+<strong>
+
+ثبت وزن و رشد
+
+</strong>
+
+</div>
+
+</div>
+
+<div class="health-item">
+
+<div class="health-icon">
+
+📄
+
+</div>
+
+<div>
+
+<strong>
+
+سوابق درمان و نسخه‌ها
+
+</strong>
+
+</div>
+
+</div>
+
+<div class="health-item">
+
+<div class="health-icon">
+
+🔔
+
+</div>
+
+<div>
+
+<strong>
+
+یادآور واکسن و معاینه
+
+</strong>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="health-image">
+
+<img src="icons/moc1.jpg">
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="dog-cta">
+
+<style>
+
+.dog-cta{
+
+    padding:100px 0;
+
+    background:
+    linear-gradient(
+    135deg,
+    #2459a6 0%,
+    #3a7d44 100%);
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+.dog-cta::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:430px;
+
+    height:430px;
+
+    border-radius:50%;
+
+    right:-140px;
+
+    top:-150px;
+
+    background:rgba(255,255,255,.08);
+
+}
+
+.dog-cta::after{
+
+    content:"";
+
+    position:absolute;
+
+    width:520px;
+
+    height:520px;
+
+    border-radius:50%;
+
+    left:-190px;
+
+    bottom:-220px;
+
+    background:rgba(255,255,255,.06);
+
+}
+
+.dog-cta-box{
+
+    position:relative;
+
+    z-index:2;
+
+    max-width:900px;
+
+    margin:auto;
+
+    text-align:center;
+
+}
+
+.dog-cta-box span{
+
+    display:inline-block;
+
+    padding:8px 18px;
+
+    border-radius:999px;
+
+    background:rgba(255,255,255,.12);
+
+    border:1px solid rgba(255,255,255,.18);
+
+    color:#fff;
+
+    font-size:14px;
+
+    font-weight:700;
+
+    margin-bottom:24px;
+
+}
+
+.dog-cta-box h2{
+
+    color:#fff;
+
+    font-size:46px;
+
+    line-height:1.6;
+
+    font-weight:900;
+
+    margin-bottom:22px;
+
+}
+
+.dog-cta-box p{
+
+    color:rgba(255,255,255,.88);
+
+    font-size:18px;
+
+    line-height:2;
+
+    max-width:720px;
+
+    margin:auto;
+
+}
+
+.dog-cta-actions{
+
+    margin-top:42px;
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:18px;
+
+    flex-wrap:wrap;
+
+}
+
+.dog-cta-actions .btn{
+
+    min-width:230px;
+
+    min-height:60px;
+
+}
+
+.dog-cta-actions .btn.primary{
+
+    background:#fff;
+
+    color:var(--orange);
+
+    border-color:#fff;
+
+}
+
+.dog-cta-actions .btn.primary:hover{
+
+    background:transparent;
+
+    color:#fff;
+
+    border-color:#fff;
+
+}
+
+.dog-cta-actions .btn.outline{
+
+    background:transparent;
+
+    color:#fff;
+
+    border:1px solid rgba(255,255,255,.35);
+
+}
+
+.dog-cta-actions .btn.outline:hover{
+
+    background:#fff;
+
+    color:var(--green);
+
+    border-color:#fff;
+
+}
+
+@media(max-width:768px){
+
+.dog-cta{
+
+padding:80px 0;
+
+}
+
+.dog-cta-box h2{
+
+font-size:34px;
+
+}
+
+.dog-cta-box p{
+
+font-size:16px;
+
+}
+
+.dog-cta-actions .btn{
+
+width:100%;
+
+}
+
+}
+
+</style>
+
+<div class="container">
+
+<div class="dog-cta-box">
+
+<span>
+
+🐶 مخصوص صاحبان سگ
+
+</span>
+
+<h2>
+
+هنوز برای سلامت سگ خود سوال دارید؟
+
+</h2>
+
+<p>
+
+دامپزشکان ما آماده‌اند تا درباره تغذیه، بیماری‌ها، داروها و مراقبت‌های روزانه سگ شما راهنمایی تخصصی ارائه دهند.
+
+</p>
+
+<div class="dog-cta-actions">
+
+<a href="#" class="btn primary">
+
+🩺 شروع ویزیت آنلاین
+
+</a>
+
+<a href="#" class="btn outline">
+
+🛒 مشاهده محصولات سگ
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="faq">
+
+<style>
+
+.faq{
+
+    padding:100px 0;
+
+    background:#fff;
+
+}
+
+.faq-head{
+
+    text-align:center;
+
+    margin-bottom:55px;
+
+}
+
+.faq-head span{
+
+    color:var(--green);
+
+    font-size:15px;
+
+    font-weight:700;
+
+}
+
+.faq-head h2{
+
+    margin-top:12px;
+
+    font-size:42px;
+
+    font-weight:900;
+
+    color:var(--text);
+
+}
+
+.faq-head p{
+
+    max-width:700px;
+
+    margin:18px auto 0;
+
+    color:var(--muted);
+
+    line-height:2;
+
+}
+
+.faq-list{
+
+    max-width:900px;
+
+    margin:auto;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:18px;
+
+}
+
+.faq-item{
+
+    background:var(--cream);
+
+    border:1px solid var(--soft);
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+}
+
+.faq-question{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    padding:26px 30px;
+
+    cursor:pointer;
+
+    font-size:20px;
+
+    font-weight:800;
+
+    color:var(--text);
+
+}
+
+.faq-icon{
+
+    width:42px;
+
+    height:42px;
+
+    border-radius:50%;
+
+    background:#fff;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:24px;
+
+    color:var(--orange);
+
+    transition:.3s;
+
+}
+
+.faq-item.active .faq-icon{
+
+    transform:rotate(45deg);
+
+}
+
+.faq-answer{
+
+    max-height:0;
+
+    overflow:hidden;
+
+    transition:max-height .35s ease;
+
+}
+
+.faq-answer p{
+
+    padding:0 30px 28px;
+
+    color:var(--muted);
+
+    line-height:2.1;
+
+}
+
+</style>
+
+<div class="container">
+
+<div class="faq-head">
+
+<span>
+
+سوالات متداول
+
+</span>
+
+<h2>
+
+پاسخ سوالات پرتکرار کاربران
+
+</h2>
+
+<p>
+
+در این بخش پاسخ رایج‌ترین سوالات درباره ویزیت آنلاین، داروخانه، فروشگاه و نحوه استفاده از سامانه را مشاهده می‌کنید.
+
+</p>
+
+</div>
+
+<div class="faq-list">
+
+<div class="faq-item">
+
+<div class="faq-question">
+
+<span>
+
+چگونه ویزیت آنلاین انجام می‌شود؟
+
+</span>
+
+<div class="faq-icon">
+
++
+
+</div>
+
+</div>
+
+<div class="faq-answer">
+
+<p>
+
+پس از انتخاب دامپزشک، اطلاعات حیوان، تصاویر یا ویدیو را ارسال می‌کنید و در زمان تعیین‌شده به صورت آنلاین با دامپزشک گفتگو خواهید کرد.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="faq-item">
+
+<div class="faq-question">
+
+<span>
+
+برای خرید دارو داشتن نسخه الزامی است؟
+
+</span>
+
+<div class="faq-icon">
+
++
+
+</div>
+
+</div>
+
+<div class="faq-answer">
+
+<p>
+
+بله، داروهای نسخه‌ای تنها پس از بارگذاری نسخه معتبر دامپزشک قابل سفارش هستند.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="faq-item">
+
+<div class="faq-question">
+
+<span>
+
+ارسال سفارش‌ها چقدر زمان می‌برد؟
+
+</span>
+
+<div class="faq-icon">
+
++
+
+</div>
+
+</div>
+
+<div class="faq-answer">
+
+<p>
+
+بسته به شهر مقصد، سفارش‌ها معمولاً بین ۱ تا ۳ روز کاری ارسال و تحویل داده می‌شوند.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="faq-item">
+
+<div class="faq-question">
+
+<span>
+
+آیا می‌توانم سوابق درمان حیوان خود را مشاهده کنم؟
+
+</span>
+
+<div class="faq-icon">
+
++
+
+</div>
+
+</div>
+
+<div class="faq-answer">
+
+<p>
+
+بله، پس از ورود به پنل کاربری تمامی ویزیت‌ها، نسخه‌ها، داروها و سوابق درمان حیوان در پرونده سلامت ثبت خواهد شد.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="faq-item">
+
+<div class="faq-question">
+
+<span>
+
+در صورت نیاز چگونه با پشتیبانی ارتباط بگیرم؟
+
+</span>
+
+<div class="faq-icon">
+
++
+
+</div>
+
+</div>
+
+<div class="faq-answer">
+
+<p>
+
+از طریق گفتگوی آنلاین، شماره تماس یا ارسال تیکت از داخل پنل کاربری می‌توانید با تیم پشتیبانی ارتباط برقرار کنید.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+</main>
+
+<footer class="footer">
+
+<style>
+
+.footer{
+
+    background:#1f2937;
+
+    color:#fff;
+
+    padding:80px 0 25px;
+
+}
+
+.footer-grid{
+
+    display:grid;
+
+    grid-template-columns:1.4fr 1fr 1fr 1.2fr;
+
+    gap:50px;
+
+    margin-bottom:50px;
+
+}
+
+.footer-logo{
+
+    width:75px;
+
+    margin-bottom:18px;
+
+}
+
+.footer h3{
+
+    font-size:22px;
+
+    margin-bottom:20px;
+
+    position:relative;
+
+}
+
+.footer h3::after{
+
+    content:"";
+
+    position:absolute;
+
+    right:0;
+
+    bottom:-10px;
+
+    width:45px;
+
+    height:3px;
+
+    border-radius:999px;
+
+    background:var(--orange);
+
+}
+
+.footer p{
+
+    color:rgba(255,255,255,.75);
+
+    line-height:2.1;
+
+    font-size:15px;
+
+}
+
+.footer-links{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:14px;
+
+    margin-top:12px;
+
+}
+
+.footer-links a{
+
+    color:rgba(255,255,255,.75);
+
+    transition:.25s;
+
+}
+
+.footer-links a:hover{
+
+    color:#fff;
+
+    padding-right:8px;
+
+}
+
+.footer-contact{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:15px;
+
+    margin-top:12px;
+
+}
+
+.footer-contact div{
+
+    color:rgba(255,255,255,.75);
+
+}
+
+.footer-social{
+
+    display:flex;
+
+    gap:14px;
+
+    margin-top:28px;
+
+}
+
+.footer-social a{
+
+    width:46px;
+
+    height:46px;
+
+    border-radius:14px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    background:rgba(255,255,255,.08);
+
+    transition:.25s;
+
+    font-size:20px;
+
+}
+
+.footer-social a:hover{
+
+    background:var(--orange);
+
+    transform:translateY(-5px);
+
+}
+
+.footer-bottom{
+
+    border-top:1px solid rgba(255,255,255,.08);
+
+    padding-top:25px;
+
+    text-align:center;
+
+    color:rgba(255,255,255,.55);
+
+    font-size:14px;
+
+}
+
+@media(max-width:980px){
+
+.footer-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+@media(max-width:650px){
+
+.footer-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+</style>
+
+<div class="container">
+
+<div class="footer-grid">
+
+<div>
+
+<img src="icons/comp15.png" class="footer-logo">
+
+<p>
+
+سامانه جامع خدمات دامپزشکی آنلاین با هدف ارائه خدمات ویزیت، داروخانه و فروشگاه تخصصی حیوانات خانگی طراحی شده است.
+
+</p>
+
+<div class="footer-social">
+
+<a href="#">📷</a>
+
+<a href="#">💬</a>
+
+<a href="#">▶</a>
+
+<a href="#">📱</a>
+
+</div>
+
+</div>
+
+<div>
+
+<h3>
+
+لینک‌های سریع
+
+</h3>
+
+<div class="footer-links">
+
+<a href="#">خانه</a>
+
+<a href="#">درباره ما</a>
+
+<a href="#">تماس با ما</a>
+
+<a href="#">وبلاگ</a>
+
+<a href="#">سوالات متداول</a>
+
+</div>
+
+</div>
+
+<div>
+
+<h3>
+
+خدمات
+
+</h3>
+
+<div class="footer-links">
+
+<a href="#">ویزیت آنلاین</a>
+
+<a href="#">داروخانه</a>
+
+<a href="#">فروشگاه</a>
+
+<a href="#">نسخه الکترونیکی</a>
+
+<a href="#">پیگیری سفارش</a>
+
+</div>
+
+</div>
+
+<div>
+
+<h3>
+
+اطلاعات تماس
+
+</h3>
+
+<div class="footer-contact">
+
+<div>
+
+📍 تهران، خیابان نمونه، پلاک ۱۲۳
+
+</div>
+
+<div>
+
+☎ 021-12345678
+
+</div>
+
+<div>
+
+✉ info@example.com
+
+</div>
+
+<div>
+
+🕒 همه روزه از ساعت ۸ تا ۲۲
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="footer-bottom">
+
+تمامی حقوق این سامانه محفوظ است © ۱۴۰۴
+
+</div>
+
+</div>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
